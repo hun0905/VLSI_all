@@ -1,0 +1,21 @@
+Ydecoder_final 1000
+VIA2.O1
+1 1 2 Jan 13 23:15:53 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum MET2(width < 10um) overlap VI2 is 0um, no VI2 outside ME2
+p 1 4
+CN Ydecoder_final c 1 0 0 1 0 0 0
+17595 21285
+17845 21285
+17845 21535
+17595 21535
+ME4.O1
+1 1 2 Jan 13 23:15:53 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum ME4 overlap VI3 is 0um, no VI3 outside ME4
+p 1 4
+CN Ydecoder_final c 1 0 0 1 0 0 0
+17595 21285
+17845 21285
+17845 21535
+17595 21535

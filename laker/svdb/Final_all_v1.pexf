@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/u108/u108061217/VLSI/laker
+pex_PexParam LAYOUT_PRIMARY Final_all_v1
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {FINAL_ALL_V1 "" FINAL_ALL_V1.pdb "" } } 

@@ -1,0 +1,97 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/final_mux.dv
+dv_start unmatched                                
+dv_cell {final_mux} {YMUX} unmatched
+dv_obj_count -transformed_nets {27 27} -transformed_inst {24 24} -transformed_port {10 19}
+dv_discrep 1 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {DOUT} { on net: } -snet {DOUT} {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<0>} { on net: } -snet {YSEL<0>} {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<1>} { on net: } -snet {YSEL<1>} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<2>} { on net: } -snet {YSEL<2>} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<3>} { on net: } -snet {YSEL<3>} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<4>} { on net: } -snet {YSEL<4>} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<5>} { on net: } -snet {YSEL<5>} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<6>} { on net: } -snet {YSEL<6>} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {YSEL<7>} { on net: } -snet {YSEL<7>} {}
+dv_discrep_line {}
+dv_discrep 10 {Property Errors}
+dv_discrep_line {} -ldev {M17} {} -lloc {(5.951,-9.410)} {  MP(P_18)                               } -sdev {XI21/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 11 {Property Errors}
+dv_discrep_line {} -ldev {M19} {} -lloc {(5.951,0.090)} {  MP(P_18)                                } -sdev {XI22/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 12 {Property Errors}
+dv_discrep_line {} -ldev {M21} {} -lloc {(8.101,-9.410)} {  MP(P_18)                               } -sdev {XI19/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 13 {Property Errors}
+dv_discrep_line {} -ldev {M23} {} -lloc {(8.101,0.090)} {  MP(P_18)                                } -sdev {XI20/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 14 {Property Errors}
+dv_discrep_line {} -ldev {M25} {} -lloc {(10.251,-9.410)} {  MP(P_18)                              } -sdev {XI16/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 15 {Property Errors}
+dv_discrep_line {} -ldev {M27} {} -lloc {(10.251,0.090)} {  MP(P_18)                               } -sdev {XI15/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 16 {Property Errors}
+dv_discrep_line {} -ldev {M29} {} -lloc {(12.401,-9.410)} {  MP(P_18)                              } -sdev {XI18/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 17 {Property Errors}
+dv_discrep_line {} -ldev {M31} {} -lloc {(12.401,0.090)} {  MP(P_18)                               } -sdev {XI17/MM0} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {1.5 u} {              }  {      7.33%} {}
+dv_discrep_line {}
+dv_discrep 18 {Property Errors}
+dv_discrep_line {} -ldev {M28} {} -lloc {(12.401,-12.205)} {  MP(P_18)                             } -sdev {XI18/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 19 {Property Errors}
+dv_discrep_line {} -ldev {M26} {} -lloc {(10.251,-2.705)} {  MP(P_18)                              } -sdev {XI15/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 20 {Property Errors}
+dv_discrep_line {} -ldev {M24} {} -lloc {(10.251,-12.205)} {  MP(P_18)                             } -sdev {XI16/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 21 {Property Errors}
+dv_discrep_line {} -ldev {M22} {} -lloc {(8.101,-2.705)} {  MP(P_18)                               } -sdev {XI20/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 22 {Property Errors}
+dv_discrep_line {} -ldev {M20} {} -lloc {(8.101,-12.205)} {  MP(P_18)                              } -sdev {XI19/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 23 {Property Errors}
+dv_discrep_line {} -ldev {M18} {} -lloc {(5.951,-2.705)} {  MP(P_18)                               } -sdev {XI22/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 24 {Property Errors}
+dv_discrep_line {} -ldev {M16} {} -lloc {(5.951,-12.205)} {  MP(P_18)                              } -sdev {XI21/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_discrep 25 {Property Errors}
+dv_discrep_line {} -ldev {M30} {} -lloc {(12.401,-2.705)} {  MP(P_18)                              } -sdev {XI17/XI1/MM6} {  MP(P_18)}
+dv_discrep_line {}  {w} {: }  {1.39 u} {                                                 }  {w} {: }  {2 u} {                }  {      30.5%} {}
+dv_discrep_line {}
+dv_end

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='R-2020.12-SP2 linux64' PARAM_COUNT=0
+.TITLE '*title'
+ delaytimehl      delaytimelh      delay            temper          
+ alter#          
+  6.355e-10        1.003e-09        8.192e-10         25.0000       
+1               

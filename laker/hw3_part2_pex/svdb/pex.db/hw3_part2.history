@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Sat Nov 27 18:15:53 2021 " "v2021.1_33.19" "-xrc -pdb -rcc -turbo 1 /home/u108/u108061217/VLSI/laker/hw3_part2_pex/_Rule.rce_"
+"Sat Nov 27 18:15:55 2021 " "v2021.1_33.19" "-xrc -fmt -all /home/u108/u108061217/VLSI/laker/hw3_part2_pex/_Rule.rce_"

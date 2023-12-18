@@ -1,0 +1,38 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: hw3_part1
+* View Name:     schematic
+* Netlisted on:  Nov 22 22:24:14 2021
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    hw3_part1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT hw3_part1 CLK Q QB R S VDD VSS
+*.PININFO CLK:I Q:O QB:O R:B S:B VDD:B VSS:B
+MM5 S CLK Q VSS N_18 W=0.5u L=180.00n m=1
+MM4 R CLK QB VSS N_18 W=0.5u L=180.00n m=1
+MM2 QB Q VSS VSS N_18 W=0.5u L=180.00n m=1
+MM1 Q QB VSS VSS N_18 W=0.5u L=180.00n m=1
+MM3 QB Q VDD VDD P_18 W=2u L=180.00n m=1
+MM0 Q QB VDD VDD P_18 W=2u L=180.00n m=1
+.ENDS
+

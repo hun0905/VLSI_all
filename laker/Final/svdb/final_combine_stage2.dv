@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/final_combine_stage2.dv
+dv_start matched                                  
+dv_cell {final_combine_stage2} {Final} matched
+dv_obj_count -transformed_nets {776 776} -transformed_inst {1367 1367} -transformed_port {0 0}
+dv_end

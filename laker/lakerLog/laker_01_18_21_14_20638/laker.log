@@ -1,0 +1,26 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64)
+The following path does not exist:
+ library file /home/u108/u108061217/VLSI/laker/test.lib++/libfile: no such file
+
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/FinalProject.gds) ...
+	Please wait a moment...
+lakerExportStream -file FinalProject.gds -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 1
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Please specify a library.
+Transferring GDSII(/home/u108/u108061217/VLSI/laker/FinalProject.gds) to library(Final_try) ...
+	Please wait a moment...
+lakerImportStream -file /home/u108/u108061217/VLSI/laker/FinalProject.gds -tech /home/u108/u108061217/Technology/laker.tf -path /home/u108/u108061217/VLSI/laker -lib Final_try -IoLayerMapMode Map -sumExtraLayer 1 -case Preserve -label Preserve -maxVerti 4096 -instProp 102 -netProp 102 -keepPCell 0
+Import-Stream Job completed.
+There are 0 cells that have extra layers.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsIn.log) and (gdsIn.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+lakerOpenDesign -lib Final_try -cell Final_all_v2 -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerCloseDesign
+au time 342.419196 9.853976 9.606522 delta 65511424 65511424 total 427114496 427114496

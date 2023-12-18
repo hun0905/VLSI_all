@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "YMUX"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/u108/u108061217/VLSI/composer/"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "vlsi/inverter/schematic" "inverter" )
+( "vlsi/TG/schematic" "TG" )
+( "vlsi/YMUX/schematic" "YMUX" )
+ )
+( term
+ )
+( param
+ )
+( "inverter" "ihnl/cds0/map" )
+( "TG" "ihnl/cds1/map" )
+( "YMUX" "ihnl/cds2/map" )
+ )

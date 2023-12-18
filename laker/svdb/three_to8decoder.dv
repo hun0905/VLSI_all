@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/three_to8decoder.dv
+dv_start matched                                  
+dv_cell {three_to8decoder} {three_to8decoder} matched
+dv_obj_count -transformed_nets {16 16} -transformed_inst {11 11} -transformed_port {13 13}
+dv_end

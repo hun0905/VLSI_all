@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='R-2020.12-SP2 linux64' PARAM_COUNT=0
+.TITLE '*title'
+ setuptime        holdtime         tpsq             tprqb           
+ v_max            temper           alter#          
+  8.983e-11       -7.000e-12          failed         6.869e-11      
+    1.7700          25.0000        1               

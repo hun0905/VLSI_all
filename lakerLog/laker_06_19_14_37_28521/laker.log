@@ -1,0 +1,9 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws27 2.6.32-754.28.1.el6.x86_64 #1 SMP Wed Mar 11 18:38:45 UTC 2020 x86_64)
+X Error: error code: 10. X_ChangeProperty - BadAccess (attempt to access private resource denied)
+X Error: error code: 10. X_ChangeProperty - BadAccess (attempt to access private resource denied)
+X Error: error code: 10. X_ChangeWindowAttributes - BadAccess (attempt to access private resource denied)
+X Error: error code: 10. X_ChangeProperty - BadAccess (attempt to access private resource denied)
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+X Error: error code: 10. X_ChangeProperty - BadAccess (attempt to access private resource denied)
+au time 21.551133 1.313800 0.320951 delta 33722368 33722368 total 390541312 390541312

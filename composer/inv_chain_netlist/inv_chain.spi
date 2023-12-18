@@ -1,0 +1,42 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  VLSI
+* Top Cell Name: inverter
+* View Name:     schematic
+* Netlisted on:  Nov  3 00:29:14 2021
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: VLSI
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT OUT2 OUT3 OUT4 OUT5 VDD VSS
+*.PININFO IN:I OUT5:O OUT:B OUT2:B OUT3:B OUT4:B VDD:B VSS:B
+MM11 OUT5 OUT4 VSS net017 NM W=500.0n L=180.00n m=1
+MM8 OUT3 OUT2 VSS net021 NM W=500.0n L=180.00n m=1
+MM9 OUT4 OUT3 VSS net025 NM W=500.0n L=180.00n m=1
+MM10 OUT IN VSS net029 NM W=500.0n L=180.00n m=1
+MM4 OUT2 OUT VSS net023 NM W=500.0n L=180.00n m=1
+MM7 OUT5 OUT4 VDD VDD PM W=1.65u L=180.00n m=1
+MM3 OUT3 OUT2 VDD VDD PM W=1.65u L=180.00n m=1
+MM5 OUT4 OUT3 VDD VDD PM W=1.65u L=180.00n m=1
+MM6 OUT IN VDD VDD PM W=1.65u L=180.00n m=1
+MM0 OUT2 OUT VDD VDD PM W=1.65u L=180.00n m=1
+.ENDS
+

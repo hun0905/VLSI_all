@@ -1,0 +1,10 @@
+CADENCE IHNL01060
+$model
+vlsi/TG/schematic TG
+vlsi/YMUX/schematic YMUX
+vlsi/inverter/schematic inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

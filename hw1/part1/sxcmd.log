@@ -1,0 +1,72 @@
+### Custom WaveView ADV log file, revision N-2017.12 (build Nov 23, ) ###
+### created at 21:04:27 on Sat Oct 23 2021 (Linux AMD64) ###
+### Host Name: ws35   User ID: u108061217   PID: 13011   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_resize_window {Custom WaveView} 800 460
+wv_move_window {Custom WaveView} {} 100 57
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 62 19
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_list_item {FileDialog} {} {FileList} {part1.tr0} 11
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:part1.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vout)} 6
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(vout)} 6
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.XAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {XAxisPopMenu.Attributes...} 
+wv_move_window {AxisAttributesDialog} {} 798 322
+wv_select_dialog {AxisAttributesDialog} 
+wv_close_dialog {AxisAttributesDialog} 
+wv_select_window {Custom WaveView} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Measurement Tool} 
+wv_close_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {PanelXVariable0} 
+wv_move_window {SetXVariable} {} 757 500
+wv_select_dialog {SetXVariable} 
+wv_set_check {SetXVariable} {} {UseDefaultXVariable} 0
+wv_set_check {SetXVariable} {} {UseDefaultXVariable} 1
+wv_set_check {SetXVariable} {} {UseDefaultXVariable} 0
+wv_select_window {Custom WaveView} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(vdd)} 4
+wv_select_dialog {SetXVariable} 
+wv_select_window {Custom WaveView} 
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(wp)} 8
+wv_select_list_item {Custom WaveView} {} {sigview} {v(wp)} 8
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(wp)} 8
+wv_select_dialog {SetXVariable} 
+wv_select_window {Custom WaveView} 
+wv_set_text {SetXVariable} {} {XVariable} ""
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(vin)} 5
+wv_drag_enter WV1
+wv_drag_to WV1 419 426
+wv_drag_leave WV1
+#Drop text "0|v(vin)" to line edit "":"".
+wv_set_text {SetXVariable} {} {XVariable} {0|v(vin)}
+#Drop end.
+wv_select_dialog {SetXVariable} 
+wv_press_button {SetXVariable} {} {Apply} 
+wv_press_button {SetXVariable} {} {Cancel} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {PanelXVariable0} 
+wv_move_window {SetXVariable} {} 757 500
+wv_select_dialog {SetXVariable} 
+wv_select_window {Custom WaveView} 
+wv_select_dialog {SetXVariable} 
+wv_press_button {SetXVariable} {} {Apply} 

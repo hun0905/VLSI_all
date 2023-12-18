@@ -1,0 +1,7 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64)
+The following path does not exist:
+ library file /home/u108/u108061217/VLSI/laker/test.lib++/libfile: no such file
+
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+au time 59.291992 1.664159 0.334022 delta 44490752 44490752 total 406093824 406093824

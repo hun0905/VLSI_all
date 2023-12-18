@@ -1,0 +1,356 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         final_mux.lvs.report
+LAYOUT NAME:              /home/u108/u108061217/VLSI/laker/final_mux.sp ('final_mux')
+SOURCE NAME:              /home/u108/u108061217/VLSI/composer/Final_mux.spi ('YMUX')
+RULE FILE:                /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+RULE FILE TITLE:          LVS Ver 1.0 of CIC 0.18um 1.8V/3.3V 1P6M virtual Mixed Mode/RFCMOS Process
+CREATION TIME:            Wed Jan 12 01:36:14 2022
+CURRENT DIRECTORY:        /home/u108/u108061217/VLSI/laker
+USER NAME:                u108061217
+CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:01 PST 2021
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Property errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      final_mux                     YMUX
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VCC" "VDD" "VDD3V" "DVDD" "V3IO" "V2IO"
+   LVS GROUND NAME                        "VSS" "GND" "VBB" "V0IO" "DGND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 NO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n_18)  l l 0
+   TRACE PROPERTY  mn(n_18)  w w 0
+   TRACE PROPERTY  mp(p_18)  l l 0
+   TRACE PROPERTY  mp(p_18)  w w 0
+   TRACE PROPERTY  mn(n_33)  l l 0
+   TRACE PROPERTY  mn(n_33)  w w 0
+   TRACE PROPERTY  mp(p_33)  l l 0
+   TRACE PROPERTY  mp(p_33)  w w 0
+   TRACE PROPERTY  mn(n_lv_18)  l l 0
+   TRACE PROPERTY  mn(n_lv_18)  w w 0
+   TRACE PROPERTY  mp(p_lv_18)  l l 0
+   TRACE PROPERTY  mp(p_lv_18)  w w 0
+   TRACE PROPERTY  mn(n_lv_33)  l l 0
+   TRACE PROPERTY  mn(n_lv_33)  w w 0
+   TRACE PROPERTY  mp(p_lv_33)  l l 0
+   TRACE PROPERTY  mp(p_lv_33)  w w 0
+   TRACE PROPERTY  mn(n_zero_18)  l l 0
+   TRACE PROPERTY  mn(n_zero_18)  w w 0
+   TRACE PROPERTY  mn(n_zero_33)  l l 0
+   TRACE PROPERTY  mn(n_zero_33)  w w 0
+   TRACE PROPERTY  mn(n_bpw_18)  l l 0
+   TRACE PROPERTY  mn(n_bpw_18)  w w 0
+   TRACE PROPERTY  mn(n_bpw_33)  l l 0
+   TRACE PROPERTY  mn(n_bpw_33)  w w 0
+   TRACE PROPERTY  r(rsnwell)  r r 5
+   TRACE PROPERTY  r(rsnd)  r r 5
+   TRACE PROPERTY  r(rspd)  r r 5
+   TRACE PROPERTY  r(rsnpo)  r r 5
+   TRACE PROPERTY  r(rsppo)  r r 5
+   TRACE PROPERTY  r(rnnd)  r r 5
+   TRACE PROPERTY  r(rnpd)  r r 5
+   TRACE PROPERTY  r(rnnpo)  r r 5
+   TRACE PROPERTY  r(rnppo)  r r 5
+   TRACE PROPERTY  r(rnhr1000)  r r 5
+   TRACE PROPERTY  r(rm1)  r r 1
+   TRACE PROPERTY  r(rm2)  r r 1
+   TRACE PROPERTY  r(rm3)  r r 1
+   TRACE PROPERTY  r(rm4)  r r 1
+   TRACE PROPERTY  r(rm5)  r r 1
+   TRACE PROPERTY  r(rm6)  r r 1
+   TRACE PROPERTY  q(pnp_v50x50)  a a 1
+   TRACE PROPERTY  q(pnp_v100x100)  a a 1
+   TRACE PROPERTY  c(mimcaps)  c c 5
+   TRACE PROPERTY  d(dn)  a a 12
+   TRACE PROPERTY  d(dn)  p p 1
+   TRACE PROPERTY  d(dp)  a a 12
+   TRACE PROPERTY  d(dp)  p p 1
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Property errors.
+
+LAYOUT CELL NAME:         final_mux
+SOURCE CELL NAME:         YMUX
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             10        19    *
+
+ Nets:              27        27
+
+ Instances:         16        16         MN (4 pins)
+                    16        16         MP (4 pins)
+                ------    ------
+ Total Inst:        32        32
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             10        19    *
+
+ Nets:              27        27
+
+ Instances:          8         8         MN (4 pins)
+                     8         8         MP (4 pins)
+                     8         8         _invv (4 pins)
+                ------    ------
+ Total Inst:        24        24
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    ** missing port **                                        DOUT on net: DOUT
+  2    ** missing port **                                        YSEL<0> on net: YSEL<0>
+  3    ** missing port **                                        YSEL<1> on net: YSEL<1>
+  4    ** missing port **                                        YSEL<2> on net: YSEL<2>
+  5    ** missing port **                                        YSEL<3> on net: YSEL<3>
+  6    ** missing port **                                        YSEL<4> on net: YSEL<4>
+  7    ** missing port **                                        YSEL<5> on net: YSEL<5>
+  8    ** missing port **                                        YSEL<6> on net: YSEL<6>
+  9    ** missing port **                                        YSEL<7> on net: YSEL<7>
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+ 10    M17(5.951,-9.410)  MP(P_18)                               XI21/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 11    M19(5.951,0.090)  MP(P_18)                                XI22/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 12    M21(8.101,-9.410)  MP(P_18)                               XI19/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 13    M23(8.101,0.090)  MP(P_18)                                XI20/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 14    M25(10.251,-9.410)  MP(P_18)                              XI16/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 15    M27(10.251,0.090)  MP(P_18)                               XI15/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 16    M29(12.401,-9.410)  MP(P_18)                              XI18/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 17    M31(12.401,0.090)  MP(P_18)                               XI17/MM0  MP(P_18)
+       w: 1.39 u                                                 w: 1.5 u                    7.33%
+
+ 18    M28(12.401,-12.205)  MP(P_18)                             XI18/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 19    M26(10.251,-2.705)  MP(P_18)                              XI15/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 20    M24(10.251,-12.205)  MP(P_18)                             XI16/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 21    M22(8.101,-2.705)  MP(P_18)                               XI20/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 22    M20(8.101,-12.205)  MP(P_18)                              XI19/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 23    M18(5.951,-2.705)  MP(P_18)                               XI22/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 24    M16(5.951,-12.205)  MP(P_18)                              XI21/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+ 25    M30(12.401,-2.705)  MP(P_18)                              XI17/XI1/MM6  MP(P_18)
+       w: 1.39 u                                                 w: 2 u                      30.5%
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              10         10            0            9
+
+   Nets:               27         27            0            0
+
+   Instances:           8          8            0            0    MN(N_18)
+                        8          8            0            0    MP(P_18)
+                        8          8            0            0    _invv
+                  -------    -------    ---------    ---------
+   Total Inst:         24         24            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD VSS BL<1> BL<3> BL<5> BL<7> BL<0> BL<2> BL<4> BL<6>
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

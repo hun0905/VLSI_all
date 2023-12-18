@@ -1,0 +1,29 @@
+****** Advanced Variability Analysis ******
+Copyright (c) 2018 - 2022 by Synopsys, Inc. All Rights Reserved.
+
+This software and the associated documentation are proprietary
+to Synopsys, Inc. This software may only be used in accordance
+with the terms and conditions of a written license agreement with
+Synopsys, Inc. All other use, reproduction, or distribution of
+this software is strictly prohibited.
+
+AVA Version: R-2020.12-SP2, Build time: Mon May 24 03:01:03 2021, Application start time: Sat Jan 15 10:49:50 2022
+Hostname: ws35, Username: u108061217, PID: 10886
+Working_Directory : /home/u108/u108061217/VLSI/hw5
+Command_Line_Options : hw5.info0.json
+
+This file format and content are subject to change.
+================================================================
+
+
+Running : Sigma Amplification
+Program finished successfully.
+
+
+Ended at Sat Jan 15 10:49:58 2022
+
+Peak Memory Usage (MB):
+Resident Set Size = 128
+Virtual Memory Size = 469
+
+Total elapsed time: 7.4 seconds (exit code=0)

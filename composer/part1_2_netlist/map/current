@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "part1_2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/u108/u108061217/VLSI/composer/part1_2_netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "VLSI/part1_2/schematic" "part1_2" )
+ )
+( term
+ )
+( param
+ )
+( "part1_2" "ihnl/cds0/map" )
+ )

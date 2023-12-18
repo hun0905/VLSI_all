@@ -1,0 +1,36 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: nor
+* View Name:     schematic
+* Netlisted on:  Jan  5 12:22:50 2022
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    nor
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor A B OUT VDD VSS
+*.PININFO A:I B:I OUT:O VDD:B VSS:B
+MM5 OUT B VSS VSS N_18 W=500.0n L=180.00n m=1
+MM4 OUT A VSS VSS N_18 W=500.0n L=180.00n m=1
+MM10 net043 A VDD VDD P_18 W=500.0n L=180.00n m=3
+MM0 OUT B net043 VDD P_18 W=500.0n L=180.00n m=3
+.ENDS
+

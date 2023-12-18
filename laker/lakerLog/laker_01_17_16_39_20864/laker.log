@@ -1,0 +1,2697 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64)
+The following path does not exist:
+ library file /home/u108/u108061217/VLSI/laker/test.lib++/libfile: no such file
+
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+lakerOpenDesign -lib Final_v3 -cell Final_all_v1 -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerMaxViewLevel
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerSaveAsDesign -lib VLSI -cell Final_all_v2 -IgnoreLogicSchematicView 0
+lakerCloseDesign
+lakerOpenDesign -lib VLSI -cell Final_all_v2 -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerMaxViewLevel
+lakerZoomOut
+lakerZoomOut
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerSingleSel -point (-76.712,-33.31) -traversedist 0.435
+lakerSingleSel -point (-78.147,-42.265) -traversedist 0.435
+lakerSingleSel -point (-77.538,-43.656) -traversedist 0.435
+lakerAttribute -index 1 -cols 16
+lakerZoomIn
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-71.268,-47.645) -traversedist 0.217
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-71.007,-47.362) -traversedist 0.217
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-71.637,-47.471) -traversedist 0.217
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerAreaSel -point (-90.46,-52.34) (-85.418,-50.079)
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-53.857,-48.666) -traversedist 0.217
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-53.857,-48.666) -traversedist 0.217
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerZoomIn
+lakerZoomIn
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerChangeSelMode -mode DevObj
+lakerSingleSel -point (-57.032,-44.425) -traversedist 0.054
+lakerMoveObj -ignoreNet 0 -refPoint (-57.03,-44.425) -offsetPoint (-63.45,-44.425)
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerSetActiveLayer -layerName ME2 -purpose drawing
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerPanRight
+lakerCreatePath -layerName ME2 -point (-63.825,-44.415) (-54.735,-44.415) (-54.735,-45.355) (-53.36,-45.355) -width 0.270000 0.000000 -routeStatus fixed
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanUp
+lakerPanDown
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanRight
+lakerPanUp
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanUp
+lakerCreateInstance -point (-79.57,-44.505) -cell VIA1 -lib hw4 -view layout
+lakerPanRight
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanDown
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerDeleteObj
+lakerChangeSelMode -mode Vertex
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerCreatePath -layerName ME2 -point (-62.65,-44.42) (-79.825,-44.42) -width 0.270000 0.000000 -routeStatus fixed
+lakerAlignObj -mode end
+lakerAlignObj -point (-79.46,-44.263) -mode start
+lakerAlignObj -refObj 1 -refPoint (-79.18,-44.28) -traversedist 0.027
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerAlignObj -mode end
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+lakerChangeSelMode -mode Vertex
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerCreatePath -layerName ME2 -point (-53.535,-45.335) (-78.73,-45.335) (-78.73,-44.41) (-79.895,-44.41) -width 0.270000 0.000000 -routeStatus fixed
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerSingleSel -point (-42.359,-45.261) -traversedist 0.109
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanUp
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerSingleSel -point (-41.359,-41.944) -traversedist 0.109
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerSingleSel
+lakerAttribute -index 1 -layerName M3_TEXT
+lakerSetActiveLayer -layerName ME3 -purpose drawing
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerCreatePath -layerName ME3 -point (-33.195,-44.76) (-41.74,-44.76) (-41.74,-40.8) (-59.995,-40.8) (-59.995,-44.435) (-64.05,-44.435) -width 0.270000 0.000000 -routeStatus fixed
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerCreateInstance -point (-63.37,-44.44) -cell VIA2 -lib VLSI -view layout
+lakerAlignObj -point (-63.227,-44.671) -mode start
+lakerAlignObj -refObj 1 -refPoint (-63.065,-44.645) -traversedist 0.027
+lakerAlignObj -point (-62.705,-44.306) -mode start
+lakerZoomIn
+lakerAlignObj -mode end
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-62.775,-44.39) -offsetPoint (-62.775,-44.375)
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerCalibreDRC
+//  Calibre Interactive - DRC  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 16:59:54 2022
+//
+
+New connection accepted, fd = 19
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerUndo
+lakerSingleSel -point (-59.702,-51.479) -traversedist 0.257
+lakerSingleSel -point (-58.518,-51.556) -traversedist 0.257
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel -point (-58.518,-51.556) -traversedist 0.257
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerUndo
+lakerRedo
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel -point (-27.521,-29.409) -traversedist 0.034
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-28.183,-30.02) (-26.721,-29.27).
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-25.654,-29.856) (-24.96,-29.5).
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-28.183,-30.02) (-26.721,-29.27).
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerUndo
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-27.575,-29.5) -offsetPoint (-28.05,-29.5)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-27.52,-29.63) -offsetPoint (-27.165,-29.63)
+lakerChangeSelMode -mode Vertex
+lakerUndo
+lakerUndo
+lakerSingleSel -point (-27.514,-29.587) -traversedist 0.008
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-25.654,-29.856) (-24.96,-29.5).
+lakerAlignObj -mode end
+lakerAlignObj -point (-25.302,-29.621) -mode start
+lakerAlignObj -refObj 1 -refPoint (-25.315,-29.63) -traversedist 0.002
+lakerAlignObj -mode end
+lakerUndo
+lakerSingleSel -point (-25.418,-29.62) -traversedist 0.004
+lakerSingleSel
+lakerAlignObj -point (-25.3,-29.627) -mode start
+lakerAlignObj -refObj 1 -refPoint (-25.315,-29.64) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-25.654,-29.856) (-24.96,-29.5).
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-23.502,-29.856) (-22.808,-29.5).
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -point (-23.165,-29.677) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -mode end
+lakerSingleSel -point (-23.199,-29.685) -traversedist 0.004
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -point (-23.147,-29.686) -mode start
+lakerAlignObj -refObj 1 -refPoint (-23.165,-29.69) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-21.354,-29.856) (-20.66,-29.5).
+lakerSingleSel
+lakerAlignObj -point (-20.999,-29.624) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.015,-29.635) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-19.204,-29.856) (-18.51,-29.5).
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -point (-18.848,-29.629) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.865,-29.65) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-17.054,-29.856) (-16.36,-29.5).
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -point (-16.702,-29.621) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.715,-29.63) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-12.752,-29.856) (-12.058,-29.5).
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -point (-12.415,-29.602) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-12.396,-29.617) -mode start
+lakerAlignObj -refObj 1 -refPoint (-12.415,-29.625) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.971,-33.785) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.72,-33.795) -traversedist 0.003 -space 0.25
+lakerAlignObj -point (-16.971,-33.795) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.72,-33.795) -traversedist 0.003 -space 0.25
+lakerPanRight
+lakerPanRight
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerSingleSel
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerAlignObj -point (-21.271,-24.09) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.02,-24.095) -traversedist 0.003 -space 0.25
+lakerAlignObj -point (-21.267,-24.1) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.02,-24.08) -traversedist 0.003 -space 0.25
+lakerAlignObj -point (-21.021,-24.093) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.27,-24.095) -traversedist 0.003 -space 0.25
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerPanRight
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -point (-27.69,-29.639) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.695,-29.665) -traversedist 0.002
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+The zoom-in area is re-adjusted to minimum size that can be displayed.
+The displayed area is: (-27.855,-29.97) (-27.049,-29.556).
+lakerZoomOut
+lakerZoomIn
+lakerAlignObj -mode end
+lakerAlignObj -point (-27.698,-29.647) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.72,-29.645) -traversedist 0.002
+lakerAlignObj -point (-27.695,-29.692) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.72,-29.705) -traversedist 0.002
+lakerUndo
+lakerUndo
+lakerAlignObj -point (-27.438,-29.646) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.465,-29.645) -traversedist 0.002
+lakerAlignObj -point (-27.695,-29.644) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.72,-29.645) -traversedist 0.002
+lakerAlignObj -point (-27.694,-29.677) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.72,-29.675) -traversedist 0.002
+lakerAlignObj -point (-27.442,-29.711) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.465,-29.705) -traversedist 0.002
+lakerAlignObj -point (-27.445,-29.712) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.465,-29.715) -traversedist 0.002
+lakerPanDown
+lakerPanDown
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerZoomIn
+lakerZoomIn
+lakerAlignObj -mode end
+lakerCreateInstance -point (-21.165,-33.94) -cell VIA3 -lib VLSI -view layout
+lakerUndo
+lakerZoomOut
+lakerCreateInstance -point (-21.585,-34.29) -cell VIA3 -lib VLSI -view layout
+lakerUndo
+lakerSetActiveLayer -layerName VIA3 -purpose drawing
+lakerSetColPat -visall 0
+lakerSetColPat -selall 0
+lakerSetColPat -layerName VIA3 -sel 1 -vis 1
+lakerSetActiveLayer -layerName VIA3 -purpose drawing
+lakerAlignObj -point (-21.175,-33.748) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.285,-33.795) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.274,-33.808) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.03,-33.765) -traversedist 0.013 -space 0.25
+lakerUndo
+lakerRedo
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerZoomIn
+lakerAlignObj -point (-21.261,-24.205) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.313,-24.268) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.16,-24.415) -traversedist 0.013
+lakerSingleSel -point (-21.449,-24.464) -traversedist 0.026
+lakerAlignObj -point (-21.337,-24.179) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.16,-24.005) -traversedist 0.013
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerAlignObj -point (-19.122,-33.811) -mode start
+lakerAlignObj -mode end
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerSingleSel
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSetColPat -visall 1
+lakerSetColPat -selall 1
+lakerZoomOut
+lakerSetColPat -visall 0
+lakerSetColPat -selall 0
+lakerSetColPat -layerName VIA3 -sel 1 -vis 1
+lakerSetActiveLayer -layerName VIA3 -purpose drawing
+lakerAlignObj -point (-21.118,-33.728) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.135,-34.135) -traversedist 0.007
+lakerAlignObj -point (-21.091,-33.839) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.115,-34.135) -traversedist 0.007
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerAlignObj -point (-18.991,-33.733) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-18.984,-34.131) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-18.99,-33.734) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.96,-34.14) -traversedist 0.007
+lakerAlignObj -point (-19.054,-33.837) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.945,-34.135) -traversedist 0.007
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerSingleSel
+lakerAlignObj -point (-21.172,-24.009) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.13,-24.415) -traversedist 0.003
+lakerUndo
+lakerSingleSel -point (-21.498,-24.141) -traversedist 0.007
+lakerAlignObj -point (-21.039,-24.009) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.115,-24.415) -traversedist 0.003
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.316,-24.411) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.314,-24.007) -mode start
+Rectangle cannot self-intersect at bounding box (-21.395, -24.415) (-21.145, -24.415) .
+lakerAlignObj -refObj 1 -refPoint (-21.295,-24.415) -traversedist 0.003
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.286,-24.009) -mode start
+Rectangle cannot self-intersect at bounding box (-21.395, -24.415) (-21.145, -24.415) .
+lakerAlignObj -refObj 1 -refPoint (-21.34,-24.415) -traversedist 0.003
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.294,-24.011) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.33,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.394,-24.307) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.02,-24.28) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.141,-24.112) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.065,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -point (-21.106,-24.118) -mode start
+lakerAlignObj -refObj 1 -refPoint (-21.105,-24.415) -traversedist 0.003 -space 0.25
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerAlignObj -point (-18.994,-24.012) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.99,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-18.956,-24.41) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-18.946,-24.011) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.96,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-19.018,-24.12) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.975,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-18.952,-24.415) -mode start
+lakerAlignObj -mode end
+lakerAlignObj -point (-18.931,-24.118) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.935,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-19.125,-24.312) -mode start
+lakerAlignObj -refObj 1 -refPoint (-18.87,-24.3) -traversedist 0.003 -space 0.25
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerAlignObj -point (-16.854,-33.731) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.84,-34.135) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.85,-33.837) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.805,-34.135) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.971,-34.023) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.72,-34.03) -traversedist 0.003 -space 0.25
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerAlignObj -point (-16.777,-24.014) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.815,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.825,-24.412) -mode start
+lakerAlignObj -mode end
+lakerSingleSel -point (-16.565,-24.33) -traversedist 0.007
+lakerAlignObj -point (-16.794,-24.012) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.855,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.88,-24.118) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.87,-24.415) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.965,-24.311) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.72,-24.325) -traversedist 0.003 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-16.833,-24.117) -mode start
+lakerAlignObj -refObj 1 -refPoint (-16.835,-24.415) -traversedist 0.003 -space 0.25
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerAlignObj -point (-14.71,-33.811) -mode start
+lakerAlignObj -mode end
+lakerChangeSelMode -mode DevObj
+lakerSingleSel -point (-14.71,-33.811) -traversedist 0.007
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel -point (-14.601,-24.07) -traversedist 0.007
+lakerDeleteObj
+lakerSingleSel -point (-14.628,-24.122) -traversedist 0.007
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel -point (-12.457,-33.774) -traversedist 0.007
+lakerDeleteObj
+lakerSingleSel -point (-12.466,-33.855) -traversedist 0.007
+lakerDeleteObj
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel -point (-12.529,-24.131) -traversedist 0.007
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSetColPat -visall 1
+lakerSetColPat -selall 1
+lakerZoomOut
+lakerSetColPat -visall 0
+lakerSetColPat -selall 0
+lakerSetColPat -layerName VIA2 -sel 1 -vis 1
+lakerSetActiveLayer -layerName VIA2 -purpose drawing
+lakerChangeSelMode -mode Vertex
+lakerAlignObj -point (-27.625,-29.624) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.605,-29.91) -traversedist 0.005 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-27.724,-29.796) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.465,-29.785) -traversedist 0.005 -space 0.25
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerAlignObj -mode end
+lakerAlignObj -point (-27.722,-29.826) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.465,-29.805) -traversedist 0.005 -space 0.25
+lakerAlignObj -mode end
+lakerAlignObj -point (-27.53,-29.91) -mode start
+lakerAlignObj -refObj 1 -refPoint (-27.55,-29.655) -traversedist 0.005 -space 0.25
+lakerSetColPat -visall 1
+lakerSetColPat -selall 1
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerSaveDesign
+lakerCalibreLVS
+//  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 17:29:09 2022
+//
+
+New connection accepted, fd = 22
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 25
+
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerPanLeft
+lakerPanUp
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 25
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 25
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerZoomOut
+New connection accepted, fd = 25
+
+lakerPanUp
+lakerAlignObj -mode end
+lakerSingleSel
+lakerAttribute -index 1 -cols 15
+lakerZoomIn
+lakerPanDown
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-63.271,-44.644) -traversedist 0.129
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-63.27,-44.645) -offsetPoint (-64.965,-44.645)
+lakerChangeSelMode -mode Vertex
+lakerCreatePath -layerName VIA2 -point (-63.17,-44.425) (-65.34,-44.425) -width 0.270000 0.000000 -routeStatus fixed
+lakerZoomIn
+lakerPanLeft
+lakerUndo
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-64.93,-44.48) -offsetPoint (-63.46,-44.48)
+lakerChangeSelMode -mode Vertex
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerCreatePath -layerName ME1 -point (-63.05,-44.41) (-65.25,-44.41) -width 0.270000 0.000000 -routeStatus fixed
+lakerSaveDesign
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 25
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerCalibrePEX
+//  Calibre Interactive - PEX  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 17:53:24 2022
+//
+
+New connection accepted, fd = 25
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+WARNING: PEX FDB is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX COUPLED DISTRIBUTED is obsolete.  Please remove from your ruledeck.
+WARNING: PEX DELAY is obsolete.  Please remove from your ruledeck.
+WARNING: use of PEX NETLIST keyword 'SPICE' is deprecated -- replace with 'HSPICE'.
+WARNING: The PEX NETLIST keyword 'LOOP' is obsolete and will be ignored. Please remove from your ruledeck.
+WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-79.395,-44.52) -offsetPoint (-79.395,-44.52)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-79.39,-44.505) -offsetPoint (-76.275,-44.505)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode Object
+lakerSingleSel
+lakerChopObj -point (-78.02,-45.655) (-78.02,-45.015) (-77.84,-45.015) (-77.84,-45.655)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerUndo
+lakerSingleSel -point (-77.781,-44.796) -traversedist 0.065
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerSetActiveLayer -layerName ME2 -purpose drawing
+lakerCreatePath -layerName ME2 -point (-76.32,-44.17) (-76.32,-45.47) -width 0.270000 0.000000 -routeStatus fixed
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+lakerZoomOut
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-76.24,-44.385) -offsetPoint (-69.43,-44.385)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-76.265,-44.825) -offsetPoint (-69.485,-44.825)
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 28
+
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-69.47,-44.88) -offsetPoint (-69.455,-44.88)
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerZoomIn
+lakerPanLeft
+New connection accepted, fd = 28
+
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerAttribute -index 1 -cols 11
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerCreatePath -layerName ME1 -point (-64.58,-44.405) (-71.41,-44.405) -width 0.270000 0.000000 -routeStatus fixed
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerAlignObj -point (-66.767,-44.601) -mode start
+lakerAlignObj -refObj 1 -refPoint (-64.36,-44.6) -traversedist 0.065 -space 0.25
+lakerAlignObj -mode end
+lakerUndo
+lakerAlignObj -mode end
+lakerAlignObj -point (-67.051,-44.588) -mode start
+lakerAlignObj -refObj 1 -refPoint (-64.54,-44.525) -traversedist 0.065
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerAlignObj -mode end
+lakerChangeSelMode -mode Object
+lakerAreaSel -point (-70.129,-46.4) (-69.43,-43.968)
+lakerSingleSel -point (-69.43,-46.412) -traversedist 0.129
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanLeft
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-46.569,-41.77) -traversedist 0.129
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (-47.991,-42.042) -traversedist 0.129
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerMoveObj -ignoreNet 0 -refPoint (-43.685,-44.135) -offsetPoint (-66.625,-44.135)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerMoveObj -ignoreNet 0 -refPoint (-66.585,-43.98) -offsetPoint (-66.585,-30.315)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerPanLeft
+lakerPanLeft
+lakerMoveObj -ignoreNet 0 -refPoint (-67.22,-30.535) -offsetPoint (-85.605,-30.535)
+lakerPanDown
+lakerPanDown
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-85.465,-30.42) -offsetPoint (-84.78,-30.42)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerSingleSel -point (-84.779,-30.457) -traversedist 0.129
+lakerMoveObj -ignoreNet 0 -refPoint (-84.78,-30.42) -offsetPoint (-84.78,-34.115)
+lakerZoomIn
+lakerChangeSelMode -mode Vertex
+lakerCreateInstance -point (-86.2,-34.755) -cell VIA3 -lib VLSI -view layout
+lakerSetActiveLayer -layerName ME3 -purpose drawing
+lakerPanUp
+lakerCreatePath -layerName ME3 -point (-86.205,-35.12) (-86.205,-30.685) -width 0.270000 0.000000 -routeStatus fixed
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerChangeSelMode -mode Object
+lakerAreaSel -point (-48.042,-46.875) (-47.24,-45.271)
+lakerSingleSel -point (-47.55,-46.337) -traversedist 0.065
+lakerChopObj -point (-49.31,-46.72) (-49.31,-45.705) (-47.44,-45.705) (-47.44,-46.72)
+lakerChangeSelMode -mode Vertex
+lakerAreaSel -point (-47.77,-47.62) (-43.6,-43.965)
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerZoomOut
+lakerZoomOut
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerChangeSelMode -mode Object
+lakerAreaSel -point (-66.182,-30.615) (-65.305,-29.4)
+lakerSingleSel
+lakerChopObj -point (-66.285,-30.54) (-66.285,-29.865) (-65.25,-29.865) (-65.25,-30.54)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerPanLeft
+lakerSetActiveLayer -layerName ME3 -purpose drawing
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerCreatePath -layerName ME3 -point (-86.325,-30.7) (-65.385,-30.7) -width 0.270000 0.000000 -routeStatus fixed
+lakerCreatePath -layerName ME3 -point (-65.67,-29.42) (-65.67,-30.83) -width 0.270000 0.000000 -routeStatus fixed
+lakerAlignObj -point (-65.749,-30.13) -mode start
+lakerAlignObj -refObj 1 -refPoint (-65.825,-29.25) -traversedist 0.065
+lakerSaveDesign
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+lakerPanDown
+lakerPanDown
+lakerAlignObj -mode end
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanLeft
+lakerZoomOut
+lakerSingleSel
+lakerAttribute -index 1 -cols 19
+lakerUndo
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerZoomIn
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode Object
+lakerChopObj -point (-60.345,-41.29) (-60.345,-41.045) (-59.645,-41.045) (-59.645,-41.29)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanRight
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-63.68,-44.485) -offsetPoint (-52.13,-44.485)
+lakerSetActiveLayer -layerName ME3 -purpose drawing
+lakerChangeSelMode -mode Vertex
+lakerZoomIn
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerCreatePath -layerName ME3 -point (-51.985,-40.645) (-51.985,-44.86) -width 0.270000 0.000000 -routeStatus fixed
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-51.9,-43.325) -offsetPoint (-51.975,-43.325)
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerZoomOut
+lakerSingleSel
+lakerAttribute -index 1 -cols 19
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerSingleSel
+lakerAttribute -index 1 -cols 21
+lakerPanRight
+lakerCreatePath -layerName ME3 -point (-51.48,-44.43) (-55.285,-44.43) -width 0.270000 0.000000 -routeStatus fixed
+lakerSingleSel
+lakerAttribute -index 1 -layerName ME1
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+lakerZoomOut
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerZoomOut
+lakerPanRight
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanLeft
+lakerPanLeft
+lakerSingleSel
+lakerZoomOut
+lakerSingleSel -point (-61.611,-46.193) -traversedist 0.259
+lakerSingleSel -point (-58.947,-45.366) -traversedist 0.259
+lakerSingleSel
+lakerAttribute -index 1 -cols 31
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerPanRight
+lakerPanRight
+lakerMoveObj -ignoreNet 0 -refPoint (-51.94,-44.675) -offsetPoint (-39.405,-44.675)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode Object
+lakerSingleSel
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerCreatePath -layerName ME3 -point (-32.68,-44.765) (-39.11,-44.765) (-39.11,-44.065) -width 0.270000 0.000000 -routeStatus fixed
+lakerCreatePath -layerName ME3 -point (-39.875,-44.4) (-38.98,-44.4) -width 0.270000 0.000000 -routeStatus fixed
+lakerZoomIn
+lakerPanDown
+lakerPanLeft
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (-39.805,-44.435) -offsetPoint (-39.805,-44.455)
+lakerSaveDesign
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerCreatePath -layerName ME1 -point (-53.815,-46.17) (-39.515,-46.17) -width 0.270000 0.000000 -routeStatus fixed
+lakerPanRight
+lakerCreatePath -layerName ME1 -point (-49.765,-41.77) (-39.595,-41.77) -width 0.270000 0.000000 -routeStatus fixed
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 28
+
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerChangeSelMode -mode DevObj
+lakerSingleSel -point (-51.535,-44.512) -traversedist 0.058
+lakerDeleteObj
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 28
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Calibre process exit.
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanDown
+lakerChangeSelMode -mode Vertex
+lakerZoomOut
+lakerZoomOut
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerDimensionMark -layerName ME1 -point (-94.91,85.28) (-94.91,-47.405) (-94.91,-47.405) -height 1.000000 -justify Auto -hideDim 0 -showExtension 0
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerAlignObj -point (-94.932,-47.476) -mode start
+lakerPanRight
+lakerPanRight
+lakerAlignObj -refObj 1 -refPoint (-18.905,-47.105) -traversedist 0.233
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerAlignObj -mode end
+lakerAlignObj -point (-95.025,85.394) -mode start
+lakerPanRight
+lakerAlignObj -refObj 1 -refPoint (-24.77,86.185) -traversedist 0.233
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerAlignObj -mode end
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerDimensionMark -layerName ME1 -point (-89.205,87.535) (-9.825,87.535) (-9.825,87.535) -height 1.000000 -justify Auto -hideDim 0 -showExtension 0
+lakerAlignObj -point (-9.548,87.536) -mode start
+lakerAlignObj -refObj 1 -refPoint (-10.85,82.74) -traversedist 0.233
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerAlignObj -mode end
+lakerAlignObj -point (-89.206,87.908) -mode start
+lakerAlignObj -refObj 1 -refPoint (-90.045,74.595) -traversedist 0.233
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerZoomOut
+lakerSaveDesign
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanUp
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerAlignObj -mode end
+lakerAlignObj -mode end
+lakerAlignObj -point (-51.277,-39.64) -mode start
+lakerAlignObj -refObj 1 -refPoint (-50.21,-41.015) -traversedist 0.086 -space 1.6
+lakerAlignObj -mode end
+lakerUndo
+lakerSingleSel -point (-50.95,-47.23) -traversedist 0.172
+lakerAlignObj -point (-50.95,-41.103) -mode start
+lakerAlignObj -refObj 1 -refPoint (-51.02,-39.675) -traversedist 0.086 -space 1.6
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerAlignObj -mode end
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerSingleSel
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerChangeSelMode -mode Object
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel -point (-89.642,-44.404) -traversedist 0.035
+lakerChangeSelMode -mode Object
+lakerSingleSel -point (-89.705,-44.253) -traversedist 0.035
+lakerChopObj -point (-89.755,-44.715) (-89.755,-44.24) (-89.57,-44.24) (-89.57,-44.715)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerCreatePath -layerName ME1 -point (-90.05,-44.665) (-88.42,-44.665) -width 0.270000 0.000000 -routeStatus fixed
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 2
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerSingleSel
+lakerAttribute -index 1 -cell VIA2
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 1
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Calibre process exit.
+lakerZoomOut
+lakerZoomOut
+lakerCalibreLVS
+//  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 20:18:30 2022
+//
+
+New connection accepted, fd = 19
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 1
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Calibre process exit.
+lakerSingleSel -point (-94.235,-35.866) -traversedist 0.129
+lakerPanLeft
+lakerSaveDesign
+lakerCalibreLVS
+//  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 20:22:22 2022
+//
+
+New connection accepted, fd = 19
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v2.calibre.db -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 1
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 31
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Calibre process exit.
+Received from RVE: [ mgc_rve_export_layout "Final_all_v2" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db" ]
+Transferring library (VLSI) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v4/Final_all_v2.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib VLSI -topCell {Final_all_v2} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 1
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Calibre process exit.
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+lakerCloseDesign
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+X Error: error code: 3. X_GetProperty - BadWindow (invalid Window parameter)
+au time 19541.795168 752.591709 883.745104 delta 75894784 75894784 total 437497856 437497856

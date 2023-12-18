@@ -1,0 +1,11 @@
+nor_final 1000
+NIMP.ERR
+1 1 2 Jan 12 18:02:45 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Active not covered by implant when NPLUS is a draw layer
+p 1 4
+CN final_mos_unit c 0 1 -1 0 25 1875 8
+-235 355
+925 355
+925 855
+-235 855

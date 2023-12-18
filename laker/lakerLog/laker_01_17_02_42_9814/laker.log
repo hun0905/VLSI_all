@@ -1,0 +1,708 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64)
+The following path does not exist:
+ library file /home/u108/u108061217/VLSI/laker/test.lib++/libfile: no such file
+
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+lakerOpenDesign -lib Final_v2 -cell Final_all_v1 -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerMaxViewLevel
+lakerZoomIn
+lakerPanDown
+lakerSingleSel
+lakerPanRight
+lakerCreateInstance -point (6.07,-29.705) -cell YMUX -lib VLSI -view layout
+lakerZoomIn
+lakerCreateInstance -point (1.005,-20.12) -cell YMUX -lib VLSI -view layout
+lakerUndo
+lakerUndo
+Original port(9189) is currently in use. Please open another free port(14160) or use Port number 14160 to communicate with Calibre RVE.
+lakerCalibreLVS
+//  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 02:44:07 2022
+//
+
+New connection accepted, fd = 19
+
+lakerCalibreLVS
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerCopyObj -refPoint (-23.155,-38.02) -offsetPoint (-14.58,-38.02)
+lakerChangeSelMode -mode Vertex
+lakerSetActiveLayer -layerName M2_TEXT -purpose drawing
+lakerChangeSelMode -mode Object
+lakerCreateText -layerName M2_TEXT -point (-23.545,-38.0) -height 1.000000 -text {DL<0>}
+lakerCreateText -layerName M2_TEXT -point (-15.975,-37.99) -height 1.000000 -text {DL<1>}
+lakerChangeSelMode -mode Vertex
+lakerSaveDesign
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerZoomOut
+lakerZoomIn
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanDown
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel -point (-10.663,-29.823) -traversedist 0.128
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerZoomIn
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+(AP)cell(/home/u108/u108061217/VLSI/laker/VLSI.lib++/YMUX/layout)[refCount(1)] is opened when try to close library(VLSI)
+lakerCreateInstance -point (-15.605,-20.62) -cell VIA2 -lib VLSI -view layout
+lakerCreateInstance -point (-13.44,-20.62) -cell VIA2 -lib VLSI -view layout
+lakerPanRight
+lakerUndo
+lakerUndo
+lakerCreateInstance -point (-11.3,-20.725) -cell VIA2 -lib VLSI -view layout
+lakerCreateInstance -point (-13.46,-20.76) -cell VIA2 -lib VLSI -view layout
+lakerCreateInstance -point (-15.61,-20.74) -cell VIA2 -lib VLSI -view layout
+lakerPanLeft
+lakerCreateInstance -point (-17.765,-20.78) -cell VIA2 -lib VLSI -view layout
+lakerCreateInstance -point (-19.89,-20.685) -cell VIA2 -lib VLSI -view layout
+lakerPanLeft
+lakerPanLeft
+lakerCreateInstance -point (-26.375,-20.715) -cell VIA2 -lib VLSI -view layout
+lakerSaveDesign
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 1
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanDown
+lakerPanUp
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerZoomIn
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+lakerSingleSel
+lakerDeleteObj
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerSingleSel
+lakerDeleteObj
+lakerPanRight
+lakerSingleSel
+lakerDeleteObj
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerSaveDesign
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel
+lakerDeleteObj
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerZoomIn
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerSingleSel -point (-22.895,-38.447) -traversedist 0.106
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerSingleSel
+lakerDeleteObj
+lakerChangeSelMode -mode Vertex
+lakerUndo
+lakerSingleSel -point (-28.444,-37.65) -traversedist 0.033
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerZoomOut
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerZoomOut
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanUp
+lakerPanLeft
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanUp
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanLeft
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 22
+
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanDown
+Received from RVE: [ mgc_rve_rfile "/home/u108/u108061217/VLSI/laker/query_results" ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+lakerCloseDesign
+Transferring GDSII(/home/u108/u108061217/VLSI/laker/Final_all_v3.gds) to library(Final_v3) ...
+	Please wait a moment...
+lakerImportStream -file /home/u108/u108061217/VLSI/laker/Final_all_v3.gds -tech /home/u108/u108061217/Technology/laker.tf -path /home/u108/u108061217/VLSI/laker -lib Final_v3 -IoLayerMapMode Map -sumExtraLayer 1 -case Preserve -label Preserve -maxVerti 4096 -instProp 102 -netProp 102 -keepPCell 0
+Import-Stream Job completed.
+There are 0 cells that have extra layers.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsIn.log) and (gdsIn.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+lakerOpenDesign -lib Final_v3 -cell Final_all_v1 -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerCalibrePEX
+//  Calibre Interactive - PEX  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 03:39:14 2022
+//
+
+New connection accepted, fd = 22
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+WARNING: PEX FDB is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX COUPLED DISTRIBUTED is obsolete.  Please remove from your ruledeck.
+WARNING: PEX DELAY is obsolete.  Please remove from your ruledeck.
+WARNING: use of PEX NETLIST keyword 'SPICE' is deprecated -- replace with 'HSPICE'.
+WARNING: The PEX NETLIST keyword 'LOOP' is obsolete and will be ignored. Please remove from your ruledeck.
+WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v3) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v3 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v3/Final_all_v1.calibre.db" ]
+Transferring library (Final_v3) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v3/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib Final_v3 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 25
+
+WARNING: PEX FDB is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX COUPLED DISTRIBUTED is obsolete.  Please remove from your ruledeck.
+WARNING: PEX DELAY is obsolete.  Please remove from your ruledeck.
+WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_v3/Final_all_v1.calibre.db" ]
+Transferring library (Final_v3) to GDSII (/home/u108/u108061217/VLSI/laker/Final_v3/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/u108/u108061217/VLSI/laker/ -lib Final_v3 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Calibre process exit.
+lakerCloseDesign
+au time 4072.587591 154.905488 183.267593 delta 71491584 71491584 total 433094656 433094656

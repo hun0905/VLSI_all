@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Ydecoder_final.dv
+dv_start matched                                  
+dv_cell {Ydecoder_final} {3to8decoder_en} matched
+dv_obj_count -transformed_nets {17 17} -transformed_inst {11 11} -transformed_port {14 14}
+dv_end

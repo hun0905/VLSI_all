@@ -1,0 +1,252 @@
+****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+Input File: lab6_nmos.sp
+lic:
+lic: FLEXlm: SDK_12.9.5
+lic: USER:   u108061217           HOSTNAME: ws35
+lic: HOSTID: "e41f136676d0"       PID:      475
+lic: Using FLEXlm license file:
+lic: 26585@lsntu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 14-may-2022/2020.03
+lic: 109(in_use)/190(total) FLOATING license(s) on SERVER 26585@lsntu
+lic:
+
+ init: begin read circuit files, cpu clock= 5.89E-01
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/ad
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/behave
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/bjt
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/burr_brn
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/comlinear
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/dio
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/fet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/lin_tech
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/pci
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/signet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/ti
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/tline
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/xilinx
+ init: end read circuit files, cpu clock= 5.91E-01 peak memory=     469 mb
+ init: begin check errors, cpu clock= 5.91E-01
+ init: end check errors, cpu clock= 5.93E-01 peak memory=     470 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 5.93E-01
+       establish matrix -- done, cpu clock= 5.94E-01 peak memory=     470 mb
+       re-order matrix -- done, cpu clock= 5.94E-01 peak memory=     470 mb
+ init: end setup matrix, cpu clock= 5.94E-01 peak memory=     470 mb
+ sweep: voltage         voltage1         begin, #sweeps =   4
+ voltage: vgs1            =    2.00E+00
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 5.94E-01
+ sweep: dc dc1    end, cpu clock= 5.95E-01 peak memory=     470 mb
+ voltage: vgs1            =    3.00E+00
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 5.96E-01
+ sweep: dc dc2    end, cpu clock= 5.97E-01 peak memory=     470 mb
+ voltage: vgs1            =    4.00E+00
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 5.97E-01
+ sweep: dc dc3    end, cpu clock= 5.98E-01 peak memory=     470 mb
+ voltage: vgs1            =    5.00E+00
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 5.98E-01
+ sweep: dc dc4    end, cpu clock= 5.99E-01 peak memory=     470 mb
+ sweep: voltage         voltage         1 end
+ sweep: dc dc0    begin, #sweeps=  34 cpu clock= 5.99E-01
+ sweep: dc dc0    end, cpu clock= 6.01E-01 peak memory=     470 mb
+ sweep: parameter       parameter1       begin, #sweeps =   5
+ parameter: vtn             =    8.00E-01
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.01E-01
+ sweep: dc dc1    end, cpu clock= 6.02E-01 peak memory=     470 mb
+ parameter: vtn             =    1.00E+00
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.03E-01
+ sweep: dc dc2    end, cpu clock= 6.04E-01 peak memory=     470 mb
+ parameter: vtn             =    1.20E+00
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.04E-01
+ sweep: dc dc3    end, cpu clock= 6.05E-01 peak memory=     470 mb
+ parameter: vtn             =    1.40E+00
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.05E-01
+ sweep: dc dc4    end, cpu clock= 6.06E-01 peak memory=     470 mb
+ parameter: vtn             =    1.60E+00
+ sweep: dc dc5    begin, #sweeps=  11 cpu clock= 6.06E-01
+ sweep: dc dc5    end, cpu clock= 6.06E-01 peak memory=     470 mb
+ sweep: parameter       parameter       1 end
+>info:         ***** hspice job concluded
+ init: begin read circuit files, cpu clock= 6.14E-01
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/ad
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/behave
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/bjt
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/burr_brn
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/comlinear
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/dio
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/fet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/lin_tech
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/pci
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/signet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/ti
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/tline
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/xilinx
+ init: end read circuit files, cpu clock= 6.16E-01 peak memory=     470 mb
+ init: begin check errors, cpu clock= 6.16E-01
+ init: end check errors, cpu clock= 6.17E-01 peak memory=     470 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.17E-01
+       establish matrix -- done, cpu clock= 6.17E-01 peak memory=     470 mb
+       re-order matrix -- done, cpu clock= 6.17E-01 peak memory=     470 mb
+ init: end setup matrix, cpu clock= 6.17E-01 peak memory=     470 mb
+ sweep: voltage         voltage1         begin, #sweeps =   4
+ voltage: vgs1            =    2.00E+00
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.17E-01
+ sweep: dc dc1    end, cpu clock= 6.18E-01 peak memory=     470 mb
+ voltage: vgs1            =    3.00E+00
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.18E-01
+ sweep: dc dc2    end, cpu clock= 6.19E-01 peak memory=     470 mb
+ voltage: vgs1            =    4.00E+00
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.19E-01
+ sweep: dc dc3    end, cpu clock= 6.19E-01 peak memory=     470 mb
+ voltage: vgs1            =    5.00E+00
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.20E-01
+ sweep: dc dc4    end, cpu clock= 6.21E-01 peak memory=     470 mb
+ sweep: voltage         voltage         1 end
+ sweep: dc dc0    begin, #sweeps=  34 cpu clock= 6.21E-01
+ sweep: dc dc0    end, cpu clock= 6.23E-01 peak memory=     470 mb
+ sweep: parameter       parameter1       begin, #sweeps =   5
+ parameter: vtn             =    8.00E-01
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.23E-01
+ sweep: dc dc1    end, cpu clock= 6.24E-01 peak memory=     470 mb
+ parameter: vtn             =    1.00E+00
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.24E-01
+ sweep: dc dc2    end, cpu clock= 6.25E-01 peak memory=     470 mb
+ parameter: vtn             =    1.20E+00
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.25E-01
+ sweep: dc dc3    end, cpu clock= 6.26E-01 peak memory=     470 mb
+ parameter: vtn             =    1.40E+00
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.26E-01
+ sweep: dc dc4    end, cpu clock= 6.26E-01 peak memory=     470 mb
+ parameter: vtn             =    1.60E+00
+ sweep: dc dc5    begin, #sweeps=  11 cpu clock= 6.27E-01
+ sweep: dc dc5    end, cpu clock= 6.28E-01 peak memory=     470 mb
+ sweep: parameter       parameter       1 end
+ sweep: parameter       parameter1       begin, #sweeps =   5
+ parameter: kn              =    5.00E-05
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.28E-01
+ sweep: dc dc1    end, cpu clock= 6.29E-01 peak memory=     470 mb
+ parameter: kn              =    1.00E-04
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.30E-01
+ sweep: dc dc2    end, cpu clock= 6.30E-01 peak memory=     470 mb
+ parameter: kn              =    1.50E-04
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.30E-01
+ sweep: dc dc3    end, cpu clock= 6.31E-01 peak memory=     470 mb
+ parameter: kn              =    2.00E-04
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.32E-01
+ sweep: dc dc4    end, cpu clock= 6.33E-01 peak memory=     470 mb
+ parameter: kn              =    2.50E-04
+ sweep: dc dc5    begin, #sweeps=  11 cpu clock= 6.33E-01
+ sweep: dc dc5    end, cpu clock= 6.34E-01 peak memory=     470 mb
+ sweep: parameter       parameter       1 end
+>info:         ***** hspice job concluded
+ init: begin read circuit files, cpu clock= 6.40E-01
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/ad
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/behave
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/bjt
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/burr_brn
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/comlinear
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/dio
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/fet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/lin_tech
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/pci
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/signet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/ti
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/tline
+       option search = /usr/cad/synopsys/hspice/cur/hspice/R-2020.12-SP2/hspice/parts/xilinx
+       option post
+       option probe
+ init: end read circuit files, cpu clock= 6.43E-01 peak memory=     470 mb
+ init: begin check errors, cpu clock= 6.43E-01
+ init: end check errors, cpu clock= 6.44E-01 peak memory=     470 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.44E-01
+       establish matrix -- done, cpu clock= 6.44E-01 peak memory=     470 mb
+       re-order matrix -- done, cpu clock= 6.44E-01 peak memory=     470 mb
+ init: end setup matrix, cpu clock= 6.44E-01 peak memory=     470 mb
+ sweep: voltage         voltage1         begin, #sweeps =   4
+ voltage: vgs1            =    2.00E+00
+ output: lab6_nmos.sw
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.46E-01
+ sweep: dc dc1    end, cpu clock= 6.46E-01 peak memory=     470 mb
+ voltage: vgs1            =    3.00E+00
+ output: lab6_nmos.sw7
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.47E-01
+ sweep: dc dc2    end, cpu clock= 6.47E-01 peak memory=     470 mb
+ voltage: vgs1            =    4.00E+00
+ output: lab6_nmos.sw7
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.48E-01
+ sweep: dc dc3    end, cpu clock= 6.49E-01 peak memory=     470 mb
+ voltage: vgs1            =    5.00E+00
+ output: lab6_nmos.sw7
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.49E-01
+ sweep: dc dc4    end, cpu clock= 6.50E-01 peak memory=     470 mb
+ sweep: voltage         voltage         1 end
+ output: lab6_nmos.sw
+ sweep: dc dc0    begin, #sweeps=  34 cpu clock= 6.52E-01
+ sweep: dc dc0    end, cpu clock= 6.53E-01 peak memory=     470 mb
+ sweep: parameter       parameter1       begin, #sweeps =   5
+ parameter: vtn             =    8.00E-01
+ output: lab6_nmos.sw
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.55E-01
+ sweep: dc dc1    end, cpu clock= 6.56E-01 peak memory=     470 mb
+ parameter: vtn             =    1.00E+00
+ output: lab6_nmos.sw9
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.56E-01
+ sweep: dc dc2    end, cpu clock= 6.57E-01 peak memory=     470 mb
+ parameter: vtn             =    1.20E+00
+ output: lab6_nmos.sw9
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.58E-01
+ sweep: dc dc3    end, cpu clock= 6.58E-01 peak memory=     470 mb
+ parameter: vtn             =    1.40E+00
+ output: lab6_nmos.sw9
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.58E-01
+ sweep: dc dc4    end, cpu clock= 6.59E-01 peak memory=     470 mb
+ parameter: vtn             =    1.60E+00
+ output: lab6_nmos.sw9
+ sweep: dc dc5    begin, #sweeps=  11 cpu clock= 6.59E-01
+ sweep: dc dc5    end, cpu clock= 6.60E-01 peak memory=     470 mb
+ sweep: parameter       parameter       1 end
+ sweep: parameter       parameter1       begin, #sweeps =   5
+ parameter: kn              =    5.00E-05
+ output: lab6_nmos.sw
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.62E-01
+ sweep: dc dc1    end, cpu clock= 6.63E-01 peak memory=     470 mb
+ parameter: kn              =    1.00E-04
+ output: lab6_nmos.sw10
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.64E-01
+ sweep: dc dc2    end, cpu clock= 6.65E-01 peak memory=     470 mb
+ parameter: kn              =    1.50E-04
+ output: lab6_nmos.sw10
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.65E-01
+ sweep: dc dc3    end, cpu clock= 6.66E-01 peak memory=     470 mb
+ parameter: kn              =    2.00E-04
+ output: lab6_nmos.sw10
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.66E-01
+ sweep: dc dc4    end, cpu clock= 6.67E-01 peak memory=     470 mb
+ parameter: kn              =    2.50E-04
+ output: lab6_nmos.sw10
+ sweep: dc dc5    begin, #sweeps=  11 cpu clock= 6.68E-01
+ sweep: dc dc5    end, cpu clock= 6.69E-01 peak memory=     470 mb
+ sweep: parameter       parameter       1 end
+ sweep: parameter       parameter1       begin, #sweeps =   5
+ parameter: lam             =    2.00E-02
+ output: lab6_nmos.sw
+ sweep: dc dc1    begin, #sweeps=  11 cpu clock= 6.71E-01
+ sweep: dc dc1    end, cpu clock= 6.71E-01 peak memory=     470 mb
+ parameter: lam             =    3.00E-02
+ output: lab6_nmos.sw11
+ sweep: dc dc2    begin, #sweeps=  11 cpu clock= 6.72E-01
+ sweep: dc dc2    end, cpu clock= 6.72E-01 peak memory=     470 mb
+ parameter: lam             =    4.00E-02
+ output: lab6_nmos.sw11
+ sweep: dc dc3    begin, #sweeps=  11 cpu clock= 6.73E-01
+ sweep: dc dc3    end, cpu clock= 6.74E-01 peak memory=     470 mb
+ parameter: lam             =    5.00E-02
+ output: lab6_nmos.sw11
+ sweep: dc dc4    begin, #sweeps=  11 cpu clock= 6.74E-01
+ sweep: dc dc4    end, cpu clock= 6.74E-01 peak memory=     470 mb
+ parameter: lam             =    6.00E-02
+ output: lab6_nmos.sw11
+ sweep: dc dc5    begin, #sweeps=  11 cpu clock= 6.75E-01
+ sweep: dc dc5    end, cpu clock= 6.75E-01 peak memory=     470 mb
+ sweep: parameter       parameter       1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

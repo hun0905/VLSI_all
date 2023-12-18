@@ -1,0 +1,155 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: timing_control
+* View Name:     schematic
+* Netlisted on:  Jan  5 12:21:55 2022
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    tri_state
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT tri_state !en VDD VSS en input
+*.PININFO !en:I VDD:I VSS:I en:I input:I
+MM3 net5 en VSS VSS NM W=500.0n L=180.00n
+MM2 out input net5 VSS NM W=500.0n L=180.00n
+MM1 out input net12 VDD PM W=2u L=180.00n
+MM0 net12 !en VDD VDD PM W=2u L=180.00n
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT VDD VSS
+*.PININFO IN:I OUT:B VDD:B VSS:B
+MM10 OUT IN VSS VSS NM W=500.0n L=180.00n m=1
+MM6 OUT IN VDD VDD PM W=2u L=180.00n m=1
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    Final_FF
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Final_FF C D Q VDD VSS
+*.PININFO C:I D:I Q:O VDD:B VSS:B
+MM4 net5 C net14 VSS NM W=500.0n L=180.00n
+MM2 net18 !C net13 VSS NM W=500.0n L=180.00n
+MM3 net5 !C net14 VDD PM W=2.0u L=180.00n
+MM0 net18 C net13 VDD PM W=2.0u L=180.00n
+XI6 C VDD VSS !C net1 / tri_state
+XI5 !C VDD VSS C net14 / tri_state
+XI7 C !C VDD VSS / inverter
+XI4 net1 Q VDD VSS / inverter
+XI3 net5 net1 VDD VSS / inverter
+XI1 net13 net14 VDD VSS / inverter
+XI0 D net18 VDD VSS / inverter
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    nor
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor A B OUT VDD VSS
+*.PININFO A:I B:I OUT:O VDD:B VSS:B
+MM5 OUT B VSS VSS NM W=500.0n L=180.00n m=1
+MM4 OUT A VSS VSS NM W=500.0n L=180.00n m=1
+MM10 net043 A VDD VDD PM W=500.0n L=180.00n m=3
+MM0 OUT B net043 VDD PM W=500.0n L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    buffer
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT buffer IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+XI7 net14 OUT VDD VSS / inverter
+XI5 IN net14 VDD VSS / inverter
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    and
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT and A B OUT VDD VSS
+*.PININFO A:I B:I OUT:O VDD:B VSS:B
+MM10 OUT net067 VSS VSS NM W=500.0n L=180.00n m=1
+MM5 net44 B VSS VSS NM W=500.0n L=180.00n m=1
+MM4 net067 A net44 VSS NM W=500.0n L=180.00n m=1
+MM9 OUT net067 VDD VDD PM W=500.0n L=180.00n m=3
+MM1 net067 A VDD VDD PM W=500.0n L=180.00n m=3
+MM0 net067 B VDD VDD PM W=500.0n L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    timing_control
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT timing_control A<0> A<1> A<2> A<3> A<4> A<5> A<6> A<7> A<8> CLK SAEN 
++ VDD VSS WL_EN X_sel_FF<0> X_sel_FF<1> X_sel_FF<2> X_sel_FF<3> X_sel_FF<4> 
++ X_sel_FF<5> Y_sel_FF<0> Y_sel_FF<1> Y_sel_FF<2>
+*.PININFO A<0>:I A<1>:I A<2>:I A<3>:I A<4>:I A<5>:I A<6>:I A<7>:I A<8>:I CLK:I 
+*.PININFO SAEN:O WL_EN:O X_sel_FF<0>:O X_sel_FF<1>:O X_sel_FF<2>:O 
+*.PININFO X_sel_FF<3>:O X_sel_FF<4>:O X_sel_FF<5>:O Y_sel_FF<0>:O 
+*.PININFO Y_sel_FF<1>:O Y_sel_FF<2>:O VDD:B VSS:B
+XI21 CLK A<8> X_sel_FF<5> net97 net98 / Final_FF
+XI29 CLK A<5> X_sel_FF<2> net97 net98 / Final_FF
+XI28 CLK A<7> X_sel_FF<4> net97 net98 / Final_FF
+XI30 CLK A<6> X_sel_FF<3> net97 net98 / Final_FF
+XI31 CLK A<2> Y_sel_FF<2> net97 net98 / Final_FF
+XI32 CLK A<1> Y_sel_FF<1> net97 net98 / Final_FF
+XI33 CLK A<3> X_sel_FF<0> net97 net98 / Final_FF
+XI34 CLK A<4> X_sel_FF<1> net97 net98 / Final_FF
+XI35 CLK A<0> Y_sel_FF<0> net97 net98 / Final_FF
+XI19 net169 WL_EN net141 VDD VSS / nor
+XI15 net177 net145 VDD VSS / buffer
+XI8 net165 net149 VDD VSS / buffer
+XI9 net149 net153 VDD VSS / buffer
+XI4 net205 net157 VDD VSS / buffer
+XI5 net157 net161 VDD VSS / buffer
+XI7 net197 net165 VDD VSS / buffer
+XI16 net173 net169 VDD VSS / buffer
+XI17 net145 net173 VDD VSS / buffer
+XI14 net189 net177 VDD VSS / buffer
+XI13 net153 net181 VDD VSS / buffer
+XI10 net193 net185 VDD VSS / buffer
+XI11 net185 net189 VDD VSS / buffer
+XI12 net181 net193 VDD VSS / buffer
+XI6 net161 net197 VDD VSS / buffer
+XI2 net209 net201 VDD VSS / buffer
+XI3 net201 net205 VDD VSS / buffer
+XI1 CLK net209 VDD VSS / inverter
+XI20 CLK net141 SAEN VDD VSS / and
+XI0 CLK net169 WL_EN VDD VSS / and
+.ENDS
+

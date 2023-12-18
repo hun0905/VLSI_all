@@ -1,0 +1,36 @@
+final_and 1000
+ME1.S1
+1 1 2 Jan 16 10:51:28 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum space between ME1 regions is 0.24um where MET1 width < 10um
+p 1 4
+CN final_and c 1 0 0 1 0 0 0
+7815 285
+7870 115
+7875 115
+7875 285
+VIA1.S1
+1 1 2 Jan 16 10:51:28 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum space between two VI1 regions  is 0.27um
+p 1 4
+CN final_and c 1 0 0 1 0 0 0
+14685 3670
+14885 3680
+14885 3930
+14685 3920
+ME2.O1
+2 2 2 Jan 16 10:51:28 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum Metal2 overlap Via1 is 0um, no VI1 outside Metal2
+p 1 4
+CN final_and c 1 0 0 1 0 0 0
+12915 730
+12920 730
+12920 980
+12915 980
+p 2 4
+12915 1330
+12920 1330
+12920 1580
+12915 1580

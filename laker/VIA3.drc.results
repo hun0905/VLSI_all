@@ -1,0 +1,11 @@
+VIA3 1000
+ME4.O1
+1 1 2 Jan 13 22:40:39 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum ME4 overlap VI3 is 0um, no VI3 outside ME4
+p 1 4
+CN VIA3 c 1 0 0 1 0 0 0
+-120 -135
+130 -135
+130 115
+-120 115

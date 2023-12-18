@@ -1,0 +1,37 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+
+================================================================
+*** This file format is subject to change **
+#Tail samples and indices
+#Number of Measures
+2
+#Number of samples in each tail
+4
+#Measure names
+pwr,tp
+#Measure values in left tail
+2.0166380e-05,3.9818650e-11
+2.0176590e-05,3.9929090e-11
+2.0190690e-05,4.0055370e-11
+2.0209670e-05,4.0265800e-11
+#Measure values in right tail
+2.0833900e-05,4.5275960e-11
+2.0870480e-05,4.5346050e-11
+2.0977000e-05,4.5468400e-11
+2.1079460e-05,4.5543370e-11
+#Index values in left tail
+14,6
+94,74
+44,78
+8,53
+#Index values in right tail
+97,48
+37,7
+30,95
+99,30

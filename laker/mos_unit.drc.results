@@ -1,0 +1,41 @@
+mos_unit 1000
+NIMP.S7
+1 1 2 Dec  9 11:19:44 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Maximum N+ diffusion to the nearest P+ pick-up spacing (inside P-Well or Twell) is 20um (I/O, RAM, ROM, capacitor and diode are excepted)
+p 1 4
+CN mos_unit c 1 0 0 1 0 0 0
+-605 -230
+555 -230
+555 270
+-605 270
+NIMP.ERR
+1 1 2 Dec  9 11:19:44 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Active not covered by implant when NPLUS is a draw layer
+p 1 4
+CN mos_unit c 1 0 0 1 0 0 0
+-605 -230
+555 -230
+555 270
+-605 270
+ME1.O1
+3 3 2 Dec  9 11:19:44 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum Metal1 overlap contac is 0um, no contact outside Metal1
+p 1 4
+CN mos_unit c 1 0 0 1 0 0 0
+-485 -80
+-255 -80
+-255 150
+-485 150
+p 2 4
+-140 490
+90 490
+90 720
+-140 720
+p 3 4
+205 -80
+435 -80
+435 150
+205 150

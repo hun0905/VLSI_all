@@ -1,0 +1,76 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: 3to8decoder
+* View Name:     schematic
+* Netlisted on:  Dec  5 14:58:22 2021
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT VDD VSS
+*.PININFO IN:I OUT:B VDD:B VSS:B
+MM10 OUT IN VSS VSS NM W=500.0n L=180.00n m=1
+MM6 OUT IN VDD VDD PM W=2u L=180.00n m=1
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    and
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT and A B C OUT VDD VSS en
+*.PININFO A:I B:I C:I en:I OUT:O VDD:B VSS:B
+MM10 OUT net067 VSS VSS NM W=500.0n L=180.00n m=1
+MM8 net36 en VSS VSS NM W=500.0n L=180.00n m=1
+MM6 net40 C net36 VSS NM W=500.0n L=180.00n m=1
+MM5 net44 B net40 VSS NM W=500.0n L=180.00n m=1
+MM4 net067 A net44 VSS NM W=500.0n L=180.00n m=1
+MM7 net067 en VDD VDD PM W=500.0n L=180.00n m=3
+MM9 OUT net067 VDD VDD PM W=500.0n L=180.00n m=3
+MM2 net067 C VDD VDD PM W=500.0n L=180.00n m=3
+MM1 net067 A VDD VDD PM W=500.0n L=180.00n m=3
+MM0 net067 B VDD VDD PM W=500.0n L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    3to8decoder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 3to8decoder A B C OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 VDD VSS en
+*.PININFO A:I B:I C:I en:I OUT0:O OUT1:O OUT2:O OUT3:O OUT4:O OUT5:O OUT6:O 
+*.PININFO OUT7:O VDD:B VSS:B
+XI10 C net25 VDD VSS / inverter
+XI9 B net33 VDD VSS / inverter
+XI8 A net62 VDD VSS / inverter
+XI7 A B C OUT7 VDD VSS en / and
+XI6 A B net25 OUT6 VDD VSS en / and
+XI5 A net33 C OUT5 VDD VSS en / and
+XI4 A net33 net25 OUT4 VDD VSS en / and
+XI3 net62 B C OUT3 VDD VSS en / and
+XI2 net62 B net25 OUT2 VDD VSS en / and
+XI1 net62 net33 C OUT1 VDD VSS en / and
+XI0 net62 net33 net25 OUT0 VDD VSS en / and
+.ENDS
+

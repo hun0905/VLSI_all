@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1641463679 1641463680
+lvs_ExtOutFile RUNDIR /home/u108/u108061217/VLSI/laker
+lvs_ExtOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/u108/u108061217/VLSI/laker/ROM_CELL_RANK1_16X64.sp
+lvs_ExtOutFile EXTRACTION_REPORT ROM_CELL_RANK1_16X64.lvs.report.ext

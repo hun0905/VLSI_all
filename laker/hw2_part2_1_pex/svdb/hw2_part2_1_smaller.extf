@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1636647225 1636647226
+lvs_ExtOutFile RUNDIR /home/u108/u108061217/VLSI/laker/hw2_part2_1_pex
+lvs_ExtOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/hw2_part2_1_pex/_Rule.rce_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/u108/u108061217/VLSI/laker/hw2_part2_1_pex/svdb/hw2_part2_1_smaller.sp
+lvs_ExtOutFile EXTRACTION_REPORT hw2_part2_1_smaller.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/hw2_part2_1_smaller.pdsp }

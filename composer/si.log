@@ -1,0 +1,6 @@
+*WARNING* The directory: '/home/u108/u108061217/VLSI/composer/VLSI/VLSI_2' does not exist
+	but was defined in libFile '/home/u108/u108061217/VLSI/composer/cds.lib' for Lib 'VLSI_2'.
+*WARNING* The directory: '/home/u108/u108061217/VLSI/composer/VLSI/VLSI' does not exist
+	but was defined in libFile '/home/u108/u108061217/VLSI/composer/cds.lib' for Lib 'VLSI'.
+Running Artist Hierarchical Netlisting ...
+End netlisting Jan 16 21:04:08 2022

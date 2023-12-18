@@ -1,0 +1,94 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              HW5
+RULE FILE NAME:           rules
+CREATION TIME:            Tue Dec 21 00:55:46 2021
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                HW5
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   7.16746e-16             0            0.0  NET093
+            - Coupled nets
+            - Intrinsic Capacitance
+               7.16746e-16
+            - Coupled capacitance
+
+
+2                     0.0   2.92756e-15             0            0.0  SO
+            - Coupled nets
+            - Intrinsic Capacitance
+               2.92756e-15
+            - Coupled capacitance
+
+
+3                     0.0   6.75555e-16             0            0.0  NET089
+            - Coupled nets
+            - Intrinsic Capacitance
+               6.75555e-16
+            - Coupled capacitance
+
+
+4                     0.0   2.13459e-15             0            0.0  VDD
+            - Coupled nets
+            - Intrinsic Capacitance
+               2.13459e-15
+            - Coupled capacitance
+
+
+5                     0.0   1.45233e-15             0            0.0  VSS
+            - Coupled nets
+            - Intrinsic Capacitance
+               1.45233e-15
+            - Coupled capacitance
+
+
+6                     0.0   4.06384e-16             0            0.0  INN
+            - Coupled nets
+            - Intrinsic Capacitance
+               4.06384e-16
+            - Coupled capacitance
+
+
+7                     0.0   2.83276e-15             0            0.0  SON
+            - Coupled nets
+            - Intrinsic Capacitance
+               2.83276e-15
+            - Coupled capacitance
+
+
+8                     0.0   3.47909e-16             0            0.0  INP
+            - Coupled nets
+            - Intrinsic Capacitance
+               3.47909e-16
+            - Coupled capacitance
+
+
+9                     0.0   3.13224e-15             0            0.0  EN
+            - Coupled nets
+            - Intrinsic Capacitance
+               3.13224e-15
+            - Coupled capacitance
+
+
+10                    0.0    2.5962e-15             0            0.0  COM
+            - Coupled nets
+            - Intrinsic Capacitance
+               2.5962e-15
+            - Coupled capacitance
+
+

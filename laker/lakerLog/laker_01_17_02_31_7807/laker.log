@@ -1,0 +1,132 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64)
+The following path does not exist:
+ library file /home/u108/u108061217/VLSI/laker/test.lib++/libfile: no such file
+
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+Transferring GDSII(/home/u108/u108061217/VLSI/laker/Final_all_v2.gds) to library(Final_v2) ...
+	Please wait a moment...
+lakerImportStream -file /home/u108/u108061217/VLSI/laker/Final_all_v2.gds -tech /home/u108/u108061217/Technology/laker.tf -path /home/u108/u108061217/VLSI/laker -lib Final_v2 -IoLayerMapMode Map -sumExtraLayer 1 -case Preserve -label Preserve -maxVerti 4096 -instProp 102 -netProp 102 -keepPCell 0
+Import-Stream Job completed.
+There are 0 cells that have extra layers.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsIn.log) and (gdsIn.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+lakerOpenDesign -lib Final_v2 -cell Final_all_v1 -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerMaxViewLevel
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerZoomIn
+Original port(9189) is currently in use. Please open another free port(14161) or use Port number 14161 to communicate with Calibre RVE.
+lakerCalibreDRC
+//  Calibre Interactive - DRC  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 02:33:32 2022
+//
+
+New connection accepted, fd = 19
+
+lakerCalibreLVS
+//  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 02:34:00 2022
+//
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+New connection accepted, fd = 22
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Calibre process exit.
+Calibre process exit.
+lakerCalibreLVS
+//  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+//
+//                   Copyright Siemens 1996-2021
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jan 17 02:35:56 2022
+//
+
+New connection accepted, fd = 19
+
+//  calinteractive license acquired.
+//  WARNING: calinteractive license(s) (1717@lsncu SN=74654490, HostID=001b21c05721) will expire in 15 days.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_export_layout "Final_all_v1" "GDSII" "/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db" ]
+Transferring library (Final_v2) to GDSII (/home/u108/u108061217/VLSI/laker/Final_all_v1.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file Final_all_v1.calibre.db -lib Final_v2 -topCell {Final_all_v1} -case Preserve -label Preserve -maxVerti 4096 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -maxAryColRow 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 26
+
+au time 548.591409 22.509291 25.162072 delta 66818048 66818048 total 428421120 428421120

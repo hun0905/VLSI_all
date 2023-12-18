@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Tue Jan 18 15:14:14 CST 2022
+//     by Calibre Interactive - DRC (v2021.1_33.19)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "Final_all_v2.calibre.db"
+LAYOUT PRIMARY "Final_all_v2"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "Final_all_v2.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "Final_all_v2.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/u108/u108061217/VLSI/laker/rule.drc"
+

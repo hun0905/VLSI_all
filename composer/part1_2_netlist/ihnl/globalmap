@@ -1,0 +1,8 @@
+CADENCE IHNL01060
+$model
+VLSI/part1_2/schematic part1_2
+$endmodel
+$net
+$endnet
+$param
+$endparam

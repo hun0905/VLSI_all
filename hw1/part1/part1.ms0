@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='R-2020.12-SP2 linux64' PARAM_COUNT=0
+.TITLE '*title'
+ vil              vih              voh              vol             
+ nml              nmh              temper           alter#          
+    0.7422           1.0438           1.6694         9.666e-02      
+    0.6456           0.6256          25.0000        1               

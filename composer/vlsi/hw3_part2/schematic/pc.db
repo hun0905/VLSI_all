@@ -1,0 +1,32 @@
+#
+analogLib nmos4 symbol
+M4
+M2
+#
+analogLib pmos4 symbol
+M3
+M0
+#
+vlsi tri_state symbol
+I6
+I5
+#
+vlsi inverter symbol
+I4
+I3
+I2
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN4
+PIN3
+PIN0
+#ISCELL
+basic opin symbol
+PIN2
+PIN1
+#ISCELL
+basic iopin symbolr
+PIN6
+PIN5

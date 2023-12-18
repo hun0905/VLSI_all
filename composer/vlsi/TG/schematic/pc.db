@@ -1,0 +1,18 @@
+#
+vlsi inverter symbol
+I1
+#
+analogLib nmos4 symbol
+M1
+#
+analogLib pmos4 symbol
+M0
+#ISCELL
+basic opin symbol
+PIN0
+#ISCELL
+basic ipin symbol
+PIN1
+PIN5
+PIN4
+PIN3

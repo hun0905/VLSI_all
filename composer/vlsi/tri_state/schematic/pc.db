@@ -1,0 +1,18 @@
+#
+analogLib nmos4 symbol
+M3
+M2
+#
+analogLib pmos4 symbol
+M1
+M0
+#ISCELL
+basic ipin symbol
+PIN5
+PIN4
+PIN3
+PIN0
+PIN2
+#ISCELL
+basic iopin symbolr
+PIN6

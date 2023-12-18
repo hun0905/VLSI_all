@@ -1,0 +1,272 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: hw4.sp                                                            
+  Command line options: /usr/cadtool/cad/synopsys/hspice/2020.12-sp2/hspice/linux64/hspice -i hw4.sp -o hw4.lis
+  Start time: Thu Jan  6 19:04:46 2022
+ lic:  
+ lic: FLEXlm: SDK_12.9.5 
+ lic: USER:   u108061217           HOSTNAME: ws35 
+ lic: HOSTID: "e41f136676d0"       PID:      17644 
+ lic: Using FLEXlm license file: 
+ lic: 26585@lsntu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 14-may-2022/2021.09 
+ lic: 155(in_use)/190(total) FLOATING license(s) on SERVER 26585@lsntu 
+ lic:   
+  **warning** (decoder.spi:18) Parameter name is not defined in .param. Please enter parameter variable with their respective value/expression.
+  **warning** option measfile is disabled due to no .alter in the netlist
+1****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+ ******  
+ *title
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             hw4_decoder        1.00 
+        2 x1.xi146.                       nor                1.00 
+        3 x1.xi145.                       nor                1.00 
+        4 x1.xi144.                       nor                1.00 
+        5 x1.xi143.                       nor                1.00 
+        6 x1.xi142.                       nor                1.00 
+        7 x1.xi141.                       nor                1.00 
+        8 x1.xi140.                       nor                1.00 
+        9 x1.xi139.                       nor                1.00 
+       10 x1.xi138.                       nor                1.00 
+       11 x1.xi137.                       nor                1.00 
+       12 x1.xi136.                       nor                1.00 
+       13 x1.xi135.                       nor                1.00 
+       14 x1.xi134.                       nor                1.00 
+       15 x1.xi121.                       nor                1.00 
+       16 x1.xi120.                       nor                1.00 
+       17 x1.xi119.                       nor                1.00 
+       18 x1.xi118.                       nor                1.00 
+       19 x1.xi117.                       nor                1.00 
+       20 x1.xi116.                       nor                1.00 
+       21 x1.xi115.                       nor                1.00 
+       22 x1.xi84.                        nor                1.00 
+       23 x1.xi85.                        nor                1.00 
+       24 x1.xi86.                        nor                1.00 
+       25 x1.xi87.                        nor                1.00 
+       26 x1.xi88.                        nor                1.00 
+       27 x1.xi89.                        nor                1.00 
+       28 x1.xi90.                        nor                1.00 
+       29 x1.xi91.                        nor                1.00 
+       30 x1.xi92.                        nor                1.00 
+       31 x1.xi93.                        nor                1.00 
+       32 x1.xi94.                        nor                1.00 
+       33 x1.xi95.                        nor                1.00 
+       34 x1.xi96.                        nor                1.00 
+       35 x1.xi97.                        nor                1.00 
+       36 x1.xi98.                        nor                1.00 
+       37 x1.xi132.                       nor                1.00 
+       38 x1.xi131.                       nor                1.00 
+       39 x1.xi130.                       nor                1.00 
+       40 x1.xi129.                       nor                1.00 
+       41 x1.xi128.                       nor                1.00 
+       42 x1.xi127.                       nor                1.00 
+       43 x1.xi126.                       nor                1.00 
+       44 x1.xi125.                       nor                1.00 
+       45 x1.xi124.                       nor                1.00 
+       46 x1.xi123.                       nor                1.00 
+       47 x1.xi122.                       nor                1.00 
+       48 x1.xi99.                        nor                1.00 
+       49 x1.xi100.                       nor                1.00 
+       50 x1.xi101.                       nor                1.00 
+       51 x1.xi102.                       nor                1.00 
+       52 x1.xi103.                       nor                1.00 
+       53 x1.xi104.                       nor                1.00 
+       54 x1.xi105.                       nor                1.00 
+       55 x1.xi106.                       nor                1.00 
+       56 x1.xi107.                       nor                1.00 
+       57 x1.xi108.                       nor                1.00 
+       58 x1.xi109.                       nor                1.00 
+       59 x1.xi110.                       nor                1.00 
+       60 x1.xi111.                       nor                1.00 
+       61 x1.xi112.                       nor                1.00 
+       62 x1.xi113.                       nor                1.00 
+       63 x1.xi114.                       nor                1.00 
+       64 x1.xi2.                         nor                1.00 
+       65 x1.xi133.                       nor                1.00 
+       66 x1.xi1.                         three_to8decoder   1.00 
+       67 x1.xi0.                         three_to8decoder   1.00 
+       68 x1.xi1.xi7.                     nand               1.00 
+       69 x1.xi1.xi6.                     nand               1.00 
+       70 x1.xi1.xi5.                     nand               1.00 
+       71 x1.xi1.xi4.                     nand               1.00 
+       72 x1.xi1.xi3.                     nand               1.00 
+       73 x1.xi1.xi2.                     nand               1.00 
+       74 x1.xi1.xi1.                     nand               1.00 
+       75 x1.xi1.xi0.                     nand               1.00 
+       76 x1.xi1.xi10.                    inverter           1.00 
+       77 x1.xi1.xi9.                     inverter           1.00 
+       78 x1.xi1.xi8.                     inverter           1.00 
+       79 x1.xi0.xi7.                     nand               1.00 
+       80 x1.xi0.xi6.                     nand               1.00 
+       81 x1.xi0.xi5.                     nand               1.00 
+       82 x1.xi0.xi4.                     nand               1.00 
+       83 x1.xi0.xi3.                     nand               1.00 
+       84 x1.xi0.xi2.                     nand               1.00 
+       85 x1.xi0.xi1.                     nand               1.00 
+       86 x1.xi0.xi0.                     nand               1.00 
+       87 x1.xi0.xi10.                    inverter           1.00 
+       88 x1.xi0.xi9.                     inverter           1.00 
+       89 x1.xi0.xi8.                     inverter           1.00 
+  **info** (hw4.sp:15) DC voltage reset to initial transient source value in source 0:v1. new dc=0.1800D+01
+  **warning** (hw4.sp:17) Both nodes of element v2 are connected together; Line ignored.
+ 
+
+  
+
+  **warning** the following singular supplies were terminated to 1 meg resistor 
+          supply       node1            node2
+(hw4.sp:18)v3                      0:en               defined in subckt 0                     0:0                defined in subckt 0               
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 15
+ file=hw4.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+ ******  
+ *title
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is     0.     
+     node    =voltage       node    =voltage       node    =voltage
+
+ + 0:en      =   1.8000   0:in<0>   =   1.8000   0:in<1>   =   1.8000 
+ + 0:in<2>   =   1.8000   0:in<3>   =   1.8000   0:in<4>   =   1.8000 
+ + 0:in<5>   =   1.8000   0:out<0>  =   2.1178n  0:out<10> =   2.1178n
+ + 0:out<11> =   2.1178n  0:out<12> =   2.1178n  0:out<13> =   2.1178n
+ + 0:out<14> =   2.1178n  0:out<15> =  10.9395n  0:out<16> =   2.1178n
+ + 0:out<17> =   2.1178n  0:out<18> =   2.1178n  0:out<19> =   2.1178n
+ + 0:out<1>  =   2.1178n  0:out<20> =   2.1178n  0:out<21> =   2.1178n
+ + 0:out<22> =   2.1178n  0:out<23> =  10.9395n  0:out<24> =   2.1178n
+ + 0:out<25> =   2.1178n  0:out<26> =   2.1178n  0:out<27> =   2.1178n
+ + 0:out<28> =   2.1178n  0:out<29> =   2.1178n  0:out<2>  =   2.1178n
+ + 0:out<30> =   2.1178n  0:out<31> =  10.9395n  0:out<32> =   2.1178n
+ + 0:out<33> =   2.1178n  0:out<34> =   2.1178n  0:out<35> =   2.1178n
+ + 0:out<36> =   2.1178n  0:out<37> =   2.1178n  0:out<38> =   2.1178n
+ + 0:out<39> =  10.9395n  0:out<3>  =   2.1178n  0:out<40> =   2.1178n
+ + 0:out<41> =   2.1178n  0:out<42> =   2.1178n  0:out<43> =   2.1178n
+ + 0:out<44> =   2.1178n  0:out<45> =   2.1178n  0:out<46> =   2.1178n
+ + 0:out<47> =  10.9395n  0:out<48> =   2.1178n  0:out<49> =   2.1178n
+ + 0:out<4>  =   2.1178n  0:out<50> =   2.1178n  0:out<51> =   2.1178n
+ + 0:out<52> =   2.1178n  0:out<53> =   2.1178n  0:out<54> =   2.1178n
+ + 0:out<55> =  10.9395n  0:out<56> =   9.2606n  0:out<57> =   9.2606n
+ + 0:out<58> =   9.2606n  0:out<59> =   9.2606n  0:out<5>  =   2.1178n
+ + 0:out<60> =   9.2606n  0:out<61> =   9.2606n  0:out<62> =   9.2606n
+ + 0:out<63> =   1.8000   0:out<6>  =   2.1178n  0:out<7>  =  10.9395n
+ + 0:out<8>  =   2.1178n  0:out<9>  =   2.1178n  0:vdd     =   1.8000 
+ + 1:net10   =   1.8000   1:net11   =   1.8000   1:net17   = 250.0370n
+ + 1:net18   =   1.8000   1:net19   =   1.8000   1:net20   =   1.8000 
+ + 1:net21   =   1.8000   1:net22   =   1.8000   1:net23   =   1.8000 
+ + 1:net24   =   1.8000   1:net4    = 250.0370n  1:net5    =   1.8000 
+ + 1:net6    =   1.8000   1:net7    =   1.8000   1:net8    =   1.8000 
+ + 1:net9    =   1.8000   2:net043  =   1.7371   3:net043  =   1.7371 
+ + 4:net043  =   1.7371   5:net043  =   1.7371   6:net043  =   1.7371 
+ + 7:net043  = 404.3201m  8:net043  =   1.7371   9:net043  =   1.7371 
+ +10:net043  =   1.8000  11:net043  =   1.8000  12:net043  =   1.8000 
+ +13:net043  =   1.8000  14:net043  =   1.8000  15:net043  =   1.7371 
+ +16:net043  = 404.3201m 17:net043  =   1.7371  18:net043  =   1.7371 
+ +19:net043  =   1.7371  20:net043  =   1.7371  21:net043  =   1.7371 
+ +22:net043  =   1.7371  23:net043  =   1.7371  24:net043  =   1.7371 
+ +25:net043  =   1.7371  26:net043  = 404.3201m 27:net043  =   1.7371 
+ +28:net043  =   1.7371  29:net043  =   1.7371  30:net043  =   1.7371 
+ +31:net043  = 404.3201m 32:net043  =   1.7371  33:net043  =   1.7371 
+ +34:net043  =   1.7371  35:net043  =   1.7371  36:net043  =   1.7371 
+ +37:net043  =   1.8000  38:net043  =   1.8000  39:net043  =   1.7371 
+ +40:net043  =   1.7371  41:net043  =   1.7371  42:net043  =   1.7371 
+ +43:net043  =   1.7371  44:net043  = 404.3201m 45:net043  =   1.7371 
+ +46:net043  =   1.7371  47:net043  =   1.7371  48:net043  =   1.7371 
+ +49:net043  =   1.7371  50:net043  =   1.7371  51:net043  =   1.7371 
+ +52:net043  =   1.7371  53:net043  = 404.3201m 54:net043  =   1.7371 
+ +55:net043  =   1.7371  56:net043  =   1.7371  57:net043  =   1.7371 
+ +58:net043  = 404.3201m 59:net043  =   1.7371  60:net043  =   1.7371 
+ +61:net043  =   1.7371  62:net043  =   1.7371  63:net043  =   1.7371 
+ +64:net043  =   1.7371  65:net043  =   1.8000  66:net138  =  27.7819n
+ +66:net142  =  27.7819n 66:net146  =  27.7819n 67:net138  =  27.7819n
+ +67:net142  =  27.7819n 67:net146  =  27.7819n 68:net40   =  83.3457n
+ +68:net44   = 166.6913n 69:net40   =   1.5469  69:net44   =   1.5689 
+ +70:net40   =  18.7193n 70:net44   =   1.5721  71:net40   =  55.4730m
+ +71:net44   =   1.6016  72:net40   =  22.5637n 72:net44   =  45.1273n
+ +73:net40   =  59.0788m 73:net44   =  59.0788m 74:net40   =   3.8079n
+ +74:net44   =  60.1938m 75:net40   =  20.9242m 75:net44   =  97.7892m
+ +79:net40   =  83.3457n 79:net44   = 166.6913n 80:net40   =   1.5469 
+ +80:net44   =   1.5689  81:net40   =  18.7193n 81:net44   =   1.5721 
+ +82:net40   =  55.4730m 82:net44   =   1.6016  83:net40   =  22.5637n
+ +83:net44   =  45.1273n 84:net40   =  59.0788m 84:net44   =  59.0788m
+ +85:net40   =   3.8079n 85:net44   =  60.1938m 86:net40   =  20.9242m
+ +86:net44   =  97.7892m
+
+
+          ***** job concluded
+ ******  
+ *title
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU           E5530  @ 2.40GHz
+ cpu MHz	: 1596.000
+ CPU(s)		: 16
+  
+ OS:
+ Linux version 3.10.0-1160.36.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Jul 21 11:57:15 UTC 2021
+
+ System loadavg : 3.06 2.45 1.80 5/761 17697
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ****** Statistics of Ignored Elements ******
+  Voltage Sources :       1
+
+  ******  Circuit Statistics  ******
+  # nodes       =     919 # elements   =     373
+  # resistors   =       1 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       8
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     364 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.05           1          40
+  transient         11.20   100000001       14362        5699 rev=       227
+  readin             0.02
+  errchk             0.02
+  setup              0.02
+  output             0.00
+
+
+           peak memory used        474.67 megabytes
+           total cpu time           11.32 seconds
+           total elapsed time       11.82 seconds
+           job started at     19:04:46 01/06/2022
+           job ended   at     19:04:58 01/06/2022
+           job total runtime        11.82 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.49(s)

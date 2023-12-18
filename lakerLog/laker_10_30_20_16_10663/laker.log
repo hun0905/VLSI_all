@@ -1,0 +1,4 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux ws35 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64)
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+au time 59.118671 2.729296 1.548123 delta 68030464 68030464 total 429633536 429633536

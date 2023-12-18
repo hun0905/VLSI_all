@@ -1,0 +1,35 @@
+#
+vlsi TG symbol
+I18
+I17
+I16
+I15
+I19
+I20
+I21
+I22
+#ISCELL
+basic iopin symbolr
+PIN4
+PIN3
+#ISCELL
+basic ipin symbol
+PIN0
+PIN1
+PIN2
+PIN5
+PIN6
+PIN7
+PIN8
+PIN9
+PIN10
+PIN11
+PIN12
+PIN13
+PIN14
+PIN15
+PIN16
+PIN17
+#ISCELL
+basic opin symbol
+PIN18

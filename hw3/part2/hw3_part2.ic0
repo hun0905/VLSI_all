@@ -1,0 +1,28 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "R-2020.12-SP2 linux64"
+* "format" "HSP"
+* "rundate" "13:17:20 01/05/2022 "
+* "netlist" "hw3_part2.sp "
+* "runtitle" "*title"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ !clk =   1.8000        
++ !q = 844.1045m       
++ clk =   0.            
++ d =   0.            
++ q =   1.2570        
++ vdd =   1.8000        
++ x1.net1 = 844.1045m       
++ x1.net13 =   1.8000        
++ x1.net14 =  26.7145n       
++ x1.net18 =   1.8000        
++ x1.net5 = 873.3366m       
++ x1.xi6.net12 =   1.7177        
++ x1.xi6.net5 =  53.6127m       
++ x1.xi5.net12 =   1.8000        
++ x1.xi5.net5 =  60.1938m       
+***   END: Saved Operating Point ***                     

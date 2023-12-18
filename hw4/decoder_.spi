@@ -1,0 +1,177 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: eight_to64decoder
+* View Name:     schematic
+* Netlisted on:  Dec  8 10:18:27 2021
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    nor
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor A B OUT VDD VSS
+*.PININFO A:I B:I OUT:O VDD:B VSS:B
+MM5 OUT B VSS VSS N_18 W=500.0n L=180.00n m=1
+MM4 OUT A VSS VSS N_18 W=500.0n L=180.00n m=1
+MM10 net043 A VDD VDD P_18 W=500.0n L=180.00n m=1
+MM0 OUT B net043 VDD P_18 W=500.0n L=180.00n m=1
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    nand
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand A B C OUT VDD VSS
+*.PININFO A:I B:I C:I OUT:O VDD:B VSS:B
+MM6 net40 C VSS VSS N_18 W=500.0n L=180.00n m=1
+MM5 net44 B net40 VSS N_18 W=500.0n L=180.00n m=1
+MM4 OUT A net44 VSS N_18 W=500.0n L=180.00n m=1
+MM10 OUT A VDD VDD P_18 W=500.0n L=180.00n m=31
+MM2 OUT C VDD VDD P_18 W=500.0n L=180.00n m=3
+MM0 OUT B VDD VDD P_18 W=500.0n L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT VDD VSS
+*.PININFO IN:I OUT:B VDD:B VSS:B
+MM10 OUT IN VSS VSS N_18 W=500.0n L=180.00n m=1
+MM6 OUT IN VDD VDD P_18 W=0.5u L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    three_to8decoder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT three_to8decoder A B C OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 VDD VSS
+*.PININFO A:I B:I C:I OUT0:O OUT1:O OUT2:O OUT3:O OUT4:O OUT5:O OUT6:O OUT7:O 
+*.PININFO VDD:B VSS:B
+XI7 A B C OUT7 VDD VSS / nand
+XI6 A B net138 OUT6 VDD VSS / nand
+XI5 A net142 C OUT5 VDD VSS / nand
+XI4 A net142 net138 OUT4 VDD VSS / nand
+XI3 net146 B C OUT3 VDD VSS / nand
+XI2 net146 B net138 OUT2 VDD VSS / nand
+XI1 net146 net142 C OUT1 VDD VSS / nand
+XI0 net146 net142 net138 OUT0 VDD VSS / nand
+XI10 C net138 VDD VSS / inverter
+XI9 B net142 VDD VSS / inverter
+XI8 A net146 VDD VSS / inverter
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    eight_to64decoder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT eight_to64decoder OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 OUT8 OUT9 
++ OUT10 OUT11 OUT12 OUT13 OUT14 OUT15 OUT16 OUT17 OUT18 OUT19 OUT20 OUT21 
++ OUT22 OUT23 OUT24 OUT25 OUT26 OUT27 OUT28 OUT29 OUT30 OUT31 OUT32 OUT33 
++ OUT34 OUT35 OUT36 OUT37 OUT38 OUT39 OUT40 OUT41 OUT42 OUT43 OUT44 OUT45 
++ OUT46 OUT47 OUT48 OUT49 OUT50 OUT51 OUT52 OUT53 OUT54 OUT55 OUT56 OUT57 
++ OUT58 OUT59 OUT60 OUT61 OUT62 OUT63 VDD VSS in0 in1 in2 in3 in4 in5
+*.PININFO in0:I in1:I in2:I in3:I in4:I in5:I OUT0:O OUT1:O OUT2:O OUT3:O 
+*.PININFO OUT4:O OUT5:O OUT6:O OUT7:O OUT8:O OUT9:O OUT10:O OUT11:O OUT12:O 
+*.PININFO OUT13:O OUT14:O OUT15:O OUT16:O OUT17:O OUT18:O OUT19:O OUT20:O 
+*.PININFO OUT21:O OUT22:O OUT23:O OUT24:O OUT25:O OUT26:O OUT27:O OUT28:O 
+*.PININFO OUT29:O OUT30:O OUT31:O OUT32:O OUT33:O OUT34:O OUT35:O OUT36:O 
+*.PININFO OUT37:O OUT38:O OUT39:O OUT40:O OUT41:O OUT42:O OUT43:O OUT44:O 
+*.PININFO OUT45:O OUT46:O OUT47:O OUT48:O OUT49:O OUT50:O OUT51:O OUT52:O 
+*.PININFO OUT53:O OUT54:O OUT55:O OUT56:O OUT57:O OUT58:O OUT59:O OUT60:O 
+*.PININFO OUT61:O OUT62:O OUT63:O VDD:B VSS:B
+XI146 net18 net11 OUT48 VDD VSS / nor
+XI145 net18 net10 OUT49 VDD VSS / nor
+XI144 net18 net8 OUT51 VDD VSS / nor
+XI143 net18 net9 OUT50 VDD VSS / nor
+XI142 net18 net5 OUT54 VDD VSS / nor
+XI141 net18 net4 OUT55 VDD VSS / nor
+XI140 net18 net6 OUT53 VDD VSS / nor
+XI139 net18 net7 OUT52 VDD VSS / nor
+XI138 net17 net7 OUT60 VDD VSS / nor
+XI137 net17 net6 OUT61 VDD VSS / nor
+XI136 net17 net4 OUT63 VDD VSS / nor
+XI135 net17 net5 OUT62 VDD VSS / nor
+XI134 net17 net9 OUT58 VDD VSS / nor
+XI121 net20 net6 OUT37 VDD VSS / nor
+XI120 net20 net4 OUT39 VDD VSS / nor
+XI119 net20 net5 OUT38 VDD VSS / nor
+XI118 net20 net9 OUT34 VDD VSS / nor
+XI117 net20 net8 OUT35 VDD VSS / nor
+XI116 net20 net10 OUT33 VDD VSS / nor
+XI115 net20 net11 OUT32 VDD VSS / nor
+XI84 net24 net10 OUT1 VDD VSS / nor
+XI85 net24 net8 OUT3 VDD VSS / nor
+XI86 net24 net9 OUT2 VDD VSS / nor
+XI87 net24 net5 OUT6 VDD VSS / nor
+XI88 net24 net4 OUT7 VDD VSS / nor
+XI89 net24 net6 OUT5 VDD VSS / nor
+XI90 net24 net7 OUT4 VDD VSS / nor
+XI91 net23 net7 OUT12 VDD VSS / nor
+XI92 net23 net6 OUT13 VDD VSS / nor
+XI93 net23 net4 OUT15 VDD VSS / nor
+XI94 net23 net5 OUT14 VDD VSS / nor
+XI95 net23 net9 OUT10 VDD VSS / nor
+XI96 net23 net8 OUT11 VDD VSS / nor
+XI97 net23 net10 OUT9 VDD VSS / nor
+XI98 net23 net11 OUT8 VDD VSS / nor
+XI132 net17 net10 OUT57 VDD VSS / nor
+XI131 net17 net11 OUT56 VDD VSS / nor
+XI130 net19 net11 OUT40 VDD VSS / nor
+XI129 net19 net10 OUT41 VDD VSS / nor
+XI128 net19 net8 OUT43 VDD VSS / nor
+XI127 net19 net9 OUT42 VDD VSS / nor
+XI126 net19 net5 OUT46 VDD VSS / nor
+XI125 net19 net4 OUT47 VDD VSS / nor
+XI124 net19 net6 OUT45 VDD VSS / nor
+XI123 net19 net7 OUT44 VDD VSS / nor
+XI122 net20 net7 OUT36 VDD VSS / nor
+XI99 net21 net11 OUT24 VDD VSS / nor
+XI100 net21 net10 OUT25 VDD VSS / nor
+XI101 net21 net8 OUT27 VDD VSS / nor
+XI102 net21 net9 OUT26 VDD VSS / nor
+XI103 net21 net5 OUT30 VDD VSS / nor
+XI104 net21 net4 OUT31 VDD VSS / nor
+XI105 net21 net6 OUT29 VDD VSS / nor
+XI106 net21 net7 OUT28 VDD VSS / nor
+XI107 net22 net7 OUT20 VDD VSS / nor
+XI108 net22 net6 OUT21 VDD VSS / nor
+XI109 net22 net4 OUT23 VDD VSS / nor
+XI110 net22 net5 OUT22 VDD VSS / nor
+XI111 net22 net9 OUT18 VDD VSS / nor
+XI112 net22 net8 OUT19 VDD VSS / nor
+XI113 net22 net10 OUT17 VDD VSS / nor
+XI114 net22 net11 OUT16 VDD VSS / nor
+XI2 net24 net11 OUT0 VDD VSS / nor
+XI133 net17 net8 OUT59 VDD VSS / nor
+XI1 in2 in1 in0 net11 net10 net9 net8 net7 net6 net5 net4 VDD VSS / 
++ three_to8decoder
+XI0 in5 in4 in3 net24 net23 net22 net21 net20 net19 net18 net17 VDD VSS / 
++ three_to8decoder
+.ENDS
+

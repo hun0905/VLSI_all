@@ -1,0 +1,18 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+
+================================================================
+*** This file format is subject to change **
+#Annotation for local variation contributors
+#=============
+<<pwr>> # Global_Variation 0%  Local_Variation 100% IRV_Variation 0%
+x1                100% 0
+<<tp>> # Global_Variation 0%  Local_Variation 100% IRV_Variation 0%
+x1                100% 0
+#=============
+#Selective simulation for extreme corners: Monte= list( 6, 14, 30, 99)

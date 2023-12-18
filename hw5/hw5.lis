@@ -1,0 +1,834 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: hw5.sp                                                            
+  Command line options: /usr/cadtool/cad/synopsys/hspice/2020.12-sp2/hspice/linux64/hspice -i hw5.sp -o hw5.lis
+  Start time: Sat Jan 15 10:49:27 2022
+ lic:  
+ lic: FLEXlm: SDK_12.9.5 
+ lic: USER:   u108061217           HOSTNAME: ws35 
+ lic: HOSTID: "e41f136676d0"       PID:      10748 
+ lic: Using FLEXlm license file: 
+ lic: 26585@lsntu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 14-may-2022/2021.09 
+ lic: 30(in_use)/190(total) FLOATING license(s) on SERVER 26585@lsntu 
+ lic:   
+  **info** Monte Carlo simulation is detected, increase number of measure digits to 7 for Monte Carlo post processing.
+  **info** option measform has been reset to 1 to reduce measure file storage and enable advanced Monte Carlo data mining.
+  **warning** option measfile is disabled due to no .alter in the netlist
+1****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+ ******  
+ *title
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             hw5                1.00 
+  **info** (hw5.sp:12) DC voltage reset to initial transient source value in source 0:v2. new dc=0.0000D+00
+  **warning** (hw5.sp:14) Both nodes of element v3 are connected together; Line ignored.
+ 
+
+*** info *** index=1 is a nominal sample in Monte Carlo.
+*** info *** The MCG Random Number Generator and .Option Use_Agauss_Format = Yes are set as defaults starting with HSPICE L-2016.06 to address the needs of advanced technology nodes with large samples and/or large circuits, particularly for distributed processing.
+*** Should you want backward compatibility, please use the following options:
+For traditional Gaussian style variations, use .Option Random_Generator = 3LC;
+For Variation Block style variations, use .Option Random_Generator = MOA.
+  
+      
+
+MONTE CARLO DEFINITIONS
+
+
+Option sampling_method was set, variation block and agauss format variation are in effect.
+
+Random number generator is MCG            , and seed =      1, stream =   1
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 15
+ file=hw5.pa0
+
+
+   *** monte carlo  index =            1 ***
+
+ ******
+ *title
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ pwr=  20.4180u  from=   1.0000n     to=   3.0000n
+ tp=  41.4730p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            2 ***
+
+ pwr=  20.3399u  from=   1.0000n     to=   3.0000n
+ tp=  40.6026p  targ=   1.0906n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            3 ***
+
+ pwr=  20.7737u  from=   1.0000n     to=   3.0000n
+ tp=  45.2440p  targ=   1.0952n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            4 ***
+
+ pwr=  20.3167u  from=   1.0000n     to=   3.0000n
+ tp=  41.7714p  targ=   1.0918n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            5 ***
+
+ pwr=  20.6128u  from=   1.0000n     to=   3.0000n
+ tp=  42.1482p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            6 ***
+
+ pwr=  20.4618u  from=   1.0000n     to=   3.0000n
+ tp=  39.8187p  targ=   1.0898n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            7 ***
+
+ pwr=  20.8238u  from=   1.0000n     to=   3.0000n
+ tp=  45.3461p  targ=   1.0953n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            8 ***
+
+ pwr=  20.2097u  from=   1.0000n     to=   3.0000n
+ tp=  41.6501p  targ=   1.0917n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =            9 ***
+
+ pwr=  20.5917u  from=   1.0000n     to=   3.0000n
+ tp=  40.9425p  targ=   1.0909n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           10 ***
+
+ pwr=  20.6313u  from=   1.0000n     to=   3.0000n
+ tp=  42.2032p  targ=   1.0922n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           11 ***
+
+ pwr=  20.3543u  from=   1.0000n     to=   3.0000n
+ tp=  41.5277p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           12 ***
+
+ pwr=  20.4392u  from=   1.0000n     to=   3.0000n
+ tp=  41.9500p  targ=   1.0919n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           13 ***
+
+ pwr=  20.3244u  from=   1.0000n     to=   3.0000n
+ tp=  41.0728p  targ=   1.0911n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           14 ***
+
+ pwr=  20.1664u  from=   1.0000n     to=   3.0000n
+ tp=  40.9180p  targ=   1.0909n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           15 ***
+
+ pwr=  20.5122u  from=   1.0000n     to=   3.0000n
+ tp=  41.7557p  targ=   1.0918n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           16 ***
+
+ pwr=  20.3172u  from=   1.0000n     to=   3.0000n
+ tp=  41.4918p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           17 ***
+
+ pwr=  20.6252u  from=   1.0000n     to=   3.0000n
+ tp=  41.1776p  targ=   1.0912n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           18 ***
+
+ pwr=  20.5448u  from=   1.0000n     to=   3.0000n
+ tp=  41.8522p  targ=   1.0919n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           19 ***
+
+ pwr=  20.5714u  from=   1.0000n     to=   3.0000n
+ tp=  42.0585p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           20 ***
+
+ pwr=  20.2942u  from=   1.0000n     to=   3.0000n
+ tp=  41.4389p  targ=   1.0914n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           21 ***
+
+ pwr=  20.3021u  from=   1.0000n     to=   3.0000n
+ tp=  41.2549p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           22 ***
+
+ pwr=  20.5468u  from=   1.0000n     to=   3.0000n
+ tp=  42.1559p  targ=   1.0922n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           23 ***
+
+ pwr=  20.4546u  from=   1.0000n     to=   3.0000n
+ tp=  41.3240p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           24 ***
+
+ pwr=  20.5690u  from=   1.0000n     to=   3.0000n
+ tp=  41.3355p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           25 ***
+
+ pwr=  20.3865u  from=   1.0000n     to=   3.0000n
+ tp=  41.2392p  targ=   1.0912n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           26 ***
+
+ pwr=  20.4217u  from=   1.0000n     to=   3.0000n
+ tp=  41.5997p  targ=   1.0916n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           27 ***
+
+ pwr=  20.5731u  from=   1.0000n     to=   3.0000n
+ tp=  40.7688p  targ=   1.0908n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           28 ***
+
+ pwr=  20.3331u  from=   1.0000n     to=   3.0000n
+ tp=  42.0147p  targ=   1.0920n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           29 ***
+
+ pwr=  20.2731u  from=   1.0000n     to=   3.0000n
+ tp=  42.0057p  targ=   1.0920n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           30 ***
+
+ pwr=  20.9770u  from=   1.0000n     to=   3.0000n
+ tp=  45.5434p  targ=   1.0955n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           31 ***
+
+ pwr=  20.3367u  from=   1.0000n     to=   3.0000n
+ tp=  42.9944p  targ=   1.0930n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           32 ***
+
+ pwr=  20.6803u  from=   1.0000n     to=   3.0000n
+ tp=  43.9860p  targ=   1.0940n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           33 ***
+
+ pwr=  20.5797u  from=   1.0000n     to=   3.0000n
+ tp=  40.5758p  targ=   1.0906n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           34 ***
+
+ pwr=  20.2592u  from=   1.0000n     to=   3.0000n
+ tp=  41.6931p  targ=   1.0917n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           35 ***
+
+ pwr=  20.2797u  from=   1.0000n     to=   3.0000n
+ tp=  41.5041p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           36 ***
+
+ pwr=  20.4180u  from=   1.0000n     to=   3.0000n
+ tp=  41.3058p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           37 ***
+
+ pwr=  20.8705u  from=   1.0000n     to=   3.0000n
+ tp=  45.1491p  targ=   1.0951n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           38 ***
+
+ pwr=  20.3977u  from=   1.0000n     to=   3.0000n
+ tp=  40.8559p  targ=   1.0909n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           39 ***
+
+ pwr=  20.2669u  from=   1.0000n     to=   3.0000n
+ tp=  41.1988p  targ=   1.0912n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           40 ***
+
+ pwr=  20.4220u  from=   1.0000n     to=   3.0000n
+ tp=  41.5004p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           41 ***
+
+ pwr=  20.5752u  from=   1.0000n     to=   3.0000n
+ tp=  41.9195p  targ=   1.0919n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           42 ***
+
+ pwr=  20.6960u  from=   1.0000n     to=   3.0000n
+ tp=  42.3692p  targ=   1.0924n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           43 ***
+
+ pwr=  20.6808u  from=   1.0000n     to=   3.0000n
+ tp=  43.5062p  targ=   1.0935n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           44 ***
+
+ pwr=  20.1907u  from=   1.0000n     to=   3.0000n
+ tp=  41.5889p  targ=   1.0916n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           45 ***
+
+ pwr=  20.2784u  from=   1.0000n     to=   3.0000n
+ tp=  41.1237p  targ=   1.0911n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           46 ***
+
+ pwr=  20.4855u  from=   1.0000n     to=   3.0000n
+ tp=  41.5272p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           47 ***
+
+ pwr=  20.4618u  from=   1.0000n     to=   3.0000n
+ tp=  41.2011p  targ=   1.0912n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           48 ***
+
+ pwr=  20.8011u  from=   1.0000n     to=   3.0000n
+ tp=  45.2760p  targ=   1.0953n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           49 ***
+
+ pwr=  20.2848u  from=   1.0000n     to=   3.0000n
+ tp=  40.7623p  targ=   1.0908n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           50 ***
+
+ pwr=  20.5184u  from=   1.0000n     to=   3.0000n
+ tp=  40.6413p  targ=   1.0906n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           51 ***
+
+ pwr=  20.5625u  from=   1.0000n     to=   3.0000n
+ tp=  41.4552p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           52 ***
+
+ pwr=  20.2957u  from=   1.0000n     to=   3.0000n
+ tp=  41.5895p  targ=   1.0916n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           53 ***
+
+ pwr=  20.4250u  from=   1.0000n     to=   3.0000n
+ tp=  40.2658p  targ=   1.0903n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           54 ***
+
+ pwr=  20.7355u  from=   1.0000n     to=   3.0000n
+ tp=  44.4013p  targ=   1.0944n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           55 ***
+
+ pwr=  20.3077u  from=   1.0000n     to=   3.0000n
+ tp=  41.8282p  targ=   1.0918n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           56 ***
+
+ pwr=  20.4436u  from=   1.0000n     to=   3.0000n
+ tp=  41.1397p  targ=   1.0911n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           57 ***
+
+ pwr=  20.3480u  from=   1.0000n     to=   3.0000n
+ tp=  40.8984p  targ=   1.0909n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           58 ***
+
+ pwr=  20.3065u  from=   1.0000n     to=   3.0000n
+ tp=  41.5154p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           59 ***
+
+ pwr=  20.7230u  from=   1.0000n     to=   3.0000n
+ tp=  44.0253p  targ=   1.0940n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           60 ***
+
+ pwr=  20.7193u  from=   1.0000n     to=   3.0000n
+ tp=  45.1898p  targ=   1.0952n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           61 ***
+
+ pwr=  20.5267u  from=   1.0000n     to=   3.0000n
+ tp=  40.8170p  targ=   1.0908n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           62 ***
+
+ pwr=  20.5469u  from=   1.0000n     to=   3.0000n
+ tp=  42.3452p  targ=   1.0923n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           63 ***
+
+ pwr=  20.3202u  from=   1.0000n     to=   3.0000n
+ tp=  41.3872p  targ=   1.0914n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           64 ***
+
+ pwr=  20.3474u  from=   1.0000n     to=   3.0000n
+ tp=  42.0785p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           65 ***
+
+ pwr=  20.5463u  from=   1.0000n     to=   3.0000n
+ tp=  41.5461p  targ=   1.0915n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           66 ***
+
+ pwr=  20.2117u  from=   1.0000n     to=   3.0000n
+ tp=  40.6973p  targ=   1.0907n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           67 ***
+
+ pwr=  20.3150u  from=   1.0000n     to=   3.0000n
+ tp=  41.2783p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           68 ***
+
+ pwr=  20.5286u  from=   1.0000n     to=   3.0000n
+ tp=  42.1302p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           69 ***
+
+ pwr=  20.3196u  from=   1.0000n     to=   3.0000n
+ tp=  40.4521p  targ=   1.0905n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           70 ***
+
+ pwr=  20.3118u  from=   1.0000n     to=   3.0000n
+ tp=  41.2668p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           71 ***
+
+ pwr=  20.5078u  from=   1.0000n     to=   3.0000n
+ tp=  41.8168p  targ=   1.0918n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           72 ***
+
+ pwr=  20.3644u  from=   1.0000n     to=   3.0000n
+ tp=  41.5976p  targ=   1.0916n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           73 ***
+
+ pwr=  20.4503u  from=   1.0000n     to=   3.0000n
+ tp=  41.7095p  targ=   1.0917n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           74 ***
+
+ pwr=  20.3344u  from=   1.0000n     to=   3.0000n
+ tp=  39.9291p  targ=   1.0899n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           75 ***
+
+ pwr=  20.4925u  from=   1.0000n     to=   3.0000n
+ tp=  41.1953p  targ=   1.0912n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           76 ***
+
+ pwr=  20.5354u  from=   1.0000n     to=   3.0000n
+ tp=  41.2533p  targ=   1.0913n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           77 ***
+
+ pwr=  20.2224u  from=   1.0000n     to=   3.0000n
+ tp=  40.6688p  targ=   1.0907n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           78 ***
+
+ pwr=  20.4727u  from=   1.0000n     to=   3.0000n
+ tp=  40.0554p  targ=   1.0901n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           79 ***
+
+ pwr=  20.3027u  from=   1.0000n     to=   3.0000n
+ tp=  41.6797p  targ=   1.0917n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           80 ***
+
+ pwr=  20.5314u  from=   1.0000n     to=   3.0000n
+ tp=  42.4791p  targ=   1.0925n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           81 ***
+
+ pwr=  20.6943u  from=   1.0000n     to=   3.0000n
+ tp=  42.0599p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           82 ***
+
+ pwr=  20.2102u  from=   1.0000n     to=   3.0000n
+ tp=  40.7663p  targ=   1.0908n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           83 ***
+
+ pwr=  20.3346u  from=   1.0000n     to=   3.0000n
+ tp=  41.2215p  targ=   1.0912n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           84 ***
+
+ pwr=  20.7982u  from=   1.0000n     to=   3.0000n
+ tp=  44.5404p  targ=   1.0945n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           85 ***
+
+ pwr=  20.6037u  from=   1.0000n     to=   3.0000n
+ tp=  41.1186p  targ=   1.0911n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           86 ***
+
+ pwr=  20.6169u  from=   1.0000n     to=   3.0000n
+ tp=  41.8871p  targ=   1.0919n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           87 ***
+
+ pwr=  20.3065u  from=   1.0000n     to=   3.0000n
+ tp=  42.0748p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           88 ***
+
+ pwr=  20.4282u  from=   1.0000n     to=   3.0000n
+ tp=  41.1129p  targ=   1.0911n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           89 ***
+
+ pwr=  20.5783u  from=   1.0000n     to=   3.0000n
+ tp=  43.2043p  targ=   1.0932n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           90 ***
+
+ pwr=  20.5678u  from=   1.0000n     to=   3.0000n
+ tp=  42.2641p  targ=   1.0923n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           91 ***
+
+ pwr=  20.2673u  from=   1.0000n     to=   3.0000n
+ tp=  41.4240p  targ=   1.0914n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           92 ***
+
+ pwr=  20.5188u  from=   1.0000n     to=   3.0000n
+ tp=  42.1112p  targ=   1.0921n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           93 ***
+
+ pwr=  20.4540u  from=   1.0000n     to=   3.0000n
+ tp=  40.7899p  targ=   1.0908n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           94 ***
+
+ pwr=  20.1766u  from=   1.0000n     to=   3.0000n
+ tp=  41.0688p  targ=   1.0911n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           95 ***
+
+ pwr=  20.8017u  from=   1.0000n     to=   3.0000n
+ tp=  45.4684p  targ=   1.0955n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           96 ***
+
+ pwr=  20.2959u  from=   1.0000n     to=   3.0000n
+ tp=  42.0427p  targ=   1.0920n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           97 ***
+
+ pwr=  20.8339u  from=   1.0000n     to=   3.0000n
+ tp=  42.3392p  targ=   1.0923n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           98 ***
+
+ pwr=  20.2173u  from=   1.0000n     to=   3.0000n
+ tp=  41.3546p  targ=   1.0914n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =           99 ***
+
+ pwr=  21.0795u  from=   1.0000n     to=   3.0000n
+ tp=  44.3990p  targ=   1.0944n   trig=   1.0500n
+
+          ***** job concluded
+
+   *** monte carlo  index =          100 ***
+
+ pwr=  20.3310u  from=   1.0000n     to=   3.0000n
+ tp=  41.8037p  targ=   1.0918n   trig=   1.0500n
+
+   meas_variable = pwr
+   mean  =  20.4687u  varian =  36.1581f
+   sigma = 190.1528n  avgdev = 156.5435n
+   max   =  21.0795u  min    =  20.1664u
+    1-sigma = 190.1528n median =  20.4503u
+
+   meas_variable = tp
+   mean  =  41.8852p  varian = 1.673e-24
+   sigma =   1.2935p  avgdev = 916.9122f
+   max   =  45.5434p  min    =  39.8187p
+    1-sigma =   1.2935p median =  41.5461p
+
+          ***** job concluded
+ ******  
+ *title
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU           E5530  @ 2.40GHz
+ cpu MHz	: 1596.000
+ CPU(s)		: 16
+  
+ OS:
+ Linux version 3.10.0-1160.36.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Jul 21 11:57:15 UTC 2021
+
+ System loadavg : 0.31 0.13 0.13 2/819 10909
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ****** Statistics of Ignored Elements ******
+  Voltage Sources :       1
+
+  ******  Circuit Statistics  ******
+  # nodes       =      28 # elements   =      13
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       9 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.06           1         506
+  transient          1.08    30000100       20756        8645 rev=       674
+  readin             0.03
+  errchk             0.01
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        466.02 megabytes
+           total cpu time           10.13 seconds
+           total elapsed time       30.52 seconds
+           job started at     10:49:27 01/15/2022
+           job ended   at     10:49:58 01/15/2022
+           job total runtime        30.52 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:       20.39(s)

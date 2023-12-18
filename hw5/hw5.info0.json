@@ -1,0 +1,35 @@
+{
+"Copyright":" ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.  This software and the associated documentation are proprietary  to Synopsys, Inc. This software may only be used in accordance  with the terms and conditions of a written license agreement with  Synopsys, Inc. All other use, reproduction, or distribution of  this software is strictly prohibited.",
+"Comment" : "File format and content subject to change.",
+"Measure_File":"/home/u108/u108061217/VLSI/hw5/hw5.mt0",
+"Netlist":"/home/u108/u108061217/VLSI/hw5/hw5.sp",
+"Netlist_Datestamp":"(May 24 2021 7074677)",
+"Simulator_Binary":"/usr/cadtool/cad/synopsys/hspice/2020.12-sp2/hspice/linux64/hspice",
+"Histogram_File":"/home/u108/u108061217/VLSI/hw5/hw5.hmt0.csv",
+"QQ_plot_File":"/home/u108/u108061217/VLSI/hw5/hw5.qqt0.csv",
+"MPP_File":"/home/u108/u108061217/VLSI/hw5/hw5.mpp0",
+"Alter_Index":0,
+"Summary_Statistics":{
+"Total_Random_Variable":9,
+"Normal_Distribution_Variable":9,
+"Non_Normal_Distribution_Variable":0,
+"MC_Samples":100,
+"Meas_Failure_Number":0,
+"Job_Abortion_Number":0,
+"Sigma_Amplification_Factor":1,
+"Confidence_Level":0.95,
+"Measure_Names":["pwr","tp"]
+  },
+"VB_options":{
+"Sampling_Method":"SRS",
+"Random_Generator":"MCG",
+"Normal_Limit":20
+  },
+"Percentiles":{
+"Auto_Percentiles":[0.01,0.05,0.25,0.5,0.75,0.95,0.99]
+  },
+"Measure_Statistics":{
+"pwr":{"Nominal":2.0418e-05,"Mean":2.04687e-05,"Stddev":1.90153e-07,"Skewness":0.722138,"Kurtosis":3.14328,"IQR":8.02663e-07},
+"tp":{"Nominal":4.1473e-11,"Mean":4.18852e-11,"Stddev":1.2935e-12,"Skewness":1.43894,"Kurtosis":4.53797,"IQR":5.54302e-12}
+  }
+}

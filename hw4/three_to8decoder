@@ -1,0 +1,59 @@
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    nor
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor A B OUT VDD VSS
+*.PININFO A:I B:I OUT:O VDD:B VSS:B
+MM5 OUT B VSS VSS N_18 W=500.0n L=180.00n m=1
+MM4 OUT A VSS VSS N_18 W=500.0n L=180.00n m=1
+MM10 net043 A VDD VDD P_18 W=500.0n L=180.00n m=3
+MM0 OUT B net043 VDD P_18 W=500.0n L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    nand
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand A B C OUT VDD VSS
+*.PININFO A:I B:I C:I OUT:O VDD:B VSS:B
+MM6 net40 C VSS VSS N_18 W=500.0n L=180.00n m=1
+MM5 net44 B net40 VSS N_18 W=500.0n L=180.00n m=1
+MM4 OUT A net44 VSS N_18 W=500.0n L=180.00n m=1
+MM10 OUT A VDD VDD P_18 W=500.0n L=180.00n m=3
+MM2 OUT C VDD VDD P_18 W=500.0n L=180.00n m=3
+MM0 OUT B VDD VDD P_18 W=500.0n L=180.00n m=3
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT VDD VSS
+*.PININFO IN:I OUT:B VDD:B VSS:B
+MM10 OUT IN VSS VSS N_18 W=500.0n L=180.00n m=1
+MM6 OUT IN VDD VDD P_18 W=0.5u L=180.00n m=3
+.ENDS
+.SUBCKT three_to8decoder A B C OUT0 OUT1 OUT2 OUT3 OUT4 OUT5 OUT6 OUT7 VDD VSS
+*.PININFO A:I B:I C:I OUT0:O OUT1:O OUT2:O OUT3:O OUT4:O OUT5:O OUT6:O OUT7:O 
+*.PININFO VDD:B VSS:B
+XI7 A B C OUT7 VDD VSS / nand
+XI6 A B net138 OUT6 VDD VSS / nand
+XI5 A net142 C OUT5 VDD VSS / nand
+XI4 A net142 net138 OUT4 VDD VSS / nand
+XI3 net146 B C OUT3 VDD VSS / nand
+XI2 net146 B net138 OUT2 VDD VSS / nand
+XI1 net146 net142 C OUT1 VDD VSS / nand
+XI0 net146 net142 net138 OUT0 VDD VSS / nand
+XI10 C net138 VDD VSS / inverter
+XI9 B net142 VDD VSS / inverter
+XI8 A net146 VDD VSS / inverter
+.ENDS

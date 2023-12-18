@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/u108/u108061217/VLSI/laker/hw5_SA
+pex_PexParam LAYOUT_PRIMARY hw5_SA
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {HW5_SA "" HW5_SA.pdb "" } } 

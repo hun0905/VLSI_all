@@ -1,0 +1,277 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: lab6_pmos.sp                                                      
+  Command line options: /usr/cadtool/cad/synopsys/hspice/2020.12-sp2/hspice/linux64/hspice -i lab6_pmos -o lab6_pmos.lis
+  Start time: Sat Jan  1 12:02:51 2022
+ lic:  
+ lic: FLEXlm: SDK_12.9.5 
+ lic: USER:   u108061217           HOSTNAME: ws35 
+ lic: HOSTID: "e41f136676d0"       PID:      13551 
+ lic: Using FLEXlm license file: 
+ lic: 26585@lsntu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 14-may-2022/2020.03 
+ lic: 109(in_use)/190(total) FLOATING license(s) on SERVER 26585@lsntu 
+ lic:   
+  **warning** (lab6_pmos.sp:17) Parameter i1 is defined as an expression containing output signals, which may cause incorrect result. Recommend replacing output signals with user-defined functions.
+1****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+ ******  
+ $lab6 pmos
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ ***************************************************************************
+ *** common model parameters  model name:   0:p_mos    model type:pmos   ***
+ ***************************************************************************
+     names  values   units     names  values   units     names  values   units
+     -----  ------   -----     -----  ------   -----     -----  ------   -----
+
+   1*** geometry parameters ***
+       ld=   0.    meters      lmlt=   1.00                wd=   0.    meters 
+     wmlt=   1.00                xl=   0.    meters        xw=   0.    meters 
+     lref=   0.    meters      wref=   0.    meters      lref=   0.    meters 
+     wref=   0.    meters     xlref=   0.    meters     xwref=   0.    meters 
+     lmin=   0.    meters      wmin=   0.    meters      lmax=   0.    meters 
+     wmax=   0.    meters 
+
+   2*** threshold voltage parameters ***
+      vto=-778.00m volts        nss=   0.    1/cm**2      tpg=   1.00         
+      phi= 579.84m volts      gamma= 527.63m v**0.5      bulk=  gnd           
+    ngate=   0.    cm**3       nsub= 1.0e+15 1/cm**3   delvto=   0.    volts  
+
+   3*** gate overlap capacitance parameters ***
+     cgbo=   0.    f/meter     cgdo= 100.00f f/meter     cgso= 100.00f f/meter
+     meto=   0.    meters 
+
+   4*** gate capacitance parameters ***
+    capop=   2.00               cf1=   0.    volts        cf2= 100.00m volts  
+      cf3=   1.00  volts        cf4=  50.00               cf5= 666.67m        
+      cf6= 500.00               xqc= 500.00m              tox= 100.00n meters 
+      cox= 345.31u f/m**2 
+
+   5*** diffusion parasitic parameters ***
+      acm=   0.                  is=  10.00f amps          js=   0.    a/m**2 
+      jsw=   0.    amp/m        nds=   1.00               cbd=   2.00p farad  
+      cbs=   2.00p farad         cj=   0.    f/m**2      cjsw=   0.    f/m    
+   cjgate=   0.    f/m           mj= 500.00m             mjsw= 330.00m        
+       pb= 800.00m volts        php= 800.00m volts         tt=   0.    secs   
+     hdif=   0.    meters      ldif=   0.    meters        rd=   0.    ohms   
+       rs=   0.    ohms         rsh=   0.    ohms/sq       fc=   0.           
+    alpha=   0.                 vcr=   0.    volts      iirat=   0.           
+      rdc=   0.    ohms         rsc=   0.    ohms           n=   1.00         
+     vnds=  -1.00  volts  
+
+   6*** temperature effect parameters ***
+     tlev=   0.               tlevc=   0.                  eg=   1.11  ev     
+     gap1= 702.00u ev/deg      gap2=   1.11k deg          xti=   0.           
+      bex=  -1.50               tcv=   0.    v/deg k      trd=   0.    /deg   
+      trs=   0.    /deg         cta=   0.    /deg         ctp=   0.    /deg   
+
+   7*** noise parameters ***
+       kf=   0.                  af=   1.00              nlev=   2.00         
+   gdsnoi=   1.00         
+
+   ***  level  1  model parameters  ***
+
+   lambda=  56.00m /v            kp= 187.87u a/v**2 
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ ******
+ $lab6 pmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     2.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m -281.5841u 
+    1.00000  -429.7143u 
+    1.50000  -456.1634u 
+    2.00000  -467.9462u 
+    2.50000  -479.7290u 
+    3.00000  -491.5118u 
+    3.50000  -503.2946u 
+    4.00000  -515.0774u 
+    4.50000  -526.8603u 
+    5.00000  -538.6431u 
+y
+ ******
+ $lab6 pmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     3.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m -571.2796u 
+    1.00000    -1.0249m 
+    1.50000    -1.3490m 
+    2.00000    -1.5317m 
+    2.50000    -1.5861m 
+    3.00000    -1.6251m 
+    3.50000    -1.6641m 
+    4.00000    -1.7030m 
+    4.50000    -1.7420m 
+    5.00000    -1.7809m 
+y
+ ******
+ $lab6 pmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     4.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m -860.9751u 
+    1.00000    -1.6201m 
+    1.50000    -2.2654m 
+    2.00000    -2.7852m 
+    2.50000    -3.1676m 
+    3.00000    -3.4008m 
+    3.50000    -3.4989m 
+    4.00000    -3.5808m 
+    4.50000    -3.6627m 
+    5.00000    -3.7446m 
+y
+ ******
+ $lab6 pmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     5.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m   -1.1507m 
+    1.00000    -2.2152m 
+    1.50000    -3.1818m 
+    2.00000    -4.0387m 
+    2.50000    -4.7739m 
+    3.00000    -5.3756m 
+    3.50000    -5.8321m 
+    4.00000    -6.1315m 
+    4.50000    -6.2891m 
+    5.00000    -6.4298m 
+y
+ ******
+ $lab6 pmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+x
+
+ volt         current   
+             m2         
+    0.         -6.6330p 
+  100.00000m   -6.6330p 
+  200.00000m   -6.6330p 
+  300.00000m   -6.6330p 
+  400.00000m   -6.6330p 
+  500.00000m   -6.6330p 
+  600.00000m   -6.6330p 
+  700.00000m   -6.6330p 
+  800.00000m -161.6058n 
+  900.00000m   -4.9695u 
+    1.00000   -16.4551u 
+    1.10000   -34.6183u 
+    1.20000   -59.4591u 
+    1.30000   -90.9777u 
+    1.40000  -129.1738u 
+    1.50000  -174.0476u 
+    1.60000  -225.5991u 
+    1.70000  -283.8282u 
+    1.80000  -348.7350u 
+    1.90000  -420.3194u 
+    2.00000  -498.5815u 
+    2.10000  -583.5212u 
+    2.20000  -675.1386u 
+    2.30000  -773.4336u 
+    2.40000  -878.4063u 
+    2.50000  -990.0566u 
+    2.60000    -1.1084m 
+    2.70000    -1.2334m 
+    2.80000    -1.3651m 
+    2.90000    -1.5034m 
+    3.00000    -1.6485m 
+    3.10000    -1.8002m 
+    3.20000    -1.9586m 
+    3.30000    -2.1237m 
+y
+
+          ***** job concluded
+ ******  
+ $lab6 pmos
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU           E5530  @ 2.40GHz
+ cpu MHz	: 1596.000
+ CPU(s)		: 16
+  
+ OS:
+ Linux version 3.10.0-1160.36.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Jul 21 11:57:15 UTC 2021
+
+ System loadavg : 0.25 0.29 0.29 2/781 13554
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       6 # elements   =       7
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       5
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       2 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  dc sweep           0.01          44         166
+  readin             0.01
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        470.85 megabytes
+           total cpu time            0.03 seconds
+           total elapsed time        0.62 seconds
+           job started at     12:02:51 01/01/2022
+           job ended   at     12:02:51 01/01/2022
+           job total runtime         0.62 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.58(s)

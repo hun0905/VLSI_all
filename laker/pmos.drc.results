@@ -1,0 +1,11 @@
+pmos 1000
+PIMP.S7
+1 1 2 Oct 30 12:36:14 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Maximum P+ diffusion to nearest N+ pick-up spacing (inside N-Well) is 20um (I/O, RAM, ROM, capacitor and diode are expected)
+p 1 4
+CN pmos c 1 0 0 1 0 0 0
+-800 160
+360 160
+360 1810
+-800 1810

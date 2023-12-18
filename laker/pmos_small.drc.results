@@ -1,0 +1,36 @@
+pmos_small 1000
+PIMP.S7
+1 1 2 Nov 10 22:03:52 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Maximum P+ diffusion to nearest N+ pick-up spacing (inside N-Well) is 20um (I/O, RAM, ROM, capacitor and diode are expected)
+p 1 4
+CN pmos_small c 1 0 0 1 0 0 0
+-570 -225
+590 -225
+590 275
+-570 275
+CONT.O1
+2 2 2 Nov 10 22:03:52 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum Poly overlap contact is 0.12um, no floating conntact
+p 1 4
+CN pmos_small c 1 0 0 1 0 0 0
+-554 -1840
+-116 -1840
+-220 -1780
+-450 -1780
+p 2 4
+-554 -1490
+-450 -1550
+-220 -1550
+-116 -1490
+ME1.O1
+1 1 2 Nov 10 22:03:52 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum Metal1 overlap contac is 0um, no contact outside Metal1
+p 1 4
+CN pmos_small c 1 0 0 1 0 0 0
+-450 -1780
+-220 -1780
+-220 -1550
+-450 -1550

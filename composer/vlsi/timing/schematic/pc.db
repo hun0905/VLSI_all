@@ -1,0 +1,68 @@
+#
+vlsi Final_FF symbol
+I21
+I29
+I28
+I30
+I31
+I32
+I33
+I34
+I35
+#
+vlsi nor symbol
+I19
+#
+vlsi buffer symbol
+I15
+I8
+I9
+I4
+I5
+I7
+I16
+I17
+I14
+I13
+I10
+I11
+I12
+I6
+I2
+I3
+#
+vlsi inverter symbol
+I1
+#
+vlsi and symbol
+I20
+I0
+#ISCELL
+basic iopin symbolr
+PIN1
+PIN0
+#ISCELL
+basic ipin symbol
+PIN15
+PIN14
+PIN13
+PIN12
+PIN11
+PIN10
+PIN9
+PIN8
+PIN7
+PIN2
+#ISCELL
+basic opin symbol
+PIN22
+PIN21
+PIN20
+PIN19
+PIN18
+PIN17
+PIN16
+PIN6
+PIN5
+PIN4
+PIN3

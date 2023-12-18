@@ -1,0 +1,223 @@
+### Custom WaveView ADV log file, revision N-2017.12 (build Nov 23, ) ###
+### created at 20:46:16 on Mon Jan 17 2022 (Linux AMD64) ###
+### Host Name: ws35   User ID: u108061217   PID: 3179   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_resize_window {Custom WaveView} 800 586
+wv_move_window {Custom WaveView} {} 100 57
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 62 19
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {Final.tr0} 9
+wv_select_list_item {FileDialog} {} {FileList} {Final.tr0} 9
+wv_dclick_list_item {FileDialog} {} {FileList} {Final.tr0} 9
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Final.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:Final.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<0>)} 15
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a<0>)} 15
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<0>)} 15
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<2>)} 17
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a<2>)} 17
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<2>)} 17
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<1>)} 16
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a<1>)} 16
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<1>)} 16
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a<1>)} 16
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(a<1>)} 16
+wv_drag_enter WV1
+wv_drag_to WV1 62 642
+wv_drop_on WV1
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a<1>)} 16
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL3:1.LEGEND
+wv_drag_item_to WV1 57 599
+wv_drag_leave WV1
+wv_drag_enter WV1
+wv_drag_to WV1 77 164
+wv_drop_on WV1
+wv_drag_item_to WV1 57 599
+## TYPE S abort
+## memory usage 509.38MB
+#0x69AE17 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x69ae17]
+#0x69B282 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x69b282]
+#0xACC51400 /lib64/libc.so.6(+0x36400) [0x7f49acc51400]
+#0x1F045F1 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f045f1]
+#0x18B36C2 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18b36c2]
+#0x1F059CA /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f059ca]
+#0x1833EC6 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1833ec6]
+#0x1838E89 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1838e89]
+#0x1F058FD /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f058fd]
+#0x1834E1B /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1834e1b]
+#0x18A6BCD /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18a6bcd]
+#0x18A5462 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18a5462]
+#0x18C8A5D /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18c8a5d]
+#0x1F04525 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f04525]
+#0x1F04806 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f04806]
+#0x18B341F /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18b341f]
+#0x18454D8 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18454d8]
+#0x1845588 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1845588]
+#0xFC44AE /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv(_ZN13QX_ListWidget14mouseMoveEventEP11QMouseEvent+0x662) [0xfc44ae]
+#0x187E185 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x187e185]
+#0x1B24288 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1b24288]
+#0x1BF0DCB /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1bf0dcb]
+#0x1F05A77 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f05a77]
+#0x1833F1C /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1833f1c]
+#0x1838E89 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1838e89]
+#0x1F058FD /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1f058fd]
+#0x1834E1B /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x1834e1b]
+#0x18A6BCD /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18a6bcd]
+#0x18A5462 /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18a5462]
+#0x18C8A5D /usr/cad/synopsys/customexplorer/cur/platforms/linux64/bin/wv() [0x18c8a5d]
+#session saved in: 'sx_crash.sx'
+### auto-generated spxrc ###
+### General Settings ###
+gui_font small
+show_console false
+use_qtfsb false
+replay_delay 1
+gui_color bright
+wv_iconizable 1
+show_eqn_err_msg 1
+user_colors false
+line_thickness 1
+lock_color false
+same_color_sweep false
+loop_linestyles_sweep false
+delete_confirm true
+reload_confirm true
+exit_confirm true
+archive_data_on_crash false
+dynamic_filter true
+keep_signalsearchstring false
+suppress_eqn_func_completion false
+disable_star_expand_tree false
+precision_digits 3
+unit_scale 0
+axis_font 0
+browser_width 250
+browser_width_last 0
+### SPICE lint ###
+spice_netlist_erc off
+spice_inst_casesensitive false
+spice_parm_casesensitive false
+spice_sort_subckt_cells false
+spice_cell_index_depth true
+spice_smart_sort false
+use_hspiceini false
+lint_suppress_list 
+lint_min_resistance    1.000E-05
+lint_max_capacitance    1.000E-03
+lint_min_mos_width    1.000E-08
+lint_max_mos_width    1.000E-02
+lint_min_mos_length    1.000E-08
+lint_max_mos_length    1.000E-02
+### Custom WaveView ###
+waveview_TabPos top
+waveview_background black
+cycle_color_by panel+waveview
+clamp_ac_phase true
+left_button_action zoom
+init_xy_mode hvsel
+cds_link_plot_mode replace
+cds_link_update_mode append
+show_inf_data false
+inf_value    1.000E+50
+group_display_order file
+signal_filter_option glob
+support_substr_search false
+def_ac_stack complex
+def_acx_type log
+def_acy_type linear
+def_trx_type linear
+def_try_type linear
+def_fft_xscale log
+def_fft_yscale db
+signal_dnd_mode move
+logic_style_default vcd
+signal_font normal
+signal_name name+file
+signame_align left
+signal_path path+name
+load_data_at_open false
+auto_connect_split_files true
+grid_default on
+grid_brightness normal
+auto_y_axes off
+auto_y_width off
+alias_bracket true
+flatten_single_point_sweep true
+signame_popup false
+show_MP_prefix false
+show_ytype false
+limit_zoom_range false
+plotsig_bottompanel false
+smart_hsort false
+sweep_expand user
+remove_dupsig false
+case_sens_tr0 false
+flatten_segs true
+extend_waveform false
+convert_s_to_yz false
+not_show_vhdl_processes true
+disable_reload_wdf_confirm false
+disable_update_signal false
+disable_update_equation false
+add_toplevel_for_fsdb false
+logic_real_pwc_fsdb true
+use_snn false
+sync_alias true
+alias_signal_name_only false
+real_time_scroll true
+snap_marker false
+btn_add_hcursor false
+show_cross_label false
+hide_cursor_distance false
+ref_cursor_value_indv false
+bar_grip_scroll false
+auto_x_extend false
+auto_x_extend_dig true
+hide_panel_div false
+logic_cursor_snap true
+panel_mode_only false
+logic_glitch_highlight true
+stack_auto_fit on
+wdf_filter allfiles
+horz_panel_height 80
+default_panels_perrow 4
+default_hist_binsize 10
+default_hist_one false
+max_visible_panels 0
+read_top_hier true
+read_top_hier_threshold 5
+user_fixed_yrange false
+vmin 0
+vmax 3.3
+imin 0
+imax 1m
+lines_per_panel 0
+min_panel_height 20
+analog_panel_height 120
+max_log_span 25
+logic_panel_height 24
+panel_spacing 0
+horizontal_slider_step 50
+zoom_in_ratio 50
+smith_char_impedance    5.000E+01
+calc_eng false
+d2a_xtol true
+d2a_fullext true
+d2a_high_value    3.300E+00
+d2a_low_value    0.000E+00
+d2a_rise_slew    1.000E-11
+d2a_fall_slew    1.000E-11
+a2d_single_threshold true
+a2d_center_threshold    2.500E+00
+a2d_high_threshold    4.000E+00
+a2d_low_threshold    1.000E+00
+SX_DM_DMScale false
+SX_DM_ResultPanelScale false
+SNR_inc_floor_noise false

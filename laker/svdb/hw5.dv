@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/hw5.dv
+dv_start matched                                  
+dv_cell {hw5} {hw5} matched
+dv_obj_count -transformed_nets {8 8} -transformed_inst {7 7} -transformed_port {8 8}
+dv_end

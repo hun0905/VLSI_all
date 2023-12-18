@@ -1,0 +1,4 @@
+INCLUDE /usr/cadtool/cadence/IC/IC51.41.151/share/cdssetup/cds.lib
+DEFINE VLSI /home/u108/u108061217/VLSI/composer/VLSI/VLSI
+DEFINE VLSI_2 /home/u108/u108061217/VLSI/composer/VLSI/VLSI_2
+DEFINE vlsi /home/u108/u108061217/VLSI/composer/vlsi

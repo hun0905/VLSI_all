@@ -1,0 +1,70 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: hw2_part2_2
+* View Name:     schematic
+* Netlisted on:  Nov 12 22:45:15 2021
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    hw2_part2_2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT hw2_part2_2 IN OUT1 OUT2 OUT3 VDD VSS
+*.PININFO IN:I OUT1:O OUT2:O OUT3:O VDD:B VSS:B
+MM39 OUT3 net046 VSS VSS NM W=2.5u L=180.00n m=25
+MM38 net046 net0321 VSS VSS NM W=2.5u L=180.00n m=5
+MM37 net0323 net098 VSS VSS NM W=500.0n L=180.00n m=1
+MM36 net0321 net0323 VSS VSS NM W=500.0n L=180.00n m=1
+MM23 OUT2 net0322 VSS VSS NM W=2.5u L=180.00n m=25
+MM22 net0322 net074 VSS VSS NM W=2.5u L=180.00n m=5
+MM13 OUT1 net070 VSS VSS NM W=2.5u L=180.00n m=25
+MM12 net070 net0210 VSS VSS NM W=2.5u L=180.00n m=5
+MM16 net074 net082 VSS VSS NM W=500.0n L=180.00n m=1
+MM11 net0210 net054 VSS VSS NM W=2.5u L=180.00n m=25
+MM17 net082 net0210 VSS VSS NM W=500.0n L=180.00n m=1
+MM8 net050 net062 VSS VSS NM W=2.5u L=180.00n m=1
+MM26 net090 net0210 VSS VSS NM W=500.0n L=180.00n m=1
+MM25 net094 net0106 VSS VSS NM W=500.0n L=180.00n m=1
+MM24 net098 net094 VSS VSS NM W=500.0n L=180.00n m=1
+MM9 net054 net050 VSS VSS NM W=2.5u L=180.00n m=5
+MM27 net0106 net090 VSS VSS NM W=500.0n L=180.00n m=1
+MM10 net058 IN VSS VSS NM W=500.0n L=180.00n m=1
+MM4 net062 net058 VSS VSS NM W=500.0n L=180.00n m=1
+MM35 OUT3 net046 VDD VDD PM W=2.5u L=180.00n m=25
+MM34 net046 net0321 VDD VDD PM W=1.85u L=180.00n m=5
+MM33 net0323 net098 VDD VDD PM W=1.85u L=180.00n m=1
+MM32 net0321 net0323 VDD VDD PM W=1.85u L=180.00n m=1
+MM31 net0106 net090 VDD VDD PM W=1.85u L=180.00n m=1
+MM30 net090 net0210 VDD VDD PM W=1.85u L=180.00n m=1
+MM21 OUT2 net0322 VDD VDD PM W=2.5u L=180.00n m=25
+MM20 net0322 net074 VDD VDD PM W=1.85u L=180.00n m=5
+MM15 OUT1 net070 VDD VDD PM W=2.5u L=180.00n m=25
+MM14 net070 net0210 VDD VDD PM W=1.85u L=180.00n m=5
+MM7 net0210 net054 VDD VDD PM W=2.5u L=180.00n m=25
+MM18 net074 net082 VDD VDD PM W=1.85u L=180.00n m=1
+MM3 net050 net062 VDD VDD PM W=1.85u L=180.00n m=1
+MM19 net082 net0210 VDD VDD PM W=1.85u L=180.00n m=1
+MM5 net054 net050 VDD VDD PM W=1.85u L=180.00n m=5
+MM6 net058 IN VDD VDD PM W=1.85u L=180.00n m=1
+MM29 net094 net0106 VDD VDD PM W=1.85u L=180.00n m=1
+MM28 net098 net094 VDD VDD PM W=1.85u L=180.00n m=1
+MM0 net062 net058 VDD VDD PM W=1.85u L=180.00n m=1
+.ENDS
+

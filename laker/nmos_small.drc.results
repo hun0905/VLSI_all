@@ -1,0 +1,11 @@
+nmos_small 1000
+NIMP.S7
+1 1 2 Nov 10 21:55:57 2021                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Maximum N+ diffusion to the nearest P+ pick-up spacing (inside P-Well or Twell) is 20um (I/O, RAM, ROM, capacitor and diode are excepted)
+p 1 4
+CN nmos_small c 1 0 0 1 0 0 0
+-3800 175
+-2640 175
+-2640 675
+-3800 675

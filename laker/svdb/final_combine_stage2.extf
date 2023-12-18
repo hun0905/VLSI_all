@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1642328730 1642328731
+lvs_ExtOutFile RUNDIR /home/u108/u108061217/VLSI/laker
+lvs_ExtOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/u108/u108061217/VLSI/laker/final_combine_stage2.sp
+lvs_ExtOutFile EXTRACTION_REPORT final_combine_stage2.lvs.report.ext

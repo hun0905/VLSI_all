@@ -1,0 +1,112 @@
+       ###############################################
+       ##                                           ##
+       ##    FileName:  gdsIn.log                   ##
+       ##    GenDate :  17-Jan-2022   03:38:42      ##
+       ##                                           ##
+       ##    Laker:  2021.03 (Linux x86_64/64bit) 04/19/2021  ##
+       ##############################################N
+
+Command: gdsIn -64 -s Preserve -IoLayerMapMode Map -sumExtraLayer 1 -label Preserve -mode Overwrite -o /home/u108/u108061217/VLSI/laker/Final_v3 -t /home/u108/u108061217/Technology/laker.tf -Vm 4096 -Pi 102 -Pn 102 -SkipWarnNo 100 /home/u108/u108061217/VLSI/laker/Final_all_v3.gds
+Host/OS: ws35   Linux 3.10.0-1160.36.2.el7.x86_64
+
+##### Stream Library #####
+
+   userUnit: micron
+   dbScale : 0.001000
+
+##### Stream Cells #####
+
+   1.Final_all_v1            2.FInal_FF                3.Final_SA             
+   4.Ydecoder_final          5.final_and               6.CONT                 
+   7.Final_VIA1              8.VIA3                    9.inv_1u5_0u5          
+  10.inv_final              11.mos_unit               12.mos_unit2            
+  13.nand4_final            14.Body                   15.VIA1                 
+  16.VIA2                   17.final_mos_unit         18.poly                 
+  19.CONT_hw4             
+
+##### Stream Error File(gdsIn.err) #####
+
+ All cells have no fatal,warn,info message.
+
+
+
+##### Stream Property Attribute #####
+
+      1. Generate Inst Name As Prop No: 102
+      2. Generate Net As Prop No:       102
+
+      propAttri(1-127): NONE
+
+
+
+##### Stream Summary #####
+
+                   Resort Primary Cell(s)
+
+--------------------------------------------------------------------------
+   1.Final_all_v1         
+
+
+                   Resort Cell(s) Summary
+
+cellName     #cInst  #array    #rect    #poly    #path    #text  bBox(um)
+--------------------------------------------------------------------------------------------------
+Body              0       0        2        0        0        0 (-2.115,-0.390) (-1.635,0.080)
+CONT              0       0        3        0        0        0 (-0.290,-0.290) (0.280,0.280)
+CONT_hw4          0       0        1        0        0        0 (0.000,0.000) (0.230,0.230)
+FInal_FF         40       0      120        0       59        0 (-5.625,-7.215) (15.515,3.895)
+Final_SA         31       3       20        0       49        0 (-3.165,-2.455) (3.375,3.805)
+Final_VIA1        0       0        2        0        0        0 (-0.235,-0.235) (0.215,0.215)
+Final_all_v1      53       3    23331        1     3151      120 (-90.925,-53.790) (-8.645,86.095)
+VIA1              0       0        1        0        0        0 (0.000,0.000) (0.250,0.250)
+VIA2              0       0        4        0        0        0 (-0.245,-0.260) (0.255,0.240)
+VIA3              0       0        6        0        0        0 (-0.245,-0.260) (0.255,0.240)
+Ydecoder_final      90       2       87        0      109        0 (-0.380,-3.185) (27.025,21.965)
+final_and        21       4        8        0       31        0 (6.755,-1.150) (15.935,4.440)
+final_mos_unit       0       2        2        0        0        0 (-0.235,0.155) (0.925,1.055)
+inv_1u5_0u5       0       0       36        0        0        0 (-1.160,-3.265) (1.790,2.325)
+inv_final         0       0       36        0        0        0 (-1.160,-3.265) (1.235,2.325)
+mos_unit          0       0        6        0        0        0 (-0.605,-0.435) (0.555,0.840)
+mos_unit2         0       0        4        0        0        0 (-0.605,-0.435) (0.555,0.470)
+nand4_final      28       6        9        0       32        0 (6.275,-2.900) (13.440,2.810)
+poly              0       0        2        0        0        0 (-0.220,-0.225) (0.250,0.245)
+
+
+                   Resort Layer(s) Summary
+
+Laker                Stream
+layerName   purpose  layerNo  dataType    #rect    #poly    #path    #text
+--------------------------------------------------------------------------
+DIFF        drawing        1        0      2605        0        0        0
+NW          drawing        3        0        55        0        0        0
+PIMP        drawing       11        0       212        0        0        0
+NIMP        drawing       12        0       213        0        0        0
+CONT        drawing       39        0      6753        0        0        0
+PO1         drawing       41        0      3327        0      462        0
+ME1         drawing       46        0      4342        0     1041        0
+VIA1        drawing       47        0      2540        0        0        0
+ME2         drawing       48        0      2587        1     1516        0
+VIA2        drawing       49        0       410        0        0        0
+ME3         drawing       50        0       376        0      368        0
+VIA3        drawing       51        0       100        0        0        0
+ME4         drawing       52        0        80        0       44        0
+VIA4        drawing       53        0        32        0        0        0
+ME5         drawing       54        0        48        0        0        0
+M1_TEXT     drawing      101        0         0        0        0       25
+M2_TEXT     drawing      102        0         0        0        0       82
+M3_TEXT     drawing      103        0         0        0        0        1
+M4_TEXT     drawing      104        0         0        0        0       12
+
+
+
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off
+
+ EXE Start Time = 17-Jan-2022   03:38:42                  
+ EXE Stop  Time = 17-Jan-2022   03:38:43                  
+
+ #Elapsed Time  = 00:00:01
+ #CPU Time      = 00:00:00
+
+ #Memory 420560 K,Peak 420560 K
+ There are 0 cells that have extra layers.
+ Total #Fatal = 0, #Warn = 0

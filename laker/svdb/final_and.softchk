@@ -1,0 +1,41 @@
+final_and 1000
+SOFTCHK PSUB LOWER.
+1 1 4 Jan 16 10:12:17 2022                                                      
+Net VSS is selected for stamping.
+Rejected nets: VDD
+Net VSS is selected for stamping.
+Rejected nets: VDD
+p 1 14
+CN final_and c 1 0 0 1 0 0 0
+DN VSS
+5755 -2150
+16935 -2150
+16935 5440
+15895 5440
+15895 1125
+13540 1125
+13540 -320
+9955 -320
+9955 3300
+13540 3300
+13540 4440
+15895 4440
+15895 5440
+5755 5440
+SOFTCHK WEL LOWER.
+1 1 4 Jan 16 10:12:17 2022                                                      
+Net VSS is selected for stamping.
+Rejected nets: VDD
+Net VSS is selected for stamping.
+Rejected nets: VDD
+p 1 8
+CN final_and c 1 0 0 1 0 0 0
+DN VSS
+9955 -320
+13540 -320
+13540 1125
+15895 1125
+15895 4440
+13540 4440
+13540 3300
+9955 3300

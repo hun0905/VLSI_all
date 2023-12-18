@@ -1,0 +1,41 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: hw5
+* View Name:     schematic
+* Netlisted on:  Dec 18 21:50:21 2021
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM VTH = AGAUSS(0,0.072,6)
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    hw5
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT hw5 EN INN INP SO SON VDD VSS com
+*.PININFO INN:I INP:I SO:I SON:I VDD:B VSS:B
+MM19 com EN VSS VSS N_18 W=500.0n L=180.00n m=4 delvto=VTH
+MM17 SON SO net089 VSS N_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM18 net089 INP com VSS N_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM16 net093 INN com VSS N_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM15 SO SON net093 VSS N_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM13 SON SO VDD VDD P_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM12 SO SON VDD VDD P_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM9 SON EN VDD VDD P_18 W=500.0n L=180.00n m=1 delvto=VTH
+MM11 SO EN VDD VDD P_18 W=500.0n L=180.00n m=1 delvto=VTH
+.ENDS
+

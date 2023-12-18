@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1642422396 1642422397
+lvs_ExtOutFile RUNDIR /home/u108/u108061217/VLSI/laker/Final_v4
+lvs_ExtOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/Final_v4/_Rule.rce_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/u108/u108061217/VLSI/laker/Final_v4/svdb/Final_all_v2.sp
+lvs_ExtOutFile EXTRACTION_REPORT Final_all_v2.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/Final_all_v2.pdsp }

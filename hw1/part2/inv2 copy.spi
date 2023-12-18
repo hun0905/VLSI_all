@@ -1,0 +1,27 @@
+*title
+
+.subckt inv_1 IN OUT VDD VSS wp wn
+MP OUT IN VDD VDD p_18 w=wp l=0.18u m=1 $wp=1.85u
+MN OUT IN VSS VSS n_18 w=wn l=0.18u m=1 $wn=0.5u
+.ends 
+
+.subckt inv_2 IN OUT VDD VSS wp wn
+MP OUT IN VDD VDD p_18 w=wp l=0.18u m=1 $wp=1.85u
+MN OUT IN VSS VSS n_18 w=wn l=0.18u m=1 $wn=0.5u
+.ends 
+
+.subckt inv_3 IN OUT VDD VSS wp wn
+MP OUT IN VDD VDD p_18 w=wp l=0.18u m=3 $wp=1.85u
+MN OUT IN VSS VSS n_18 w=wn l=0.18u m=3 $wn=0.5u
+.ends 
+
+.subckt inv_4 IN OUT VDD VSS wp wn
+MP OUT IN VDD VDD p_18 w=wp l=0.18u m=5 $wp=1.85u
+MN OUT IN VSS VSS n_18 w=wn l=0.18u m=5 $wn=0.5u
+.ends 
+
+.subckt inv_5 IN OUT VDD VSS wp wn
+MP OUT IN VDD VDD p_18 w=11.4u l=0.18u m=7 $wp=11.4u
+MN OUT IN VSS VSS n_18 w=4.2u l=0.18u m=7 $wn=4.2u
+.ends 
+

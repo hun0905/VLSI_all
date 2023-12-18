@@ -1,0 +1,11 @@
+### Illegal Shapes Setting ###
+Rectangle with Zero Square Measure : ON, FATAL
+Polygon with Vertices Number Less than 4 : ON, FATAL
+Open Polygon : ON, FATAL
+Reentrant Polygon : ON, FATAL
+Path with Zero Width : ON, FATAL
+Self-intersected Polygon : OFF, FATAL
+Flash Path : ON, FATAL
+
+### cellName: VIA2_Final_v3 ###
+ *W* Cell VIA2(layout) in library Final_v3 has been renamed as VIA2_Final_v3.

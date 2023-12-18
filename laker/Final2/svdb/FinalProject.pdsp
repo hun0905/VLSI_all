@@ -1,0 +1,85 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP MN(N_18) L W
+* KEEP_PROP MN(N_33) L W
+* KEEP_PROP MN(N_BPW_18) L W
+* KEEP_PROP MN(N_BPW_33) L W
+* KEEP_PROP MN(N_LV_18) L W
+* KEEP_PROP MN(N_LV_33) L W
+* KEEP_PROP MN(N_ZERO_18) L W
+* KEEP_PROP MN(N_ZERO_33) L W
+* KEEP_PROP MP(P_18) L W
+* KEEP_PROP MP(P_33) L W
+* KEEP_PROP MP(P_LV_18) L W
+* KEEP_PROP MP(P_LV_33) L W
+* KEEP_PROP R(RNND) R
+* KEEP_PROP R(RNNPO) R
+* KEEP_PROP R(RNPD) R
+* KEEP_PROP R(RNPPO) R
+* KEEP_PROP R(RSND) R
+* KEEP_PROP R(RSNPO) R
+* KEEP_PROP R(RSNWELL) R
+* KEEP_PROP R(RSPD) R
+* KEEP_PROP R(RSPPO) R
+* KEEP_PROP_END
+*
+.SUBCKT mos_unit2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT mos_unit
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT Final_SA
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT final_mos_unit
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT inv_final
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT final_and
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT inv_1u5_0u5
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_3
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nand4_final
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT Ydecoder_final
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT FInal_FF
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT FinalProject
+* nothing transcripted
+.ENDS
+***************************************

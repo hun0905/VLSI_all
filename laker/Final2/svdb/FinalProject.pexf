@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/u108/u108061217/VLSI/laker/Final2
+pex_PexParam LAYOUT_PRIMARY FinalProject
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {FINALPROJECT "" FINALPROJECT.pdb "" } } 

@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/u108/u108061217/VLSI/laker/Final
+pex_PexParam LAYOUT_PRIMARY final_combine_stage2
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {FINAL_COMBINE_STAGE2 "" FINAL_COMBINE_STAGE2.pdb "" } } 

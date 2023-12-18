@@ -1,0 +1,6 @@
+*title
+.subckt inv IN OUT VDD VSS wp wn
+MP OUT IN VDD VDD p_18 w=wp l=0.18u m=1 
+MN OUT IN VSS VSS n_18 w=wn l=0.18u m=1 
+.ends 
+

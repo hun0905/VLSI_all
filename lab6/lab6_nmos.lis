@@ -1,0 +1,918 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: lab6_nmos.sp                                                      
+  Command line options: /usr/cadtool/cad/synopsys/hspice/2020.12-sp2/hspice/linux64/hspice -i lab6_nmos -o lab6_nmos.lis
+  Start time: Sat Jan  1 11:13:04 2022
+ lic:  
+ lic: FLEXlm: SDK_12.9.5 
+ lic: USER:   u108061217           HOSTNAME: ws35 
+ lic: HOSTID: "e41f136676d0"       PID:      475 
+ lic: Using FLEXlm license file: 
+ lic: 26585@lsntu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 14-may-2022/2020.03 
+ lic: 109(in_use)/190(total) FLOATING license(s) on SERVER 26585@lsntu 
+ lic:   
+1****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+ ******  
+ $lab6 nmos
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ ***************************************************************************
+ *** common model parameters  model name:   0:n_mos    model type:nmos   ***
+ ***************************************************************************
+     names  values   units     names  values   units     names  values   units
+     -----  ------   -----     -----  ------   -----     -----  ------   -----
+
+   1*** geometry parameters ***
+       ld=   0.    meters      lmlt=   1.00                wd=   0.    meters 
+     wmlt=   1.00                xl=   0.    meters        xw=   0.    meters 
+     lref=   0.    meters      wref=   0.    meters      lref=   0.    meters 
+     wref=   0.    meters     xlref=   0.    meters     xwref=   0.    meters 
+     lmin=   0.    meters      wmin=   0.    meters      lmax=   0.    meters 
+     wmax=   0.    meters 
+
+   2*** threshold voltage parameters ***
+      vto=   1.11  volts        nss=   0.    1/cm**2      tpg=   1.00         
+      phi= 579.84m volts      gamma= 527.63m v**0.5      bulk=  gnd           
+    ngate=   0.    cm**3       nsub= 1.0e+15 1/cm**3   delvto=   0.    volts  
+
+   3*** gate overlap capacitance parameters ***
+     cgbo=   0.    f/meter     cgdo= 100.00f f/meter     cgso= 100.00f f/meter
+     meto=   0.    meters 
+
+   4*** gate capacitance parameters ***
+    capop=   2.00               cf1=   0.    volts        cf2= 100.00m volts  
+      cf3=   1.00  volts        cf4=  50.00               cf5= 666.67m        
+      cf6= 500.00               xqc= 500.00m              tox= 100.00n meters 
+      cox= 345.31u f/m**2 
+
+   5*** diffusion parasitic parameters ***
+      acm=   0.                  is=  10.00f amps          js=   0.    a/m**2 
+      jsw=   0.    amp/m        nds=   1.00               cbd=   2.00p farad  
+      cbs=   2.00p farad         cj=   0.    f/m**2      cjsw=   0.    f/m    
+   cjgate=   0.    f/m           mj= 500.00m             mjsw= 330.00m        
+       pb= 800.00m volts        php= 800.00m volts         tt=   0.    secs   
+     hdif=   0.    meters      ldif=   0.    meters        rd=   0.    ohms   
+       rs=   0.    ohms         rsh=   0.    ohms/sq       fc=   0.           
+    alpha=   0.                 vcr=   0.    volts      iirat=   0.           
+      rdc=   0.    ohms         rsc=   0.    ohms           n=   1.00         
+     vnds=  -1.00  volts  
+
+   6*** temperature effect parameters ***
+     tlev=   0.               tlevc=   0.                  eg=   1.11  ev     
+     gap1= 702.00u ev/deg      gap2=   1.11k deg          xti=   0.           
+      bex=  -1.50               tcv=   0.    v/deg k      trd=   0.    /deg   
+      trs=   0.    /deg         cta=   0.    /deg         ctp=   0.    /deg   
+
+   7*** noise parameters ***
+       kf=   0.                  af=   1.00              nlev=   2.00         
+   gdsnoi=   1.00         
+
+   ***  level  1  model parameters  ***
+
+   lambda=   6.20m /v            kp= 239.87u a/v**2 
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     2.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  230.9891u 
+    1.00000   286.7686u 
+    1.50000   287.6521u 
+    2.00000   288.5356u 
+    2.50000   289.4191u 
+    3.00000   290.3026u 
+    3.50000   291.1861u 
+    4.00000   292.0696u 
+    4.50000   292.9531u 
+    5.00000   293.8366u 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     3.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  591.9094u 
+    1.00000     1.0065m 
+    1.50000     1.2420m 
+    2.00000     1.3012m 
+    2.50000     1.3052m 
+    3.00000     1.3092m 
+    3.50000     1.3131m 
+    4.00000     1.3171m 
+    4.50000     1.3211m 
+    5.00000     1.3251m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     4.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  952.8298u 
+    1.00000     1.7305m 
+    1.50000     2.3314m 
+    2.00000     2.7539m 
+    2.50000     2.9961m 
+    3.00000     3.0610m 
+    3.50000     3.0703m 
+    4.00000     3.0797m 
+    4.50000     3.0890m 
+    5.00000     3.0983m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     5.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m    1.3138m 
+    1.00000     2.4546m 
+    1.50000     3.4209m 
+    2.00000     4.2109m 
+    2.50000     4.8230m 
+    3.00000     5.2556m 
+    3.50000     5.5068m 
+    4.00000     5.5796m 
+    4.50000     5.5965m 
+    5.00000     5.6134m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+x
+
+ volt         current   
+             m2         
+    0.          6.6330p 
+  100.00000m    6.6330p 
+  200.00000m    6.6330p 
+  300.00000m    6.6330p 
+  400.00000m    6.6330p 
+  500.00000m    6.6330p 
+  600.00000m    6.6330p 
+  700.00000m    6.6330p 
+  800.00000m    6.6330p 
+  900.00000m    6.6330p 
+    1.00000     6.6330p 
+    1.10000     6.6330p 
+    1.20000     2.9741u 
+    1.30000    13.2547u 
+    1.40000    30.8787u 
+    1.50000    55.8460u 
+    1.60000    88.1567u 
+    1.70000   127.8107u 
+    1.80000   174.8080u 
+    1.90000   229.1487u 
+    2.00000   290.8327u 
+    2.10000   359.8600u 
+    2.20000   436.2307u 
+    2.30000   519.9446u 
+    2.40000   611.0020u 
+    2.50000   709.4026u 
+    2.60000   815.1466u 
+    2.70000   928.2339u 
+    2.80000     1.0487m 
+    2.90000     1.1764m 
+    3.00000     1.3116m 
+    3.10000     1.4540m 
+    3.20000     1.6038m 
+    3.30000     1.7610m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =   800.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.0000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.2000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.4000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.6000        ***
+  
+
+          ***** job concluded
+ ******  
+ $lab6 nmos
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU           E5530  @ 2.40GHz
+ cpu MHz	: 1596.000
+ CPU(s)		: 16
+  
+ OS:
+ Linux version 3.10.0-1160.36.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Jul 21 11:57:15 UTC 2021
+
+ System loadavg : 0.27 0.26 0.25 3/759 481
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       7 # elements   =       9
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       6
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       3 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  dc sweep           0.01          44         284
+  readin             0.01
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        471.84 megabytes
+           total cpu time            0.03 seconds
+           total elapsed time        0.61 seconds
+           job started at     11:13:04 01/01/2022
+           job ended   at     11:13:04 01/01/2022
+ ******  
+ $lab6 nmos
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ ***************************************************************************
+ *** common model parameters  model name:   0:n_mos    model type:nmos   ***
+ ***************************************************************************
+     names  values   units     names  values   units     names  values   units
+     -----  ------   -----     -----  ------   -----     -----  ------   -----
+
+   1*** geometry parameters ***
+       ld=   0.    meters      lmlt=   1.00                wd=   0.    meters 
+     wmlt=   1.00                xl=   0.    meters        xw=   0.    meters 
+     lref=   0.    meters      wref=   0.    meters      lref=   0.    meters 
+     wref=   0.    meters     xlref=   0.    meters     xwref=   0.    meters 
+     lmin=   0.    meters      wmin=   0.    meters      lmax=   0.    meters 
+     wmax=   0.    meters 
+
+   2*** threshold voltage parameters ***
+      vto=   1.11  volts        nss=   0.    1/cm**2      tpg=   1.00         
+      phi= 579.84m volts      gamma= 527.63m v**0.5      bulk=  gnd           
+    ngate=   0.    cm**3       nsub= 1.0e+15 1/cm**3   delvto=   0.    volts  
+
+   3*** gate overlap capacitance parameters ***
+     cgbo=   0.    f/meter     cgdo= 100.00f f/meter     cgso= 100.00f f/meter
+     meto=   0.    meters 
+
+   4*** gate capacitance parameters ***
+    capop=   2.00               cf1=   0.    volts        cf2= 100.00m volts  
+      cf3=   1.00  volts        cf4=  50.00               cf5= 666.67m        
+      cf6= 500.00               xqc= 500.00m              tox= 100.00n meters 
+      cox= 345.31u f/m**2 
+
+   5*** diffusion parasitic parameters ***
+      acm=   0.                  is=  10.00f amps          js=   0.    a/m**2 
+      jsw=   0.    amp/m        nds=   1.00               cbd=   2.00p farad  
+      cbs=   2.00p farad         cj=   0.    f/m**2      cjsw=   0.    f/m    
+   cjgate=   0.    f/m           mj= 500.00m             mjsw= 330.00m        
+       pb= 800.00m volts        php= 800.00m volts         tt=   0.    secs   
+     hdif=   0.    meters      ldif=   0.    meters        rd=   0.    ohms   
+       rs=   0.    ohms         rsh=   0.    ohms/sq       fc=   0.           
+    alpha=   0.                 vcr=   0.    volts      iirat=   0.           
+      rdc=   0.    ohms         rsc=   0.    ohms           n=   1.00         
+     vnds=  -1.00  volts  
+
+   6*** temperature effect parameters ***
+     tlev=   0.               tlevc=   0.                  eg=   1.11  ev     
+     gap1= 702.00u ev/deg      gap2=   1.11k deg          xti=   0.           
+      bex=  -1.50               tcv=   0.    v/deg k      trd=   0.    /deg   
+      trs=   0.    /deg         cta=   0.    /deg         ctp=   0.    /deg   
+
+   7*** noise parameters ***
+       kf=   0.                  af=   1.00              nlev=   2.00         
+   gdsnoi=   1.00         
+
+   ***  level  1  model parameters  ***
+
+   lambda=   6.20m /v            kp= 239.87u a/v**2 
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     2.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  230.9891u 
+    1.00000   286.7686u 
+    1.50000   287.6521u 
+    2.00000   288.5356u 
+    2.50000   289.4191u 
+    3.00000   290.3026u 
+    3.50000   291.1861u 
+    4.00000   292.0696u 
+    4.50000   292.9531u 
+    5.00000   293.8366u 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     3.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  591.9094u 
+    1.00000     1.0065m 
+    1.50000     1.2420m 
+    2.00000     1.3012m 
+    2.50000     1.3052m 
+    3.00000     1.3092m 
+    3.50000     1.3131m 
+    4.00000     1.3171m 
+    4.50000     1.3211m 
+    5.00000     1.3251m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     4.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  952.8298u 
+    1.00000     1.7305m 
+    1.50000     2.3314m 
+    2.00000     2.7539m 
+    2.50000     2.9961m 
+    3.00000     3.0610m 
+    3.50000     3.0703m 
+    4.00000     3.0797m 
+    4.50000     3.0890m 
+    5.00000     3.0983m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     5.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m    1.3138m 
+    1.00000     2.4546m 
+    1.50000     3.4209m 
+    2.00000     4.2109m 
+    2.50000     4.8230m 
+    3.00000     5.2556m 
+    3.50000     5.5068m 
+    4.00000     5.5796m 
+    4.50000     5.5965m 
+    5.00000     5.6134m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+x
+
+ volt         current   
+             m2         
+    0.          6.6330p 
+  100.00000m    6.6330p 
+  200.00000m    6.6330p 
+  300.00000m    6.6330p 
+  400.00000m    6.6330p 
+  500.00000m    6.6330p 
+  600.00000m    6.6330p 
+  700.00000m    6.6330p 
+  800.00000m    6.6330p 
+  900.00000m    6.6330p 
+    1.00000     6.6330p 
+    1.10000     6.6330p 
+    1.20000     2.9741u 
+    1.30000    13.2547u 
+    1.40000    30.8787u 
+    1.50000    55.8460u 
+    1.60000    88.1567u 
+    1.70000   127.8107u 
+    1.80000   174.8080u 
+    1.90000   229.1487u 
+    2.00000   290.8327u 
+    2.10000   359.8600u 
+    2.20000   436.2307u 
+    2.30000   519.9446u 
+    2.40000   611.0020u 
+    2.50000   709.4026u 
+    2.60000   815.1466u 
+    2.70000   928.2339u 
+    2.80000     1.0487m 
+    2.90000     1.1764m 
+    3.00000     1.3116m 
+    3.10000     1.4540m 
+    3.20000     1.6038m 
+    3.30000     1.7610m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =   800.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.0000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.2000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.4000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.6000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =    50.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   100.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   150.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   200.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   250.0000u       ***
+  
+
+          ***** job concluded
+ ******  
+ $lab6 nmos
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  Circuit Statistics  ******
+  # nodes       =       7 # elements   =       9
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       6
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       3 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  dc sweep           0.01          44         404
+  readin             0.00
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        472.37 megabytes
+           total cpu time            0.02 seconds
+           total elapsed time        0.03 seconds
+           job started at     11:13:04 01/01/2022
+           job ended   at     11:13:04 01/01/2022
+ ******  
+ $lab6 nmos
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ ***************************************************************************
+ *** common model parameters  model name:   0:n_mos    model type:nmos   ***
+ ***************************************************************************
+     names  values   units     names  values   units     names  values   units
+     -----  ------   -----     -----  ------   -----     -----  ------   -----
+
+   1*** geometry parameters ***
+       ld=   0.    meters      lmlt=   1.00                wd=   0.    meters 
+     wmlt=   1.00                xl=   0.    meters        xw=   0.    meters 
+     lref=   0.    meters      wref=   0.    meters      lref=   0.    meters 
+     wref=   0.    meters     xlref=   0.    meters     xwref=   0.    meters 
+     lmin=   0.    meters      wmin=   0.    meters      lmax=   0.    meters 
+     wmax=   0.    meters 
+
+   2*** threshold voltage parameters ***
+      vto=   1.11  volts        nss=   0.    1/cm**2      tpg=   1.00         
+      phi= 579.84m volts      gamma= 527.63m v**0.5      bulk=  gnd           
+    ngate=   0.    cm**3       nsub= 1.0e+15 1/cm**3   delvto=   0.    volts  
+
+   3*** gate overlap capacitance parameters ***
+     cgbo=   0.    f/meter     cgdo= 100.00f f/meter     cgso= 100.00f f/meter
+     meto=   0.    meters 
+
+   4*** gate capacitance parameters ***
+    capop=   2.00               cf1=   0.    volts        cf2= 100.00m volts  
+      cf3=   1.00  volts        cf4=  50.00               cf5= 666.67m        
+      cf6= 500.00               xqc= 500.00m              tox= 100.00n meters 
+      cox= 345.31u f/m**2 
+
+   5*** diffusion parasitic parameters ***
+      acm=   0.                  is=  10.00f amps          js=   0.    a/m**2 
+      jsw=   0.    amp/m        nds=   1.00               cbd=   2.00p farad  
+      cbs=   2.00p farad         cj=   0.    f/m**2      cjsw=   0.    f/m    
+   cjgate=   0.    f/m           mj= 500.00m             mjsw= 330.00m        
+       pb= 800.00m volts        php= 800.00m volts         tt=   0.    secs   
+     hdif=   0.    meters      ldif=   0.    meters        rd=   0.    ohms   
+       rs=   0.    ohms         rsh=   0.    ohms/sq       fc=   0.           
+    alpha=   0.                 vcr=   0.    volts      iirat=   0.           
+      rdc=   0.    ohms         rsc=   0.    ohms           n=   1.00         
+     vnds=  -1.00  volts  
+
+   6*** temperature effect parameters ***
+     tlev=   0.               tlevc=   0.                  eg=   1.11  ev     
+     gap1= 702.00u ev/deg      gap2=   1.11k deg          xti=   0.           
+      bex=  -1.50               tcv=   0.    v/deg k      trd=   0.    /deg   
+      trs=   0.    /deg         cta=   0.    /deg         ctp=   0.    /deg   
+
+   7*** noise parameters ***
+       kf=   0.                  af=   1.00              nlev=   2.00         
+   gdsnoi=   1.00         
+
+   ***  level  1  model parameters  ***
+
+   lambda=   6.20m /v            kp= 239.87u a/v**2 
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     2.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  230.9891u 
+    1.00000   286.7686u 
+    1.50000   287.6521u 
+    2.00000   288.5356u 
+    2.50000   289.4191u 
+    3.00000   290.3026u 
+    3.50000   291.1861u 
+    4.00000   292.0696u 
+    4.50000   292.9531u 
+    5.00000   293.8366u 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     3.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  591.9094u 
+    1.00000     1.0065m 
+    1.50000     1.2420m 
+    2.00000     1.3012m 
+    2.50000     1.3052m 
+    3.00000     1.3092m 
+    3.50000     1.3131m 
+    4.00000     1.3171m 
+    4.50000     1.3211m 
+    5.00000     1.3251m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     4.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m  952.8298u 
+    1.00000     1.7305m 
+    1.50000     2.3314m 
+    2.00000     2.7539m 
+    2.50000     2.9961m 
+    3.00000     3.0610m 
+    3.50000     3.0703m 
+    4.00000     3.0797m 
+    4.50000     3.0890m 
+    5.00000     3.0983m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter 0:vgs1  =     5.0000        ***
+  
+x
+
+ volt         current   
+             m1         
+    0.          0.      
+  500.00000m    1.3138m 
+    1.00000     2.4546m 
+    1.50000     3.4209m 
+    2.00000     4.2109m 
+    2.50000     4.8230m 
+    3.00000     5.2556m 
+    3.50000     5.5068m 
+    4.00000     5.5796m 
+    4.50000     5.5965m 
+    5.00000     5.6134m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+x
+
+ volt         current   
+             m2         
+    0.          6.6330p 
+  100.00000m    6.6330p 
+  200.00000m    6.6330p 
+  300.00000m    6.6330p 
+  400.00000m    6.6330p 
+  500.00000m    6.6330p 
+  600.00000m    6.6330p 
+  700.00000m    6.6330p 
+  800.00000m    6.6330p 
+  900.00000m    6.6330p 
+    1.00000     6.6330p 
+    1.10000     6.6330p 
+    1.20000     2.9741u 
+    1.30000    13.2547u 
+    1.40000    30.8787u 
+    1.50000    55.8460u 
+    1.60000    88.1567u 
+    1.70000   127.8107u 
+    1.80000   174.8080u 
+    1.90000   229.1487u 
+    2.00000   290.8327u 
+    2.10000   359.8600u 
+    2.20000   436.2307u 
+    2.30000   519.9446u 
+    2.40000   611.0020u 
+    2.50000   709.4026u 
+    2.60000   815.1466u 
+    2.70000   928.2339u 
+    2.80000     1.0487m 
+    2.90000     1.1764m 
+    3.00000     1.3116m 
+    3.10000     1.4540m 
+    3.20000     1.6038m 
+    3.30000     1.7610m 
+y
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =   800.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.0000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.2000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.4000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vtn =     1.6000        ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =    50.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   100.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   150.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   200.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter kn =   250.0000u       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter lam =    20.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter lam =    30.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter lam =    40.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter lam =    50.0000m       ***
+  
+ ******
+ $lab6 nmos
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter lam =    60.0000m       ***
+  
+
+          ***** job concluded
+ ******  
+ $lab6 nmos
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  Circuit Statistics  ******
+  # nodes       =       7 # elements   =       9
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       6
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       3 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  dc sweep           0.02          44         524
+  readin             0.01
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        472.37 megabytes
+           total cpu time            0.04 seconds
+           total elapsed time        0.04 seconds
+           job started at     11:13:04 01/01/2022
+           job ended   at     11:13:04 01/01/2022
+           job total runtime         0.68 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.57(s)

@@ -1,0 +1,2 @@
+*Error* dbClose: argument #1 should be a database object (type template = "d") - nil
+*WARNING* dbOpenCellViewByType: Failed to open cellView (hw2_part2_1 schematic) from lib (VLSI) in 'r' mode because cellview does not exist.

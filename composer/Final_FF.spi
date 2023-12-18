@@ -1,0 +1,68 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  vlsi
+* Top Cell Name: Final_FF
+* View Name:     schematic
+* Netlisted on:  Jan 16 00:41:13 2022
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    tri_state
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT tri_state !en VDD VSS en input out
+*.PININFO !en:I VDD:I VSS:I en:I input:I out:B
+MM3 net5 en VSS VSS N_18 W=500.0n L=180.00n
+MM2 out input net5 VSS N_18 W=500.0n L=180.00n
+MM1 out input net12 VDD P_18 W=1.5u L=180.00n
+MM0 net12 !en VDD VDD P_18 W=1.5u L=180.00n
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT VDD VSS
+*.PININFO IN:I OUT:B VDD:B VSS:B
+MM10 OUT IN VSS VSS N_18 W=500.0n L=180.00n m=1
+MM6 OUT IN VDD VDD P_18 W=1.5u L=180.00n m=1
+.ENDS
+
+************************************************************************
+* Library Name: vlsi
+* Cell Name:    Final_FF
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Final_FF !c C D Q VDD VSS
+*.PININFO !c:I C:I D:I Q:O VDD:B VSS:B
+MM4 net5 C net14 VSS N_18 W=500.0n L=180.00n
+MM2 net18 !c net13 VSS N_18 W=500.0n L=180.00n
+MM3 net5 !c net14 VDD P_18 W=1.5u L=180.00n
+MM0 net18 C net13 VDD P_18 W=1.5u L=180.00n
+XI6 C VDD VSS !c net1 net5 / tri_state
+XI5 !c VDD VSS C net14 net13 / tri_state
+XI4 net1 Q VDD VSS / inverter
+XI3 net5 net1 VDD VSS / inverter
+XI1 net13 net14 VDD VSS / inverter
+XI0 D net18 VDD VSS / inverter
+.ENDS
+

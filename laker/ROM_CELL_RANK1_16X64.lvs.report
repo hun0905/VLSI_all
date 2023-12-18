@@ -1,0 +1,336 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         ROM_CELL_RANK1_16X64.lvs.report
+LAYOUT NAME:              /home/u108/u108061217/VLSI/laker/ROM_CELL_RANK1_16X64.sp ('ROM_CELL_RANK1_16X64')
+SOURCE NAME:              /home/u108/u108061217/VLSI/composer/ROM.spi ('ROM2')
+RULE FILE:                /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+RULE FILE TITLE:          LVS Ver 1.0 of CIC 0.18um 1.8V/3.3V 1P6M virtual Mixed Mode/RFCMOS Process
+CREATION TIME:            Thu Jan  6 18:08:00 2022
+CURRENT DIRECTORY:        /home/u108/u108061217/VLSI/laker
+USER NAME:                u108061217
+CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:01 PST 2021
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        ROM_CELL_RANK1_16X64          ROM2
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VCC" "VDD" "VDD3V" "DVDD" "V3IO" "V2IO"
+   LVS GROUND NAME                        "VSS" "GND" "VBB" "V0IO" "DGND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 NO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n_18)  l l 0
+   TRACE PROPERTY  mn(n_18)  w w 0
+   TRACE PROPERTY  mp(p_18)  l l 0
+   TRACE PROPERTY  mp(p_18)  w w 0
+   TRACE PROPERTY  mn(n_33)  l l 0
+   TRACE PROPERTY  mn(n_33)  w w 0
+   TRACE PROPERTY  mp(p_33)  l l 0
+   TRACE PROPERTY  mp(p_33)  w w 0
+   TRACE PROPERTY  mn(n_lv_18)  l l 0
+   TRACE PROPERTY  mn(n_lv_18)  w w 0
+   TRACE PROPERTY  mp(p_lv_18)  l l 0
+   TRACE PROPERTY  mp(p_lv_18)  w w 0
+   TRACE PROPERTY  mn(n_lv_33)  l l 0
+   TRACE PROPERTY  mn(n_lv_33)  w w 0
+   TRACE PROPERTY  mp(p_lv_33)  l l 0
+   TRACE PROPERTY  mp(p_lv_33)  w w 0
+   TRACE PROPERTY  mn(n_zero_18)  l l 0
+   TRACE PROPERTY  mn(n_zero_18)  w w 0
+   TRACE PROPERTY  mn(n_zero_33)  l l 0
+   TRACE PROPERTY  mn(n_zero_33)  w w 0
+   TRACE PROPERTY  mn(n_bpw_18)  l l 0
+   TRACE PROPERTY  mn(n_bpw_18)  w w 0
+   TRACE PROPERTY  mn(n_bpw_33)  l l 0
+   TRACE PROPERTY  mn(n_bpw_33)  w w 0
+   TRACE PROPERTY  r(rsnwell)  r r 5
+   TRACE PROPERTY  r(rsnd)  r r 5
+   TRACE PROPERTY  r(rspd)  r r 5
+   TRACE PROPERTY  r(rsnpo)  r r 5
+   TRACE PROPERTY  r(rsppo)  r r 5
+   TRACE PROPERTY  r(rnnd)  r r 5
+   TRACE PROPERTY  r(rnpd)  r r 5
+   TRACE PROPERTY  r(rnnpo)  r r 5
+   TRACE PROPERTY  r(rnppo)  r r 5
+   TRACE PROPERTY  r(rnhr1000)  r r 5
+   TRACE PROPERTY  r(rm1)  r r 1
+   TRACE PROPERTY  r(rm2)  r r 1
+   TRACE PROPERTY  r(rm3)  r r 1
+   TRACE PROPERTY  r(rm4)  r r 1
+   TRACE PROPERTY  r(rm5)  r r 1
+   TRACE PROPERTY  r(rm6)  r r 1
+   TRACE PROPERTY  q(pnp_v50x50)  a a 1
+   TRACE PROPERTY  q(pnp_v100x100)  a a 1
+   TRACE PROPERTY  c(mimcaps)  c c 5
+   TRACE PROPERTY  d(dn)  a a 12
+   TRACE PROPERTY  d(dn)  p p 1
+   TRACE PROPERTY  d(dp)  a a 12
+   TRACE PROPERTY  d(dp)  p p 1
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         ROM_CELL_RANK1_16X64
+SOURCE CELL NAME:         ROM2
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             81        81
+
+ Nets:             593       593
+
+ Instances:       1024      1024         MN (4 pins)
+                ------    ------
+ Total Inst:      1024      1024
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             81        81
+
+ Nets:             593       593
+
+ Instances:        512       512         MN (4 pins)
+                    16        16         _pdw32v (34 pins)
+                ------    ------
+ Total Inst:       528       528
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              81         81            0            0
+
+   Nets:              593        593            0            0
+
+   Instances:         512        512            0            0    MN(N_18)
+                       16         16            0            0    _pdw32v
+                  -------    -------    ---------    ---------
+   Total Inst:        528        528            0            0
+
+
+o Statistics:
+
+   56 nets were matched arbitrarily.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VSS BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BL<8> BL<9> BL<10> BL<11>
+                 BL<12> BL<13> BL<14> BL<15> WL<63> WL<47> WL<31> WL<15> WL<62> WL<46> WL<30>
+                 WL<14> WL<61> WL<45> WL<29> WL<13> WL<60> WL<44> WL<28> WL<12> WL<59> WL<43>
+                 WL<27> WL<11> WL<58> WL<42> WL<26> WL<10> WL<57> WL<41> WL<25> WL<9> WL<56>
+                 WL<40> WL<24> WL<8> WL<55>
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X0/34                                                     net3732
+       X0/36                                                     net3736
+       X0/38                                                     net3748
+       X0/40                                                     net3752
+       X0/42                                                     net3764
+       X0/44                                                     net3768
+       X0/46                                                     net3780
+       X0/50                                                     net5004
+       X0/52                                                     net5012
+       X0/54                                                     net5024
+       X0/56                                                     net5028
+       X0/58                                                     net5040
+       X0/60                                                     net5044
+       X0/62                                                     net5056
+       X0/66                                                     net3804
+       X0/68                                                     net3812
+       X0/70                                                     net3824
+       X0/72                                                     net3828
+       X0/74                                                     net3840
+       X0/76                                                     net3844
+       X0/78                                                     net3856
+       X0/82                                                     net3644
+       X0/84                                                     net3792
+       X0/86                                                     net4900
+       X0/88                                                     net4916
+       X0/90                                                     net4984
+       X0/92                                                     net4988
+       X0/94                                                     net5000
+       X0/98                                                     net4048
+       X0/100                                                    net4056
+       X0/102                                                    net4068
+       X0/104                                                    net4072
+       X0/106                                                    net4084
+       X0/108                                                    net4088
+       X0/110                                                    net4100
+       X0/114                                                    net3444
+       X0/116                                                    net3448
+       X0/118                                                    net3460
+       X0/120                                                    net3464
+       X0/122                                                    net3476
+       X0/124                                                    net3480
+       X0/126                                                    net3492
+       X0/130                                                    net3976
+       X0/132                                                    net3980
+       X0/134                                                    net3992
+       X0/136                                                    net3996
+       X0/138                                                    net4008
+       X0/140                                                    net4012
+       X0/142                                                    net4024
+       X0/146                                                    net3504
+
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

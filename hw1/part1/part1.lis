@@ -1,0 +1,137 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2021 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: part1.sp                                                          
+  Command line options: /usr/cadtool/cad/synopsys/hspice/2020.12-sp2/hspice/linux64/hspice -i part1.sp -o part1.lis
+  Start time: Thu Nov  4 18:44:37 2021
+ lic:  
+ lic: FLEXlm: SDK_12.9.5 
+ lic: USER:   u108061217           HOSTNAME: ws35 
+ lic: HOSTID: "e41f136676d0"       PID:      11795 
+ lic: Using FLEXlm license file: 
+ lic: 26585@lsntu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 14-may-2022/2020.03 
+ lic: 147(in_use)/190(total) FLOATING license(s) on SERVER 26585@lsntu 
+ lic:   
+  **warning** option measfile is disabled due to no .alter in the netlist
+1****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+ ******  
+ *title
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             inv                1.00 
+  **warning** (part1.sp:13) Both nodes of element v2 are connected together; Line ignored.
+  **info** (part1.sp:10) DC voltage reset to initial transient source value in source 0:vvin. new dc=0.0000D+00
+ 
+
+  
+  **warning** No connections on node wn; Node ignored.
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 15
+ file=part1.pa0
+
+ ******
+ *title
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+ vil= 742.2339m
+ vih=   1.0438 
+ voh=   1.6694 
+ vol=  96.6563m
+ nml= 645.5776m
+ nmh= 625.5695m
+ **info** dc convergence successful at Newton-Raphson method 
+ ******  
+ *title
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:vdd     =   1.8000  0:vin     =   0.      0:vout    =   1.8000 
+ +0:wn      =   0.      0:wp      =   0.     
+
+ ******
+ *title
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ delaytimelh= 130.3732p  targ=  20.6304n   trig=  20.5000n
+ delaytimehl= 135.3228p  targ=  25.6353n   trig=  25.5000n
+ pwr=  72.4111u  from=  20.0000n     to=  30.0000n
+ delay= 132.8480p
+ fom=   9.6197f
+
+          ***** job concluded
+ ******  
+ *title
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU           E5530  @ 2.40GHz
+ cpu MHz	: 2394.000
+ CPU(s)		: 16
+  
+ OS:
+ Linux version 3.10.0-1160.36.2.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Jul 21 11:57:15 UTC 2021
+
+ System loadavg : 1.53 1.27 1.18 4/809 11799
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ****** Statistics of Ignored Elements ******
+  Voltage Sources :       1
+
+  ******  Circuit Statistics  ******
+  # nodes       =      10 # elements   =       7
+  # resistors   =       2 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       2
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       2 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           7
+  dc sweep           0.02         181         418
+  transient          0.01       30001         395         163 rev=        17
+  readin             0.03
+  errchk             0.01
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        470.90 megabytes
+           total cpu time            0.08 seconds
+           total elapsed time        0.67 seconds
+           job started at     18:44:37 11/04/2021
+           job ended   at     18:44:38 11/04/2021
+           job total runtime         0.67 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.58(s)

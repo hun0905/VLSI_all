@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/ROM_CELL_RANK1_16X64.dv
+dv_start matched                                  
+dv_cell {ROM_CELL_RANK1_16X64} {ROM2} matched
+dv_obj_count -transformed_nets {593 593} -transformed_inst {528 528} -transformed_port {81 81}
+dv_end

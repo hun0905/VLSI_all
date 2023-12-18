@@ -1,0 +1,39 @@
+### Custom WaveView ADV log file, revision N-2017.12 (build Nov 23, ) ###
+### created at 13:17:47 on Wed Jan  5 2022 (Linux AMD64) ###
+### Host Name: ws35   User ID: u108061217   PID: 15318   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 62 19
+wv_resize_window {Custom WaveView} 800 586
+wv_move_window {Custom WaveView} {} 100 57
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 100 57
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_move_window {FileDialog} {} 10 38
+wv_move_window {FileDialog} {} 792 208
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {hw3_part2.tr0} 13
+wv_dclick_list_item {FileDialog} {} {FileList} {hw3_part2.tr0} 13
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:hw3_part2.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:hw3_part2.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:hw3_part2.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(clk)} 7
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(clk)} 7
+wv_select_list_item {Custom WaveView} {} {sigview} {v(q)} 9
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(q)} 9
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vdd)} 10
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(vdd)} 10
+wv_select_list_item {Custom WaveView} {} {sigview} {v(0)} 6
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(0)} 6
+wv_select_list_item {Custom WaveView} {} {sigview} {v(!q)} 5
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(!q)} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {v(!clk)} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {v(!clk)} 4
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 904 488
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/u108/u108061217/.cx_hostport/.cx_hostport_ws35_15318'.

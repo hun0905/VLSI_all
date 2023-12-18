@@ -1,0 +1,27 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         hw3_part1.lvs.report.ext
+LAYOUT NAME:              hw3_part1.calibre.db ('hw3_part1')
+CREATION TIME:            Tue Nov 23 22:04:20 2021
+CURRENT DIRECTORY:        /home/u108/u108061217/VLSI/laker
+USER NAME:                u108061217
+CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:01 PST 2021
+
+
+
+Extraction Errors and Warnings for cell "hw3_part1"
+---------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+

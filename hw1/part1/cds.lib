@@ -1,0 +1,2 @@
+INCLUDE /usr/cadtool/cadence/IC/IC51.41.151/share/cdssetup/cds.lib
+DEFINE VLSI /home/u108/u108061217/VLSI/hw1/part1/VLSI

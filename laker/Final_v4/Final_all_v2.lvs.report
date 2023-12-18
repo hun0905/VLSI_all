@@ -1,0 +1,340 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         Final_all_v2.lvs.report
+LAYOUT NAME:              /home/u108/u108061217/VLSI/laker/Final_v4/svdb/Final_all_v2.sp ('Final_all_v2')
+SOURCE NAME:              /home/u108/u108061217/VLSI/Final/Final3.spi ('Final')
+RULE FILE:                /home/u108/u108061217/VLSI/laker/Final_v4/_Rule.rce_
+RULE FILE TITLE:          LVS Ver 1.2 P8 of CIC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+CREATION TIME:            Mon Jan 17 20:26:37 2022
+CURRENT DIRECTORY:        /home/u108/u108061217/VLSI/laker/Final_v4
+USER NAME:                u108061217
+CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:01 PST 2021
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        Final_all_v2                  Final
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VCC" "VDD" "VDD3V" "DVDD" "V3IO" "V2IO"
+   LVS GROUND NAME                        "VSS" "GND" "VBB" "V0IO" "DGND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       YES
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 NO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n_18)  l l 5
+   TRACE PROPERTY  mn(n_18)  w w 5
+   TRACE PROPERTY  mp(p_18)  l l 5
+   TRACE PROPERTY  mp(p_18)  w w 5
+   TRACE PROPERTY  mn(n_33)  l l 5
+   TRACE PROPERTY  mn(n_33)  w w 5
+   TRACE PROPERTY  mp(p_33)  l l 5
+   TRACE PROPERTY  mp(p_33)  w w 5
+   TRACE PROPERTY  mn(n_lv_18)  l l 1
+   TRACE PROPERTY  mn(n_lv_18)  w w 1
+   TRACE PROPERTY  mp(p_lv_18)  l l 1
+   TRACE PROPERTY  mp(p_lv_18)  w w 1
+   TRACE PROPERTY  mn(n_lv_33)  l l 1
+   TRACE PROPERTY  mn(n_lv_33)  w w 1
+   TRACE PROPERTY  mp(p_lv_33)  l l 1
+   TRACE PROPERTY  mp(p_lv_33)  w w 1
+   TRACE PROPERTY  mn(n_zero_18)  l l 1
+   TRACE PROPERTY  mn(n_zero_18)  w w 1
+   TRACE PROPERTY  mn(n_zero_33)  l l 1
+   TRACE PROPERTY  mn(n_zero_33)  w w 1
+   TRACE PROPERTY  mn(n_bpw_18)  l l 1
+   TRACE PROPERTY  mn(n_bpw_18)  w w 1
+   TRACE PROPERTY  mn(n_bpw_33)  l l 1
+   TRACE PROPERTY  mn(n_bpw_33)  w w 1
+   TRACE PROPERTY  r(rsnwell)  r r 10
+   TRACE PROPERTY  r(rsnd)  r r 10
+   TRACE PROPERTY  r(rspd)  r r 10
+   TRACE PROPERTY  r(rsnpo)  r r 10
+   TRACE PROPERTY  r(rsppo)  r r 10
+   TRACE PROPERTY  r(rnnd)  r r 10
+   TRACE PROPERTY  r(rnpd)  r r 10
+   TRACE PROPERTY  r(rnnpo)  r r 10
+   TRACE PROPERTY  r(rnppo)  r r 10
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         Final_all_v2
+SOURCE CELL NAME:         Final
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:             939       939
+
+ Instances:       1442      1436    *    MN (4 pins)
+                   426       426         MP (4 pins)
+                ------    ------
+ Total Inst:      1868      1862
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Nets:             763       763
+
+ Instances:       1060      1060         MN (4 pins)
+                    58        58         MP (4 pins)
+                   108       108         INV (2 pins)
+                    24        24         NAND4 (5 pins)
+                    64        64         NOR2 (3 pins)
+                    18        18         SDW2 (3 pins)
+                    18        18         SUP2 (3 pins)
+                     4         4         SMN2 (4 pins)
+                ------    ------
+ Total Inst:      1354      1354
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Nets:              763        763            0            0
+
+   Instances:        1060       1060            0            0    MN(N_18)
+                       58         58            0            0    MP(P_18)
+                      108        108            0            0    INV
+                       24         24            0            0    NAND4
+                       64         64            0            0    NOR2
+                       18         18            0            0    SDW2
+                       18         18            0            0    SUP2
+                        4          4            0            0    SMN2
+                  -------    -------    ---------    ---------
+   Total Inst:       1354       1354            0            0
+
+
+o Statistics:
+
+   8 layout mos transistors were reduced to 2.
+     6 mos transistors were deleted by parallel reduction.
+
+   56 nets were matched arbitrarily.
+
+
+o Layout Names That Are Missing In The Source:
+
+   Nets:         WL_EN
+
+
+o Initial Correspondence Points:
+
+   Nets:         VDD VSS YOUT<0> YOUT<1> YOUT<2> YOUT<3> YOUT<4> YOUT<5> YOUT<6> YOUT<7> DOUT<0>
+                 SO<0> DOUT<1> SO<1> CLK SAEN BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7>
+                 BL<8> BL<9> BL<10> BL<11> BL<12> BL<13> BL<14> BL<15> X_SEL<5> X_SEL<2>
+                 X_SEL<4> X_SEL<1> X_SEL<3> X_SEL<0> WL<63> WL<62> WL<61> WL<60> WL<59> WL<58>
+                 WL<57> WL<56> WL<55> WL<54> WL<53> WL<52>
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       776                                                       XI10/net1732
+       712                                                       XI10/net1748
+       648                                                       XI10/net3320
+       584                                                       XI10/net3324
+       520                                                       XI10/net3352
+       456                                                       XI10/net3356
+       392                                                       XI10/net3432
+       775                                                       XI10/net5716
+       711                                                       XI10/net5720
+       647                                                       XI10/net5736
+       583                                                       XI10/net5744
+       519                                                       XI10/net5760
+       455                                                       XI10/net5768
+       391                                                       XI10/net5780
+       777                                                       XI10/net1720
+       713                                                       XI10/net1744
+       649                                                       XI10/net1760
+       585                                                       XI10/net1764
+       521                                                       XI10/net1776
+       457                                                       XI10/net1780
+       393                                                       XI10/net5564
+       774                                                       XI10/net5644
+       710                                                       XI10/net5652
+       646                                                       XI10/net5664
+       582                                                       XI10/net5668
+       518                                                       XI10/net5680
+       454                                                       XI10/net5684
+       390                                                       XI10/net5696
+       778                                                       XI10/net3100
+       714                                                       XI10/net3108
+       650                                                       XI10/net3120
+       586                                                       XI10/net3124
+       522                                                       XI10/net3136
+       458                                                       XI10/net3140
+       394                                                       XI10/net3152
+       773                                                       XI10/net2472
+       709                                                       XI10/net2496
+       645                                                       XI10/net2512
+       581                                                       XI10/net2516
+       517                                                       XI10/net2528
+       453                                                       XI10/net2532
+       389                                                       XI10/net2780
+       779                                                       XI10/net3168
+       715                                                       XI10/net3172
+       651                                                       XI10/net3188
+       587                                                       XI10/net3196
+       523                                                       XI10/net3212
+       459                                                       XI10/net3220
+       395                                                       XI10/net3232
+       772                                                       XI10/net2484
+
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

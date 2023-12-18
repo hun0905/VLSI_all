@@ -1,0 +1,42 @@
+#
+vlsi nand symbol
+I7
+I6
+I5
+I4
+I3
+I2
+I1
+I0
+#
+vlsi inverter symbol
+I11
+I12
+I13
+I14
+I15
+I16
+I17
+I18
+I10
+I9
+I8
+#ISCELL
+basic ipin symbol
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic iopin symbolr
+PIN5
+PIN4
+#ISCELL
+basic opin symbol
+PIN13
+PIN6
+PIN7
+PIN8
+PIN9
+PIN10
+PIN11
+PIN12

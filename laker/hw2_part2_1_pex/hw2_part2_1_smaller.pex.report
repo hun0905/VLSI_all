@@ -1,0 +1,80 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              HW2_PART2_1_SMALLER
+RULE FILE NAME:           rules
+CREATION TIME:            Fri Nov 12 00:13:50 2021
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                HW2_PART2_1_SMALLER
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   1.19754e-14             0            0.0  VSS
+            - Coupled nets
+            - Intrinsic Capacitance
+               1.19754e-14
+            - Coupled capacitance
+
+
+2                     0.0   1.39568e-14             0            0.0  OUT5
+            - Coupled nets
+            - Intrinsic Capacitance
+               1.39568e-14
+            - Coupled capacitance
+
+
+3                     0.0   1.30557e-14             0            0.0  VDD
+            - Coupled nets
+            - Intrinsic Capacitance
+               1.30557e-14
+            - Coupled capacitance
+
+
+4                     0.0   4.41694e-15             0            0.0  OUT3
+            - Coupled nets
+            - Intrinsic Capacitance
+               4.41694e-15
+            - Coupled capacitance
+
+
+5                     0.0   7.08957e-15             0            0.0  OUT
+            - Coupled nets
+            - Intrinsic Capacitance
+               7.08957e-15
+            - Coupled capacitance
+
+
+6                     0.0   5.88308e-15             0            0.0  OUT2
+            - Coupled nets
+            - Intrinsic Capacitance
+               5.88308e-15
+            - Coupled capacitance
+
+
+7                     0.0   6.74817e-15             0            0.0  IN
+            - Coupled nets
+            - Intrinsic Capacitance
+               6.74817e-15
+            - Coupled capacitance
+
+
+8                     0.0   1.12446e-14             0            0.0  OUT4
+            - Coupled nets
+            - Intrinsic Capacitance
+               1.12446e-14
+            - Coupled capacitance
+
+

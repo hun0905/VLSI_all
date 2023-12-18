@@ -1,0 +1,21 @@
+hw3_part1 1000
+SOFTCHK PSUB LOWER.
+1 1 2 Nov 23 22:04:21 2021                                                      
+Net VSS is selected for stamping.
+Rejected nets: 6 7
+p 1 12
+DN VSS
+-3595 -6130
+5670 -6130
+5670 4440
+1540 4440
+1540 1940
+1980 1940
+1980 -1060
+-2340 -1060
+-2340 3440
+1540 3440
+1540 4440
+-3595 4440
+SOFTCHK WEL LOWER.
+0 0 0 Nov 23 22:04:21 2021                                                      

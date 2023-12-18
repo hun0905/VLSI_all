@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='R-2020.12-SP2 linux64' PARAM_COUNT=0
+.TITLE '* final project'
+ avgpower0        access           temper           alter#          
+ -6.542e-04        1.468e-09         25.0000        3               

@@ -1,0 +1,26 @@
+ ****** PrimeSim HSPICE -- R-2020.12-SP2 linux64 (May 24 2021 7074677) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+
+================================================================
+*** This file format is subject to change **
+#Histogram plots from data
+#Number of histogram bins
+8
+#Number of Measures
+2
+#Column names, bin centers and bin counts
+pwr,pwr_count,tp,tp_count
+2.022345e-05,14,4.017645e-11,5
+2.033758e-05,27,4.089203e-11,26
+2.045172e-05,18,4.160762e-11,37
+2.056585e-05,23,4.232321e-11,17
+2.067999e-05,9,4.30388e-11,2
+2.079412e-05,6,4.375439e-11,3
+2.090826e-05,1,4.446998e-11,3
+2.102239e-05,2,4.518557e-11,7
+

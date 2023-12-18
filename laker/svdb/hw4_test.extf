@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1639148330 1639148331
+lvs_ExtOutFile RUNDIR /home/u108/u108061217/VLSI/laker
+lvs_ExtOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/u108/u108061217/VLSI/laker/hw4_test.sp
+lvs_ExtOutFile EXTRACTION_REPORT hw4_test.lvs.report.ext

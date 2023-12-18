@@ -1,0 +1,8 @@
+CADENCE IHNL01060
+$model
+VLSI/nand3/schematic nand3
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/u108/u108061217/VLSI/laker/hw3_part1_pex
+pex_PexParam LAYOUT_PRIMARY hw3_part1
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {HW3_PART1 "" HW3_PART1.pdb "" } } 

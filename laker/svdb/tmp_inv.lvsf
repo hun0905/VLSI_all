@@ -1,0 +1,22 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/u108/u108061217/VLSI/laker
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName VCC
+lvs_PowerName VDD
+lvs_PowerName VDD3V
+lvs_PowerName DVDD
+lvs_PowerName V3IO
+lvs_PowerName V2IO
+lvs_GroundName VSS
+lvs_GroundName GND
+lvs_GroundName VBB
+lvs_GroundName V0IO
+lvs_GroundName DGND
+lvs_LvsOutFile LVS_REPORT tmp_inv.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/u108/u108061217/VLSI/hw4/inv.spi
+lvs_LvsOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+lvs_LvsRunTimes 1639141751 1639141751

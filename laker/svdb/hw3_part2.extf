@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1638062932 1638062933
+lvs_ExtOutFile RUNDIR /home/u108/u108061217/VLSI/laker
+lvs_ExtOutFile RULES_FILE /home/u108/u108061217/VLSI/laker/_Rule.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 1 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/u108/u108061217/VLSI/laker/hw3_part2.sp
+lvs_ExtOutFile EXTRACTION_REPORT hw3_part2.lvs.report.ext
+lvs_ExtOutFile SOFTCHK_DATABASE svdb/hw3_part2.softchk

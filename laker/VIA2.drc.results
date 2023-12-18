@@ -1,0 +1,11 @@
+VIA2 1000
+ME3.O1
+1 1 2 Jan 12 17:04:07 2022                     
+Rule File Pathname: /home/u108/u108061217/VLSI/laker/_rule.drc_
+Minimum ME3 overlap VI2 is 0um, no VI2 outside ME3
+p 1 4
+CN VIA2 c 1 0 0 1 0 0 0
+-120 -135
+130 -135
+130 115
+-120 115
